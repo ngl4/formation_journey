@@ -1,5 +1,5 @@
 # formation_journey
-I will be documenting what I have learned being a Frontend Engineering Fellow at [Formation](https://formation.dev/) in this repo and in [my DEV blog](https://dev.to/ngl4). 
+I will be documenting what I have learned being a Frontend Engineering Fellow at [Formation](https://formation.dev/) in this repo and in [my DEV blog](https://dev.to/ngl4).
 
 ## Overview
 * 30+ Core Algos
@@ -9,13 +9,13 @@ I will be documenting what I have learned being a Frontend Engineering Fellow at
 
 ## 30+ Core Algos
 
-Core Algos are only on these basic data structures: 
-- Linked List 
-- Binary Tree 
+Core Algos are only on these basic data structures:
+- Linked List
+- Binary Tree
     - Binary Search Tree
-- Array 
+- Array
 
-### Linked List 
+### Linked List
 
 #### Group #1: Accumulating elements
 
@@ -34,7 +34,7 @@ Core Algos are only on these basic data structures:
 
 #### Group #4: Adding an element to a Linked List
 
-- Append an element with a target value to the Linked List 
+- Append an element with a target value to the Linked List
 - Insert a target element in a sorted Linked List **
 
 #### Group #5: Removing element(s) from a Linked List
@@ -53,27 +53,27 @@ Core Algos are only on these basic data structures:
 _** sentinel node can be used to solve these problems_
 ___
 
-### Binary Tree 
+### Binary Tree
 - **BFS** (Breadth First Search) and/or **DFS** (Depth First Search)
     - Count elements
-    - Sum elements 
+    - Sum elements
     - Find max  
-    - Find height 
+    - Find height
 
 #### Binary Search Tree (BST)
-- Find element 
-- Insert element 
+- Find element
+- Insert element
 - Validate BST
 
 ___
 
-### Array 
+### Array
 
 #### Array: Find Elements
 - Find first element repeated k times
 - Find number of unique elements
-- Find number of duplicated elements 
-- Find index of a target element using Binary Search 
+- Find number of duplicated elements
+- Find index of a target element using Binary Search
 
 #### Array: Sort Elements
 - Bubble Sort
@@ -84,7 +84,7 @@ ___
 ___
 
 ### Fib Sequence
-- Dynamic programming 
+- Dynamic programming
 - Others: Sliding window & Recursive approaches
 
 ___
