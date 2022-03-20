@@ -17,7 +17,7 @@ Fundamental Data Structures:
 
 - Count Elements in a Linked List
 - Sum Element Values in a Linked List
-- Sum Two Linked Lists of Equal/Unequal Length
+- Sum Two Linked Lists of Equal Length
 
 #### Group #2: Finding with 1 pointer
 
