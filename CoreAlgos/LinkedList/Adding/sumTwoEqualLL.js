@@ -47,6 +47,8 @@ console.log(arrayify(sumTwoLL(new ListNode(0), new ListNode(0)))) //[0]
 
 //Iterative Approach (uncomment below and see how it works in the console)
 
+/*Question: Why will the following function errors out 
+            when we only set to iterate through h1 like 'while (h1)'??? */
 
 function sumTwoLLIterative(head1, head2) { 
   let sumHeads = new ListNode(0); 
@@ -65,7 +67,7 @@ function sumTwoLLIterative(head1, head2) {
   return sumHeads.next; 
 }
 
-//UNCOMMENT BELOW:
+//UNCOMMENT BELOW TO TEST:
 // const LL6 = new ListNode(1, new ListNode(3, new ListNode(5)))
 // const LL7 = new ListNode(-1, new ListNode(3, new ListNode(-10)))
 // const LL8 = new ListNode(1, new ListNode(3, new ListNode(5)))
@@ -74,3 +76,10 @@ function sumTwoLLIterative(head1, head2) {
 // console.log(arrayify(sumTwoLLIterative(LL8, LL9))) // [0, 6]
 // console.log(arrayify(sumTwoLLIterative(new ListNode(0), new ListNode(0)))) //[0]
 
+
+/*
+Time Complexity (runtime): O(n)
+
+Space Complexity (memory): O(1)
+
+*/

@@ -25,7 +25,8 @@ console.log(sum(new ListNode(1))) // 1
 
 //----------------------------------------------------------------------------------
 
-//Approaches: 
+//Approaches: (THIS IS REALLY SIMILAR TO COUNT - see count.js)
+
 
 //Iterative Approach (uncomment below and see how it works in the console)
 
@@ -38,8 +39,16 @@ function sumRecursive(head) {
     return head.value + sumRecursive(head.next); 
 }
 
-//UNCOMMENT BELOW:
+//UNCOMMENT BELOW TO TEST:
 // const LL2 = new ListNode(1, new ListNode(4, new ListNode(5)))
 // console.log(sumRecursive(null)) // 0
 // console.log(sumRecursive(LL2)) // 10
 // console.log(sumRecursive(new ListNode(1))) // 1
+
+
+/*
+Time Complexity (runtime): O(n)
+
+Space Complexity (memory): O(1)
+
+*/

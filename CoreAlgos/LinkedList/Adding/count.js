@@ -29,6 +29,16 @@ console.log(count(new ListNode())) // 1
 
 //Approaches: 
 
+/*
+Higher Order Overview: 
+
+Iterative: 
+Declared a curr pointer and assigned it to the head of the linked list. 
+While iterating through the linked list, increment the count until
+the pointer reaches the end of the linked list. 
+
+*/
+
 //Iterative Approach (uncomment below and see how it works in the console)
 
 function countIterative(head) {
@@ -43,7 +53,7 @@ function countIterative(head) {
     return count;    
 }
 
-//UNCOMMENT BELOW:
+//UNCOMMENT BELOW TO TEST:
 // const LL2 = new ListNode(1, new ListNode(4, new ListNode(5)))
 // console.log(countIterative(null)) // 0
 // console.log(countIterative(LL2)) // 3
@@ -66,5 +76,11 @@ function countRecursive(head) {
 
 
 
+/*
+Time Complexity (runtime): O(n)
+
+Space Complexity (memory): O(1)
+
+*/
 
 

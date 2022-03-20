@@ -66,4 +66,10 @@ console.log(countOddElemLL(LL2)) // 2
 //   const LL4 = new ListNode(0, new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5))))));
 //   console.log(countOddElemRecursive(LL4)); //3
   
+/*
+Time Complexity (runtime): O(n)
+
+Space Complexity (memory): O(1)
+
+*/
 
