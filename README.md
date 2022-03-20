@@ -85,7 +85,7 @@ ___
 
 ### Fib Sequence
 - Dynamic programming
-- Others: Sliding window & Recursive approaches
+- Iterative & Recursive approaches
 
 ___
 ___
