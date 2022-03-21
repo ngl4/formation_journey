@@ -1,13 +1,13 @@
-# formation_journey
-I will be documenting what I have learned being a Frontend Engineering Fellow at [Formation](https://formation.dev/) in this repo and in [my DEV blog](https://dev.to/ngl4).
+# formation_journey 💪🏼
+I will be documenting what I have learned being a Frontend Engineering Fellow at [Formation](https://formation.dev/) in this repo and in [my DEV blog](https://dev.to/ngl4) 🤓
 
-## Overview
+## Overview 📝
 * 30+ Core Algos
 * Small Group Algo Workout Reflection _(upcoming)_
 * Take Home _(upcoming)_
 
 
-## 30+ Core Algos
+## 30+ Core Algos ⏳
 
 Core Algos are only on these basic data structures:
 - Linked List
@@ -15,7 +15,7 @@ Core Algos are only on these basic data structures:
     - Binary Search Tree
 - Array
 
-### Linked List
+### Linked List ⛓
 
 #### Group #1: Accumulating elements
 
@@ -35,12 +35,12 @@ Core Algos are only on these basic data structures:
 #### Group #4: Adding an element to a Linked List
 
 - Append an element with a target value to the Linked List
-- Insert a target element in a sorted Linked List **
+- Insert a target element in a sorted Linked List ⭐️
 
 #### Group #5: Removing element(s) from a Linked List
 
-- Remove a target element in a sorted Linked List **
-- Remove all elements with a target value in a Linked List **
+- Remove a target element in a sorted Linked List ⭐️
+- Remove all elements with a target value in a Linked List ⭐️
 
 #### Group #6: Reversing elements
 
@@ -48,12 +48,13 @@ Core Algos are only on these basic data structures:
 
 #### Group #7: Summing Linked Lists
 
-- Sum Two Linked Lists of Equal Length **
+- Sum Two Linked Lists of Equal Length ⭐️
 
-_** sentinel node can be used to solve these problems_
+⭐️ _Sentinel node can be used to solve these problems_
 ___
 
-### Binary Tree
+### Binary Tree 🌳
+
 - **BFS** (Breadth First Search) and/or **DFS** (Depth First Search)
     - Count elements
     - Sum elements
@@ -67,7 +68,7 @@ ___
 
 ___
 
-### Array
+### Array 🍫
 
 #### Array: Find Elements
 - Find first element repeated k times
@@ -83,9 +84,9 @@ ___
 
 ___
 
-### Fib Sequence
+### Fib Sequence 🐚
 - Dynamic programming
-- Iterative & Recursive approaches
+    - Iterative & Recursive approaches
 
 ___
 ___
