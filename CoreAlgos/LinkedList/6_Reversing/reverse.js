@@ -108,3 +108,27 @@ h = null
 return p
 
 */
+
+
+/*
+Another Apporach (that handle edge cases): 
+
+Input:
+list: []
+Expected Output:
+[]
+
+function reverse(list) {
+    let curr = list; 
+    let prev = null; 
+    while (curr) {
+        let holdNext = curr.next; 
+        curr.next = prev; 
+        prev = curr; 
+        curr = holdNext; 
+    }
+    return prev === null ? [] : prev; 
+}
+
+
+*/

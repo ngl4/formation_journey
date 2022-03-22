@@ -130,3 +130,38 @@ function insert(head, target) {
     // curr.next = newNode; 
     // return sentinel.next; 
   }
+
+
+  /*
+  Another Approach: 
+
+  Edge case: 
+  Input:
+    list: [1]
+    target: -1
+  Output:
+    [-1, 1]
+
+
+  function insertTarget(list, target) {
+    if(!list) return new ListNode(target); 
+    let sentinel = new ListNode(0); 
+    sentinel.next = list; 
+    let curr = sentinel; 
+    let inserted = false;  //detect if the node has already been inserted 
+    
+    while(curr.next) {
+        if (curr.next.value > target) {
+            let holdNext = curr.next; 
+            curr.next = new ListNode(target); 
+            curr.next.next = holdNext; 
+            curr = curr.next.next; 
+            inserted = true; 
+        }else
+        curr = curr.next; 
+    }
+    if (!inserted) curr.next = new ListNode(target);
+    console.log(sentinel); 
+    return sentinel.next; 
+}
+*/
