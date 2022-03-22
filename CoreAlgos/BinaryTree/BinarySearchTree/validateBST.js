@@ -59,3 +59,30 @@ function validateBST(tree, min = -Infinity, max = Infinity) {
 //     return typeof left === 'undefined' && typeof right === 'undefined' ? true : left === false || right === false ? false : true; 
 // }
 
+
+/*
+Another Approach - based on a fellow asked in Mattermost 
+Creating a header function. 
+*/
+function validate_bst(node) {
+    return helper(node, -Infinity, Infinity); 
+  }
+  
+  function helper(node, min, max) {
+    if (!node) return 1; 
+    if (node.value <= min || node.value > max) return 2; 
+  
+    const left = helper(node.left, min, node.value);
+    const right = helper(node.right, node.value, max); 
+  
+    if (left === 2) {
+      return left; 
+    }else {
+      return right;
+    }
+    // Same expression as the above if statement, but in the ternary expression (below): 
+    // return left === 2 ? left : right === 2 ? right : left; 
+  }
+  
+  const tree2 = new TreeNode(1, new TreeNode(2), new TreeNode(3))
+  console.log(validate_bst(tree2));
