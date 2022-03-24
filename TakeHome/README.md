@@ -64,5 +64,70 @@ The React component renders a form also controls what happens in that form on su
 
 - Basically it means that React can render an original input form and control what happens to the form based on the user input and render the form based on the new input. Any input form element that has values under control by React is called a "controlled component." Another way to phrase this is, ie, _the input element rendered is controlled_. 
 
+```
+Warning: A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component.
+```
+If you ever get the above warning, it means that you have a variable that has a useState starting from `undefined` ie, 
+
+```js
+const [inputData, setInputData] = useState();
+```
+A quick way to fix this warning is to just define the `inputData` as a string in the default stage 
+
+```js
+const [inputData, setInputData] = useState(""); 
+```
+[Here](https://stackoverflow.com/questions/37427508/react-changing-an-uncontrolled-input) is a stackoverflow resource that explains this in details. 
+
+## Notes on 03/23/22
+
+### Frontend Workout with Tala Huhe (and Fellow Eric Lee)
+Prompt: 
+- Create a simple Shopping Cart
+
+Takeaways: 
+- unique keys when displaying in a list of items to avoid `React unique key error`
+```
+//Found on Stack OverFlow: 
+
+In React, when you are rendering multiple equal components (in your case, the todos) you need to add a unique key to each one of them, that's because React needs to know how they are going to be treated in the virtual dom.
+```
+```js
+    <ul>
+        {ITEMS.map((elem) => {
+        return (
+            <li key={elem.id}>
+            </li>
+        );
+    </ul>
+```
+- `map()` in one line - `no return` 
+- `map()` with `{}` - need `return`
+- Difference between: 
+```js
+<button 
+onClick={() => handleClick(elem.id)}></button> 
+//call a function
+```
+and 
+```js
+<button 
+onClick={handleClick(elem.id)}></button> 
+//return the value from the function 
+```
+
+Feedback: 
+- Practice more and revisit + familiarize with all the React Fundamentals (ie, passing in variables and setting up a state)
+
+### Error: 'useState' is not defined no-undef React
+
+This error means you forgot to import the `useState` to the component: 
+
+```js
+import { useState } from "react"; 
+```
+Read more [here](https://stackoverflow.com/questions/60915262/how-to-pass-function-as-props-from-functional-parent-component-to-child)! 
+
+
 
 
