@@ -129,5 +129,71 @@ import { useState } from "react";
 Read more [here](https://stackoverflow.com/questions/60915262/how-to-pass-function-as-props-from-functional-parent-component-to-child)! 
 
 
+## Notes on 03/24/22
 
+### How to pass data from child component to its parent in ReactJS?
+- By using a Callback Function 
+- [Here](https://www.geeksforgeeks.org/how-to-pass-data-from-child-component-to-its-parent-in-reactjs/) is a great resource to read more about this! 
+
+```js
+//parent
+import Child from "./Child";
+import { useState } from "react"; 
+
+function App() {
+  const [name, setName] = useState("");  
+
+  const handleCallback = (childData) => {
+    setName(childData); 
+  }
+
+  return (
+    <div>
+      <Child parentCallback={handleCallback}/>
+    </div>
+  );
+}
+export default App;
+```
+```js
+//child
+import { useState } from "react";
+
+function Child(props) {
+    const [name, setName] = useState("");
+
+    const handleChange = (e) => {
+        setName(e.target.value); 
+        e.preventDefault();
+    }
+
+    const handleSubmit = (e) => {
+        // console.log(e.target.nameInput.value); 
+        //Option#1 - show submitted input value (used mainly in the case when no stateful value is set)
+
+        // console.log(name);  
+        //Option#2 - show submitted input value 
+        
+        // console.log(props); //props is an object 
+
+        props.parentCallback(name); 
+        e.preventDefault(); 
+    }    
+
+    return (
+        <div>
+            <form onSubmit={handleSubmit}>
+                <input type="text" value={name} placeholder="type your name here" onChange={handleChange} name="nameInput"/>
+                <button type="Submit">Set Name</button>
+            </form>
+        </div>
+    );    
+}
+
+export default Child;
+```
+
+### States are immutable 
+
+RULE OF THUMB: Don't mutate any state directly 
 
