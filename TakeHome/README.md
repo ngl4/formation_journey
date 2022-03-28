@@ -1,5 +1,7 @@
 # Take Home 
 
+## Notes on 03/21/2022
+
 ## Create a SSH Key
 
 How to create a SSH Key? and What is a SSH key? 
@@ -9,8 +11,6 @@ Here are the resources I have used:
     - This video is a great intro to SSH key and guide you through how to create a SSH Key 
 - [How to Generate SSH Keys for GitHub](https://kinsta.com/blog/generate-ssh-key/)
     - This article goes into the details and I would highly suggest to quickly read through it to get a better idea how the SSH key is generated and the meaning behind the commands
-
-## Notes on 03/21/2022
 
 ### npm start - Encountered SyntaxError?! 
 
@@ -197,3 +197,172 @@ export default Child;
 
 RULE OF THUMB: Don't mutate any state directly 
 
+## Notes on 03/27/22
+
+### JavaScript One-Liners Documentation (10 problems - no for loops)
+__
+
+**Key Terms can be used**
+- Object.keys
+- Array.map
+- Array.from or spread operator (`[...length]`)
+- typeof
+- arrays vs. objects
+
+__
+
+- **Problem: A `redundant` function that takes in a `string` and `return a function that returns a string`** 
+```js
+function redundant(string) {
+    return () => string; 
+}
+
+const func1 = redundant('Hello!'); 
+console.log(func1); //output: () => string
+console.log(func1()); //output: Hello!
+
+```
+- **Problem (Sort): Create a function that, given an array similar to the above, sorts the array according to the "content of the elements".**
+
+```js
+function sortIt(arr) {
+	return arr.sort(); 
+}
+//Another way: 
+// const sortIt = arr => arr.sort((a,b) => (a[0] || a) - (b[0] || b));
+
+console.log(sortIt([[4], [1], [3]])); // output: [[1], [3], [4]]
+console.log(sortIt([[4], 1, [3]])); //output: [1, [3], [4]]
+```
+- **Problem (obj to arr): Write a function that converts an object into an array of keys and values.**
+
+```js
+
+function objectToArray(obj) {
+	return Object.entries(obj); 
+//Another way to solve this:     
+// 	return Object.keys(obj).map(key => [key, obj[key]])
+}
+
+console.log(objectToArray({
+  D: 1,
+  B: 2,
+  C: 3
+})); //output: [["D", 1], ["B", 2], ["C", 3]]
+```
+Read more about this conversion from object to array [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries)
+
+- **Problem (obj keys & values): Create a function that takes an object and returns the keys and values as separate arrays. Return the keys sorted alphabetically, and their corresponding values in the same order.**
+
+```js
+function keysAndValues(obj) {
+	return [Object.keys(obj), Object.values(obj)]; 
+}
+
+console.log(keysAndValues({ a: 1, b: 2, c: 3 }));
+//output: [["a", "b", "c"], [1, 2, 3]]
+```
+
+- **Problem (concatenate arrays): Create a function that concatenates n input arrays, where n is variable.**
+
+```js
+function concat(...args) {
+	return args.flat();  
+    //Another way: 
+    //return [].concat(...args);
+}
+
+console.log(concat([1, 2, 3], [4, 5], [6, 7])); 
+//output: [1, 2, 3, 4, 5, 6, 7]
+```
+Find out more about `flat()` [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)
+
+
+- **Problem (Factorial): Create a function that takes an integer and returns the factorial of that integer. That is, the integer multiplied by all positive lower integers.**
+
+```js
+function factorial(int) {
+	return int === 1 ? int : int * factorial(int - 1); 
+}
+
+console.log(factorial(3)); //1 * 2 * 3
+//output: 6
+console.log(factorial(5)); //1 * 2 * 3 * 4 * 5
+//output: 120
+```
+
+- **Problem: Zip It, If You Can?**
+
+Given an array of women and an array of men, either:
+
+Return "sizes don't match" if the two arrays have different sizes.
+If the sizes match, return an array of pairs, with the first woman paired with the first man, second woman paired with the second man, etc.
+
+    Base case - use an if statement (can be more than 1 line) ~ however, this can also be in one line with zipping using the Ternary Operator!! 
+
+    Zipping - should be in 1 line 
+
+```js
+function zipIt(women, men) {
+	if (women.length !== men.length) return "sizes don't match"; 
+	return women.map((elem, i) => elem.concat("," + men[i]).split(','));
+    //Another way (better): 
+    //return women.length === men.length ? women.map((woman, i) => [woman, men[i]]) : "sizes don't match";
+}
+
+console.log(zipIt(["Elise", "Mary"], ["John", "Rick"])); 
+//output: [["Elise", "John"], ["Mary", "Rick"]]
+console.log(zipIt(["Ana", "Amy", "Lisa"], ["Bob", "Josh"])); 
+//output: "sizes don't match"
+```
+
+- **Problem (Square Every Digit): Create a function that squares every digit of a number.**
+
+```js
+function squareDigits(n) {
+    return Number(n.toString().split('').map((elem) => Math.pow(Number(elem), 2)).join(''));
+    //Another way (better):
+    //return +[...String(n)].map(x => x*x).join('');
+}
+
+console.log(squareDigits(9119)); 
+//output: 811181
+```
+```
++
+The unary plus operator converts its operand to Number type.
+
+-
+The unary negation operator converts its operand to Number type and then negates it.
+```
+Read more about the unary plus [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus)
+
+Read more about the unary negation [here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_negation)
+
+[Here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators) are the documentation on all the JavaScript Expressions and Operators
+
+- **Problem: Filter out Strings from an Array**
+
+Create a function that takes an array of non-negative integers and strings and return a new array without the strings.
+
+```js
+function filterArray(arr) {
+	return arr.filter(elem => typeof elem === "number"); 
+}
+console.log(filterArray([1, 2, "a", "b"])); 
+//output: [1, 2]
+```
+
+- **Problem: Converting Objects to Arrays**
+
+Write a function that converts an object into an array, where each element represents a key-value pair in the form of an array.
+
+```js
+function toArray(obj) {
+	return Object.entries(obj); 
+}
+console.log(toArray({ a: 1, b: 2 })); 
+//output: [["a", 1], ["b", 2]]
+console.log(toArray({})); 
+//output: []
+```
