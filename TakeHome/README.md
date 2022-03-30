@@ -366,3 +366,48 @@ console.log(toArray({ a: 1, b: 2 }));
 console.log(toArray({})); 
 //output: []
 ```
+
+## Notes on 03/28/2022
+
+### Feedback from my first PR (Pull Request)
+1. Pull Request 
+    - Title of PR is enough 
+    - Details can be mentioned in the body of the PR 
+
+2. Commit Messages 
+    - Don't be too detailed 
+    - A few words to summarize your changes is sufficient (best: 3-5 words, max: under 10 words)
+
+## Notes on 03/29/2022
+
+### Frontend Workout with Tala #2
+- We did a color pixel problem today. Even though we did not complete the entire challenge, but we have successfully create a color input, a square, and whenever it is clicked, it is will change to the color that is being input. 
+
+- Great challenge to see how components, props, and states are working in React. 
+
+- For naming convention, it is debatable, but for clarity purpose, it would be best to have unique name to make sure it is easier to understand what the specific state is doing. 
+
+### What is the difference between `const DoSomthing = () => {}` vs `function DoSomething() {}`? 
+- Hoisting!! 
+- Read more [here](https://softwareengineering.stackexchange.com/questions/364086/why-use-const-foo-instead-of-function-foo)
+
+
+### It is crucial to make sure to use camal case & quotations in the CSS style object
+
+```js
+const styles = {
+    height: "10px", 
+    width: "10px", 
+    backgroundColor: "red" //camel case & quotations
+    
+    //in the case you are changing the color based on what passed in to the props component, it will display as:  
+    //backgroundColor: props.color
+}
+```
+
+<!-- 
+
+## Notes  
+
+
+ -->
