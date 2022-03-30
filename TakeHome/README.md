@@ -103,17 +103,22 @@ In React, when you are rendering multiple equal components (in your case, the to
 ```
 - `map()` in one line - `no return` 
 - `map()` with `{}` - need `return`
-- Difference between: 
+- Differences among how functions are used in React: 
+
 ```js
 <button 
 onClick={() => handleClick(elem.id)}></button> 
 //call a function
-```
-and 
+``` 
 ```js
 <button 
 onClick={handleClick(elem.id)}></button> 
-//return the value from the function 
+//return a value from the function 
+```
+```js
+<button 
+onClick={handleClick}></button> 
+//pass in a function
 ```
 
 Feedback: 
@@ -399,7 +404,7 @@ const styles = {
     height: "10px", 
     width: "10px", 
     backgroundColor: "red" //camel case & quotations
-    
+
     //in the case you are changing the color based on what passed in to the props component, it will display as:  
     //backgroundColor: props.color
 }
