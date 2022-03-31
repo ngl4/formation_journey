@@ -383,6 +383,29 @@ console.log(toArray({}));
     - Don't be too detailed 
     - A few words to summarize your changes is sufficient (best: 3-5 words, max: under 10 words)
 
+3. Notes to Self Comments can be added in the PR instead of in the script 
+
+4. Provide research reference link is a good way for notekeeping! 
+
+5. `event.preventDefault()` should be placed at the very beginning of a callback function, read more [here](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault)
+    - `event.preventDefault()` is not needed/valid/appropriate in the `onChange` event because it is not cancellable, read more [here](https://stackoverflow.com/a/24252333)
+
+6. `handleChange` can be too general to name a function, it can be more specific ie, `handleInputChange`
+
+7. It is common in React to have the props name to be the same as the name of the function or variable passed into it 
+
+8. Parameter of a function should be succinct - the reason is we may be using this same function in other context so it is better to be general here. ie, what I did in the assignment is `ChildNameEntryData` is a parameter name I set for a function initially, and I have changed it to `name` instead after reviewing PR feedbacks. 
+
+9. Avoid redundant/extra state created - in the assignment I worked on in Formation, I have created a separate state for the variable `disabled` with the data type of boolean, which is found to be a redundant state. See below for details: 
+
+```js
+const [input, setInput] = useState(""); //the default state of input has a bool of false (empty string === false)
+
+const disabled = !input //disabled is set to true 
+
+//the disabled variable is created for a submit button - the purpose is to avoid the user to submit anything if they have not entered anything in the input box. 
+```
+
 ## Notes on 03/29/2022
 
 ### Frontend Workout with Tala #2
