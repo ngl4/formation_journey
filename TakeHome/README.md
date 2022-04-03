@@ -494,6 +494,43 @@ const styles = {
 
 - [Here](https://codesandbox.io/s/shopping-cart-frontend-exercise-ohinzp?file=/src/App.js) is the link to the codesandbox!!
 
+## Notes 04/02/2022
+
+- FINALLY!! I HAVE FIGURED OUT THE PROBLEMS for the Frontend Workout Shopping Cart Exercise! Thanks to Formation mentor Mike Novati's guidance! 
+
+- There are two problems I encountered: (1) state mutatation issue (2) duplicated keys in list of items 
+
+(1) State Mutation - this is NOT ACCEPTABLE in React! We DO NOT WANT TO MUTATE any STATE variable!! The best way to avoid this issue is to create a copy of the state variable (ie, `cart`). Then, we can update the copy of the state and set the state variable using `setState` call method (ie, `setCart(copyOfcart)`). Through this `set` method, React will then re-render. It is key remember that **react only re-renders when you explicitly call setX (i.e a setstate call on a state variable)** ~ exact wordings from mentor Mike! 
+
+```js
+//before
+const [cart, setCart] = useState({}); 
+
+const newCart = cart; //this is modifying state directly ~ which is BAD!!! 
+//This means newCart references the same cart state variable 
+//Making the cart state mutable in this scenario 
+//Another issue is multiple variables can do the same reference to the same state variable
+```
+
+```js
+//after
+const [cart, setCart] = useState({}); 
+
+const newCart = {...cart}; //this is a way to modify state - using Js ES6 destructuring! 
+```
+
+(2) Duplicated keys in List of items 
+
+Here is what the React warning stated: 
+
+<img width="467" alt="Screen Shot 2022-04-02 at 10 38 04 PM" src="https://user-images.githubusercontent.com/24945340/161409982-1ef01a8a-ba8d-4a8c-b3ee-b1a67bd62144.png">
+
+This error means in the list of items, there are two items with the same keys. In React, all items in a list should have their own unique key so React can identify which specific item is requested to modify or remove. 
+
+In order to solve this issue, for the shopping cart example, I have make sure to create a new array and update the quantity of a specified item in the list, and then set the state variable to the updated new array (with the updated quantity). 
+
+- Feel free to check out the updated shopping cart version here: https://codesandbox.io/s/shopping-cart-frontend-exercise-made-progress-ohinzp
+
 <!--
 
 ## Notes
