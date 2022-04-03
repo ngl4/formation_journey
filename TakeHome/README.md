@@ -500,7 +500,7 @@ const styles = {
 
 - There are two problems I encountered: (1) state mutatation issue (2) duplicated keys in list of items 
 
-(1) State Mutation - this is NOT ACCEPTABLE in React! We DO NOT WANT TO MUTATE any STATE variable!! The best way to avoid this issue is to create a copy of the state variable (ie, `cart`). Then, we can update the copy of the state and set the state variable using `setState` call method (ie, `setCart(copyOfcart)`). Through this `set` method, React will then re-render. It is key remember that **react only re-renders when you explicitly call setX (i.e a setstate call on a state variable)** ~ exact wordings from mentor Mike! 
+(1) State Mutation - this is NOT ACCEPTABLE in React! We DO NOT WANT TO MUTATE any STATE DIRECTLY!! The best way to avoid this issue is to create a copy of the state variable (ie, `cart`). Then, we can update the copy of the state and set the state variable using `setState` call method (ie, `setCart(copyOfcart)`). Through this `set` method, React will then re-render. It is key remember that **react only re-renders when you explicitly call setX (i.e a setstate call on a state variable)** ~ exact wordings from mentor Mike! 
 
 ```js
 //before
@@ -516,7 +516,7 @@ const newCart = cart; //this is modifying state directly ~ which is BAD!!!
 //after
 const [cart, setCart] = useState({}); 
 
-const newCart = {...cart}; //this is a way to modify state - using Js ES6 destructuring! 
+const newCart = {...cart}; //this is a way to modify state by creating a new object - using Js ES6 destructuring! - a way to avoid mutate state object directly
 ```
 
 (2) Duplicated keys in List of items 
