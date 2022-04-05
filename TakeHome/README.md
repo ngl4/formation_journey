@@ -500,7 +500,7 @@ const styles = {
 
 - There are two problems I encountered: (1) state mutatation issue (2) duplicated keys in list of items 
 
-(1) State Mutation - this is NOT ACCEPTABLE in React! We DO NOT WANT TO MUTATE any STATE DIRECTLY!! The best way to avoid this issue is to create a copy of the state variable (ie, `cart`). Then, we can update the copy of the state and set the state variable using `setState` call method (ie, `setCart(copyOfcart)`). Through this `set` method, React will then re-render. It is key remember that **react only re-renders when you explicitly call setX (i.e a setstate call on a state variable)** ~ exact wordings from mentor Mike! 
+(1) State Mutation - this is NOT ACCEPTABLE in React! We DO NOT WANT TO MUTATE any STATE DIRECTLY!! The best way to avoid this issue is to create a copy of the state variable (ie, state variable, `cart`, and the copy variable, `newCart`). Then, we can update the copy of the state and set the state variable using `setState` call method (ie, `setCart(copyOfcart)`). Through this `set` method, React will then re-render. It is key remember that **react only re-renders when you explicitly call setX (i.e a setstate call on a state variable)** ~ exact wordings from mentor Mike! 
 
 ```js
 //before
@@ -530,6 +530,74 @@ This error means in the list of items, there are two items with the same keys. I
 In order to solve this issue, for the shopping cart example, I have make sure to create a new array and update the quantity of a specified item in the list, and then set the state variable to the updated new array (with the updated quantity). 
 
 - Feel free to check out the updated shopping cart version here: https://codesandbox.io/s/shopping-cart-frontend-exercise-made-progress-ohinzp
+
+## Notes on 04/03/2022
+
+Besides the above problems, Mentor Michael also provided additional feedback and guidance on the updated shopping cart version - (1) all the specific indexes of the state array should also NOT BE MUTATED. A new variable should be created to handle them. (2) An additional resource link that is provided to learn more about [STATE IMMUTABILITY](https://daveceddia.com/react-redux-immutability-guide/) in React
+
+## Notes on 04/04/2022
+
+JavaScript Basics Review: 
+
+### Destructuring 
+
+### Reference vs Value Type 
+
+### Arrow function
+
+- Arrow function (`=>`): ES6 syntax to enable developers to write more elegant closures (make functions more concise). Read more [here](http://es6-features.org/#ExpressionBodies)
+
+  - Inline Functions: functions that are being passed as parameters into other functions.
+    - no more `return`
+    - no more curly bracket `{}`
+    - best to use `const`
+
+    ```js
+    const magic = (a, b) => a.concat(b); 
+    ```
+
+### Closures 
+
+- Understanding Closures `is necessary to understanding how your functions interact with variables outside of its immediate scope`.
+
+- What are [Closures](https://blog.angular-university.io/really-understanding-javascript-closures/)? 
+
+  - A closure is `a function with 'memory' about the environment where it was created`
+
+- Key to understanding closures is understanding how functions within functions work
+
+- Closures get involved when the `returned inner function` is not `self-contained`
+  - `self-contained` function is often referred to an inner function that operate on its own without any reliance on variables (or functions) passed in from the outer function. 
+
+  ```js
+  const outerFunc = () => {
+    alert("I am a outer function"); 
+    const innerFunc = () => {
+      alert("I am an inner function that does not use any variables pass in from the outer function! Specifically, you can call me a self-contained function!! ^^ haha "); 
+    }
+    return innerFunc; 
+  }
+  ```
+- Realistically in real life, it is pretty rare to see a self-contained function. Normally, it is more complicated and messy! 
+
+- The Javascript runtime keeps track of all of your variables, memory usage, references, and so on...!
+
+- When the runtime detects that an inner function relies on variables stored in the outer function, it ensures those variables are available even if the outer function goes away. 
+
+```
+Closure = "function"  +  outer context 
+
+"function": is created, and returned by another function 
+outer context: variables that the "function" relies on 
+```
+- In summary, closure is basically returning a function and as a function which relies on variables declared by the outer function as in the case of the stopwatch, you will return both the outer variable along with the function the inner function is being returned. And these combination is a closure. 
+
+_The above notes are taken after watching this [video](https://www.youtube.com/watch?v=rBBwrBRoOOY)_
+
+**Why do we use Closure to solve problems in Javascript?** 
+
+- [Watch here](https://www.youtube.com/watch?v=-xqJo5VRP4A) and understand the reason why closure is necessary for problem-solving
+
 
 <!--
 
