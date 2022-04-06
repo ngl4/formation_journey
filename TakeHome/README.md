@@ -599,6 +599,35 @@ _The above notes are taken after watching this [video](https://www.youtube.com/w
 - [Watch here](https://www.youtube.com/watch?v=-xqJo5VRP4A) and understand the reason why closure is necessary for problem-solving
 
 
+## Notes 04/05/2022
+
+### React Basics: useEffect 
+- Doing something after a component is rendered or re-rendered!! 
+- Side Effects on React Components after rendering DOM: 
+  - With Cleanup
+    - setup subscription for every individual login info to avoid memory leak 
+    - return a function that cleans up after (ie, adding and removing subscriptions)
+  - Without Cleanup 
+    - Run additional codes once React has updated the DOM
+    - do not return a function 
+
+- useEffect is `componentDidMount, componentDidUpdate, and componentWillUnmount combined`
+
+- When might we want to use useEffect?
+  - we would like to do something after the component is rendered (after performing the DOM updates)
+  - What can we use it for? 
+    - Data fetching 
+    - Imperative API 
+
+- What is an alternative to useEffect?
+  - `componentDidMount, componentDidUpdate, and componentWillUnmount combined`
+
+- What is the advantage of using useEffect over its alternative?
+  - `Hooks let us split the code based on what it is doing rather than a lifecycle method name.`
+  - Reduced suffering from bugs like forgetting to handle a situation with `componentDidUpdate` logic can cause memory leak in data when you already have `componentDidMount` and `componentWillUnmount`. In useEffect hook, `There is no special code for handling updates because useEffect handles them by default. It cleans up the previous effects before applying the next effects.`
+
+
+
 <!--
 
 ## Notes
