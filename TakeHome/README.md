@@ -490,44 +490,44 @@ const styles = {
 
 ## Notes 04/01/2022
 
-- Practicing based on a Frontend Workout Exercise - Shopping Cart - still encountering issues regarding how to properly display cart items in the Cart component without errors. I have seeked out for help and also will do some more research by myself. 
+- Practicing based on a Frontend Workout Exercise - Shopping Cart - still encountering issues regarding how to properly display cart items in the Cart component without errors. I have seeked out for help and also will do some more research by myself.
 
 - [Here](https://codesandbox.io/s/shopping-cart-frontend-exercise-ohinzp?file=/src/App.js) is the link to the codesandbox!!
 
 ## Notes 04/02/2022
 
-- FINALLY!! I HAVE FIGURED OUT THE PROBLEMS for the Frontend Workout Shopping Cart Exercise! Thanks to Formation mentor Mike Novati's guidance! 
+- FINALLY!! I HAVE FIGURED OUT THE PROBLEMS for the Frontend Workout Shopping Cart Exercise! Thanks to Formation mentor Mike Novati's guidance!
 
-- There are two problems I encountered: (1) state mutatation issue (2) duplicated keys in list of items 
+- There are two problems I encountered: (1) state mutatation issue (2) duplicated keys in list of items
 
-(1) State Mutation - this is NOT ACCEPTABLE in React! We DO NOT WANT TO MUTATE any STATE DIRECTLY!! The best way to avoid this issue is to create a copy of the state variable (ie, state variable, `cart`, and the copy variable, `newCart`). Then, we can update the copy of the state and set the state variable using `setState` call method (ie, `setCart(copyOfcart)`). Through this `set` method, React will then re-render. It is key remember that **react only re-renders when you explicitly call setX (i.e a setstate call on a state variable)** ~ exact wordings from mentor Mike! 
+(1) State Mutation - this is NOT ACCEPTABLE in React! We DO NOT WANT TO MUTATE any STATE DIRECTLY!! The best way to avoid this issue is to create a copy of the state variable (ie, state variable, `cart`, and the copy variable, `newCart`). Then, we can update the copy of the state and set the state variable using `setState` call method (ie, `setCart(copyOfcart)`). Through this `set` method, React will then re-render. It is key remember that **react only re-renders when you explicitly call setX (i.e a setstate call on a state variable)** ~ exact wordings from mentor Mike!
 
 ```js
 //before
-const [cart, setCart] = useState({}); 
+const [cart, setCart] = useState({});
 
-const newCart = cart; //this is modifying state directly ~ which is BAD!!! 
-//This means newCart references the same cart state variable 
-//Making the cart state mutable in this scenario 
+const newCart = cart; //this is modifying state directly ~ which is BAD!!!
+//This means newCart references the same cart state variable
+//Making the cart state mutable in this scenario
 //Another issue is multiple variables can do the same reference to the same state variable
 ```
 
 ```js
 //after
-const [cart, setCart] = useState({}); 
+const [cart, setCart] = useState({});
 
-const newCart = {...cart}; //this is a way to modify state by creating a new object - using Js ES6 destructuring! - a way to avoid mutate state object directly
+const newCart = { ...cart }; //this is a way to modify state by creating a new object - using Js ES6 destructuring! - a way to avoid mutate state object directly
 ```
 
-(2) Duplicated keys in List of items 
+(2) Duplicated keys in List of items
 
-Here is what the React warning stated: 
+Here is what the React warning stated:
 
 <img width="467" alt="Screen Shot 2022-04-02 at 10 38 04 PM" src="https://user-images.githubusercontent.com/24945340/161409982-1ef01a8a-ba8d-4a8c-b3ee-b1a67bd62144.png">
 
-This error means in the list of items, there are two items with the same keys. In React, all items in a list should have their own unique key so React can identify which specific item is requested to modify or remove. 
+This error means in the list of items, there are two items with the same keys. In React, all items in a list should have their own unique key so React can identify which specific item is requested to modify or remove.
 
-In order to solve this issue, for the shopping cart example, I have make sure to create a new array and update the quantity of a specified item in the list, and then set the state variable to the updated new array (with the updated quantity). 
+In order to solve this issue, for the shopping cart example, I have make sure to create a new array and update the quantity of a specified item in the list, and then set the state variable to the updated new array (with the updated quantity).
 
 - Feel free to check out the updated shopping cart version here: https://codesandbox.io/s/shopping-cart-frontend-exercise-made-progress-ohinzp
 
@@ -537,95 +537,116 @@ Besides the above problems, Mentor Michael also provided additional feedback and
 
 ## Notes on 04/04/2022
 
-JavaScript Basics Review: 
+JavaScript Basics Review:
 
-### Destructuring 
+### Destructuring
 
-### Reference vs Value Type 
+### Reference vs Value Type
 
 ### Arrow function
 
 - Arrow function (`=>`): ES6 syntax to enable developers to write more elegant closures (make functions more concise). Read more [here](http://es6-features.org/#ExpressionBodies)
 
   - Inline Functions: functions that are being passed as parameters into other functions.
+
     - no more `return`
     - no more curly bracket `{}`
     - best to use `const`
 
     ```js
-    const magic = (a, b) => a.concat(b); 
+    const magic = (a, b) => a.concat(b);
     ```
 
-### Closures 
+### Closures
 
 - Understanding Closures `is necessary to understanding how your functions interact with variables outside of its immediate scope`.
 
-- What are [Closures](https://blog.angular-university.io/really-understanding-javascript-closures/)? 
+- What are [Closures](https://blog.angular-university.io/really-understanding-javascript-closures/)?
 
   - A closure is `a function with 'memory' about the environment where it was created`
 
 - Key to understanding closures is understanding how functions within functions work
 
 - Closures get involved when the `returned inner function` is not `self-contained`
-  - `self-contained` function is often referred to an inner function that operate on its own without any reliance on variables (or functions) passed in from the outer function. 
+
+  - `self-contained` function is often referred to an inner function that operate on its own without any reliance on variables (or functions) passed in from the outer function.
 
   ```js
   const outerFunc = () => {
-    alert("I am a outer function"); 
+    alert("I am a outer function");
     const innerFunc = () => {
-      alert("I am an inner function that does not use any variables pass in from the outer function! Specifically, you can call me a self-contained function!! ^^ haha "); 
-    }
-    return innerFunc; 
-  }
+      alert(
+        "I am an inner function that does not use any variables pass in from the outer function! Specifically, you can call me a self-contained function!! ^^ haha "
+      );
+    };
+    return innerFunc;
+  };
   ```
-- Realistically in real life, it is pretty rare to see a self-contained function. Normally, it is more complicated and messy! 
+
+- Realistically in real life, it is pretty rare to see a self-contained function. Normally, it is more complicated and messy!
 
 - The Javascript runtime keeps track of all of your variables, memory usage, references, and so on...!
 
-- When the runtime detects that an inner function relies on variables stored in the outer function, it ensures those variables are available even if the outer function goes away. 
+- When the runtime detects that an inner function relies on variables stored in the outer function, it ensures those variables are available even if the outer function goes away.
 
 ```
-Closure = "function"  +  outer context 
+Closure = "function"  +  outer context
 
-"function": is created, and returned by another function 
-outer context: variables that the "function" relies on 
+"function": is created, and returned by another function
+outer context: variables that the "function" relies on
 ```
-- In summary, closure is basically returning a function and as a function which relies on variables declared by the outer function as in the case of the stopwatch, you will return both the outer variable along with the function the inner function is being returned. And these combination is a closure. 
+
+- In summary, closure is basically returning a function and as a function which relies on variables declared by the outer function as in the case of the stopwatch, you will return both the outer variable along with the function the inner function is being returned. And these combination is a closure.
 
 _The above notes are taken after watching this [video](https://www.youtube.com/watch?v=rBBwrBRoOOY)_
 
-**Why do we use Closure to solve problems in Javascript?** 
+**Why do we use Closure to solve problems in Javascript?**
 
 - [Watch here](https://www.youtube.com/watch?v=-xqJo5VRP4A) and understand the reason why closure is necessary for problem-solving
 
-
 ## Notes 04/05/2022
 
-### React Basics: useEffect 
-- Doing something after a component is rendered or re-rendered!! 
-- Side Effects on React Components after rendering DOM: 
+### React Basics: useEffect
+
+- Doing something after a component is rendered or re-rendered!!
+- Side Effects on React Components after rendering DOM:
+
   - With Cleanup
-    - setup subscription for every individual login info to avoid memory leak 
+    - setup subscription for every individual login info to avoid memory leak
     - return a function that cleans up after (ie, adding and removing subscriptions)
-  - Without Cleanup 
+  - Without Cleanup
     - Run additional codes once React has updated the DOM
-    - do not return a function 
+    - do not return a function
 
 - useEffect is `componentDidMount, componentDidUpdate, and componentWillUnmount combined`
 
 - When might we want to use useEffect?
+
   - we would like to do something after the component is rendered (after performing the DOM updates)
-  - What can we use it for? 
-    - Data fetching 
-    - Imperative API 
+  - What can we use it for?
+    - Data fetching
+    - Imperative API
 
 - What is an alternative to useEffect?
+
   - `componentDidMount, componentDidUpdate, and componentWillUnmount combined`
 
 - What is the advantage of using useEffect over its alternative?
   - `Hooks let us split the code based on what it is doing rather than a lifecycle method name.`
   - Reduced suffering from bugs like forgetting to handle a situation with `componentDidUpdate` logic can cause memory leak in data when you already have `componentDidMount` and `componentWillUnmount`. In useEffect hook, `There is no special code for handling updates because useEffect handles them by default. It cleans up the previous effects before applying the next effects.`
 
+## Notes 04/06/22
+
+- Frontend workout with Tala (going through Memory Puzzle exercise in React)
+- Takeaways:
+  - using ternary operator to change the css styling for the puzzle square whenever is clicked
+  - create a number array to contains all the numbers (including repetitive numbers)
+  - Props, States, Render in React!!! - Revisited on the Higher Level Understanding of what React does and why do we use React!
+
+- Needs Improvements: 
+  - I am still not able to think of the problem well and able to know what to do first, and what to do next, etc. 
+  - I need to be more confident 
+  - I need to talk through the code while I am coding 
 
 
 <!--
