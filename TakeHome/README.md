@@ -2,7 +2,7 @@
 
 ## Notes on 03/21/2022
 
-## Create a SSH Key
+### Create a SSH Key
 
 How to create a SSH Key? and What is a SSH key?
 
@@ -473,6 +473,15 @@ vs
 `function DoSomething() {}` ?
 
 - Hoisting!!
+```
+Definitions found on MDN: "JavaScript Hoisting allows functions/classes to be safely used in code before they are declared."
+
+declaration (hoisted) 
+`function DoSth() { //action }` 
+vs 
+expression (not hoisted) 
+`const DoSth = () => { //action }`
+```
 - Read more [here](https://softwareengineering.stackexchange.com/questions/364086/why-use-const-foo-instead-of-function-foo)
 
 ### It is crucial to make sure to use camal case & quotations in the CSS style object
@@ -647,6 +656,53 @@ _The above notes are taken after watching this [video](https://www.youtube.com/w
   - I am still not able to think of the problem well and able to know what to do first, and what to do next, etc. 
   - I need to be more confident 
   - I need to talk through the code while I am coding 
+
+
+## Notes 04/07/22
+
+- Frontend Workout with Tala (Stock Market exercise in React)
+
+  Tala has taught us how to approach a problem before we start ie, write down all the components (props, stateful)
+
+  Then, he went over a step-by-step process. 
+
+  During the group session, we got through fetch data and placed data on DOM successfully. We also created props component and stateful components. We use useEffect to fetch data to the DOM so it will stop the infinite fetching issue (errors encountered that took the longer time: API limit OR `tickers.map is not a function`) 
+  
+  However, the problem fetched data can only be rendered once (only the first time.
+
+  Here is the codesandbox to the exercise (forked version):  
+
+- Reflection: 
+  - Practice more on CSS Grid ie, `grid-template-columns`
+  - still need to be familiarize with `useEffect` hook and how it works
+
+
+## Notes 04/08/22
+
+- Pair Learning Session with Eric Lee (Frontend Workout on Librarian)
+
+  During the session, I have learned to work with another fellow to fetch API data using fetch() method and then we also explore how to create props component. And how to pass fetched data through the props component we created to display the output. 
+
+  Here is the codesandbox to the exercise (forked version): 
+
+    - Reflections: 
+
+      - I think based on my explanation, I should be a little clearer in demo-ing why props component are useful to answer one of the Eric's question since he is struggling to understand how the props component works. 
+
+      - I still struggle with `useEffect` especially how to handle url query params situation 
+
+      - I am also not sure how to properly pass data fetched data to a state (this is the trouble I got when I was working through the Take Home Challenge - Top50Universities) 
+
+
+<br />
+
+- Feedbacks on Second Assignment PR (from Mentor Jenny Xing) - Top 50 Universities Take Home 
+
+    -
+
+
+### Resources on `useEffect` and how it works:
+
 
 
 <!--
