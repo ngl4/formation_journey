@@ -473,15 +473,17 @@ vs
 `function DoSomething() {}` ?
 
 - Hoisting!!
+
 ```
 Definitions found on MDN: "JavaScript Hoisting allows functions/classes to be safely used in code before they are declared."
 
-declaration (hoisted) 
-`function DoSth() { //action }` 
-vs 
-expression (not hoisted) 
+declaration (hoisted)
+`function DoSth() { //action }`
+vs
+expression (not hoisted)
 `const DoSth = () => { //action }`
 ```
+
 - Read more [here](https://softwareengineering.stackexchange.com/questions/364086/why-use-const-foo-instead-of-function-foo)
 
 ### It is crucial to make sure to use camal case & quotations in the CSS style object
@@ -648,15 +650,15 @@ _The above notes are taken after watching this [video](https://www.youtube.com/w
 
 - Frontend workout with Tala (going through Memory Puzzle exercise in React)
 - Takeaways:
+
   - using ternary operator to change the css styling for the puzzle square whenever is clicked
   - create a number array to contains all the numbers (including repetitive numbers)
   - Props, States, Render in React!!! - Revisited on the Higher Level Understanding of what React does and why do we use React!
 
-- Needs Improvements: 
-  - I am still not able to think of the problem well and able to know what to do first, and what to do next, etc. 
-  - I need to be more confident 
-  - I need to talk through the code while I am coding 
-
+- Needs Improvements:
+  - I am still not able to think of the problem well and able to know what to do first, and what to do next, etc.
+  - I need to be more confident
+  - I need to talk through the code while I am coding
 
 ## Notes 04/07/22
 
@@ -664,46 +666,105 @@ _The above notes are taken after watching this [video](https://www.youtube.com/w
 
   Tala has taught us how to approach a problem before we start ie, write down all the components (props, stateful)
 
-  Then, he went over a step-by-step process. 
+  Then, he went over a step-by-step process.
 
-  During the group session, we got through fetch data and placed data on DOM successfully. We also created props component and stateful components. We use useEffect to fetch data to the DOM so it will stop the infinite fetching issue (errors encountered that took the longer time: API limit OR `tickers.map is not a function`) 
-  
+  During the group session, we got through fetch data and placed data on DOM successfully. We also created props component and stateful components. We use useEffect to fetch data to the DOM so it will stop the infinite fetching issue (errors encountered that took the longer time: API limit OR `tickers.map is not a function`)
+
   However, the problem fetched data can only be rendered once (only the first time.
 
-  Here is the codesandbox to the exercise (forked version):  
+  Here is the codesandbox to the exercise (forked version):
 
-- Reflection: 
+- Reflection:
   - Practice more on CSS Grid ie, `grid-template-columns`
   - still need to be familiarize with `useEffect` hook and how it works
-
 
 ## Notes 04/08/22
 
 - Pair Learning Session with Eric Lee (Frontend Workout on Librarian)
 
-  During the session, I have learned to work with another fellow to fetch API data using fetch() method and then we also explore how to create props component. And how to pass fetched data through the props component we created to display the output. 
+  During the session, I have learned to work with another fellow to fetch API data using fetch() method and then we also explore how to create props component. And how to pass fetched data through the props component we created to display the output.
 
-  Here is the codesandbox to the exercise (forked version): 
+  Here is the codesandbox to the exercise (forked version):
 
-    - Reflections: 
+  - Reflections:
 
-      - I think based on my explanation, I should be a little clearer in demo-ing why props component are useful to answer one of the Eric's question since he is struggling to understand how the props component works. 
+    - I think based on my explanation, I should be a little clearer in demo-ing why props component are useful to answer one of the Eric's question since he is struggling to understand how the props component works.
 
-      - I still struggle with `useEffect` especially how to handle url query params situation 
+    - I still struggle with `useEffect` especially how to handle url query params situation
 
-      - I am also not sure how to properly pass data fetched data to a state (this is the trouble I got when I was working through the Take Home Challenge - Top50Universities) 
-
+    - I am also not sure how to properly pass data fetched data to a state (this is the trouble I got when I was working through the Take Home Challenge - Top50Universities)
 
 <br />
 
-- Feedbacks on Second Assignment PR (from Mentor Jenny Xing) - Top 50 Universities Take Home 
+- Feedbacks on Second Assignment PR (from Mentor Jenny Xing) - Top 50 Universities Take Home
 
-    -
-
+  -
 
 ### Resources on `useEffect` and how it works:
 
+- It is also important to know what the [lifecycle of components](https://www.geeksforgeeks.org/reactjs-lifecycle-components/) is.
+- [How to fetch data using React Hooks](https://www.robinwieruch.de/react-hooks-fetch-data/)
 
+## Notes 04/09/22
+
+- Small Group Study Session with Jenny Xing (Mentor in the Take Home Challenge) and Clarence Luk (fellow who already completed the Take Home Challenge) ~ Study buddies: Gerardo, Eric, and Richard
+
+  - Takeaways:
+
+    - When learning React in order to answer your `why React?` question, it is best to learn about the `history` of how it was created? How did people code before React was created? How did React evolved over time? ~ Knowing this history can help you to understand how `React` framework works as a whole - from Class Components to Functional Components and then to Hooks!!!
+
+    - Compacted version of `if (condition is true) { //print sth }` OR ternary operator `condition is true ? //print when true : //print when false` in React renderer (jsx) is `{condition is true && //print sth }`
+
+    - When you notice `a map function within another map function`, this is a nested loop, with an indication that it could be a 2D array (we will be iterating through the outer array and then we will do another iteration through the inner array). The 2D array looks like this: `[ [1],[2],[3] ], [4],[5],[6] ]`
+
+    - The difference between declaring a function in `const` vs using `function` - `hoisting` & scope!
+
+    - Renderer: HTML -> Browser
+
+    - React is using `jsx` to write HTML in the render function so you can write HTML directly in js file
+
+    - React framework in short is basically `functions that return HTML` and can be based on variables passed in (as `props` in the parameters of the functions) - with props, the parent component can passed values or functions to the children component easily.
+
+    - useEffect -The first parameter is the callback function
+
+    - useEffect - The second parameter (3 scenarios):
+
+      - #1 no dependencies (no empty array): call the useEffect callback function each time a state has changed
+      - #2 no dependencies with empty array: call the useEffect callback function ONCE, call once onMount (the first render only)
+      - #3 dependencies: call whenever these dendencies variables change
+
+    - For fetching data, you only want to fetch data ONCE. So the #2 and #3 scenario in useEffect are more preferable to use whenever we are fetching API data/ any data source. If we are fetching data in the #1 scenario in useEffect, you are basically fetching continuosly and will eventually get to max stack or API limit error.
+
+    - `window.history.go` vs `React Router` - in React: React Router is more preferable to use!
+
+  - Notes from the session:
+
+  ```
+  What and Why React? (high level)
+
+  - General History of React:
+
+  Starting here...
+
+  (using Class-based component ie, using constructor, componentDidUpdate, or other react lifecycle methods, this.setState, using this keyword a lot) -->
+
+  Then here...
+
+  (functional component - func takes in props (no render)) -->
+
+  Now here...
+
+  (Hooks - functional component to deal with states management - replace lifecycle mehtods - play around on how the lifecycle methods work ~ this helps you to learn more about React Hooks especially useEffect)
+
+  -resusable components
+  - functions (return html) - can be based on variables
+  - write html using jsx (render function - write html directly in js file)
+    vs vanialla js (document.create... ~ document API)
+  ```
+
+  - Reflection:
+
+    This is the first small study session. I decided to start the session as soon as possible and prepared all the questions in the codesandbox so other people can access them. I was slightly nervous since it was my first time doing this type of session. There are definitely a lot of rooms for me to improve and Let's do better next time!! :)
 
 <!--
 
