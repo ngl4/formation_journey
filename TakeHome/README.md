@@ -766,6 +766,18 @@ _The above notes are taken after watching this [video](https://www.youtube.com/w
 
     This is the first small study session. I decided to start the session as soon as possible and prepared all the questions in the codesandbox so other people can access them. I was slightly nervous since it was my first time doing this type of session. There are definitely a lot of rooms for me to improve and Let's do better next time!! :)
 
+## Notes 04/11/22 - 04/12/22
+
+Practicing HTML/CSS for the new Take Home Challenge to create a pixel perfert design using HTML/CSS based on a Figma design out. The requirement is it needs to match up with the Figma design EXACTLY, like it is hard to tell they are different.
+
+I think the key part for this project is be able to manage time well and know to pause the time and take the necessary break before coming back to the project.
+
+Here is what I find useful while working through this take home challenge. I only start timing when I am coding, and pause it when I need a break and do some research regarding basic syntax, or doing minor admin tasks ie, download images and using imgur to get the url.
+
+- Semantic HTML layout is key to this task
+- Time management (set up a plan to know what you need to do first, step by step)
+- Being familiarize with CSS property is really helpful ie, `clip-path` (read more [here](https://uhded.com/diagonal-section-css))
+
 <!--
 
 ## Notes
