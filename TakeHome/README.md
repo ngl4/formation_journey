@@ -707,6 +707,8 @@ _The above notes are taken after watching this [video](https://www.youtube.com/w
 
 ## Notes 04/09/22
 
+### First Frontend Study Session 
+
 - Small Group Study Session with Jenny Xing (Mentor in the Take Home Challenge) and Clarence Luk (fellow who already completed the Take Home Challenge) ~ Study buddies: Gerardo, Eric, and Richard
 
   - Takeaways:
@@ -777,6 +779,103 @@ Here is what I find useful while working through this take home challenge. I onl
 - Semantic HTML layout is key to this task
 - Time management (set up a plan to know what you need to do first, step by step)
 - Being familiarize with CSS property is really helpful ie, `clip-path` (read more [here](https://uhded.com/diagonal-section-css))
+
+
+## Notes 04/13/22
+
+### Second Frontend Office Hours Session
+
+- A Small group office hours session with Erik Ritter, a frontend mentor at Formation. 
+
+- Takeaways:
+    - React Router Task in Formation Take Home: `:thing` ~ the colon means to find a match and store it as a paramater "thing" - match and store as parameter 
+        - using the [React Router Docs](https://v5.reactrouter.com/web/guides/quick-start) to figure out how to use `useParams` and `props.match` 
+
+    - Semantic version update in dependencies:
+        - major update - large changes that require large modifications in the current script setup
+        - minor update - should not be a big impact on the current script 
+        - patch update
+        - ie, React update in React Router from v5 -> v6 just literally yesterday (still not sure if there are any udpates...need to read through documentation to find out more...)
+
+    - For those who are looking for people to follow in the Frontend dev on Twitter, look out the following: 
+        - https://twitter.com/kentcdodds
+        - https://twitter.com/Wattenberger
+    
+    - Destructuring in props 
+
+    ```js
+  //no destructuring 
+   const Child = (props) => {
+    return <Grandchild setText={props.setText} />;
+  };
+
+  //destructuring #1
+    const Child = (props) => {
+    const {setText} = props; 
+    return <Grandchild setText={setText} />;
+  };
+
+  //destructuring #2
+  const Child = ({ setText }) => {
+    return <Grandchild setText={setText} />;
+  };
+
+    ```
+
+    - Two Ways to pass value back up from the child components to the parent component: 
+        - Passing a state variable down to the Child components and then update the state of the Parent component
+        - `useContext` Hooks 
+    
+    - Redux - state management 
+
+    - Not all react component will render something to HTML, ie, 
+
+    ```js
+    const Child = ({ setText }) => {
+    return <Grandchild setText={setText} />;
+  };
+
+  const MyComponent = ({ children }) => {
+    return children;
+  };
+
+  const Text = ({ children, size, color }) => {
+    return <span style={{ fontSize: size, color: color }}>{children}</span>;
+  };
+
+  const Parent = () => {
+    const [text, setText] = useState("Initial text");
+    return (
+      <MyComponent>
+        <Text size={64} color="red" textContent={text}>
+          {text}
+        </Text>
+        <Child setText={setText} />
+      </MyComponent>
+    );
+  };
+
+    ```
+
+    - How to read through an unfamiliar full stack codebase? 
+        - start with backend (server.js) 
+        - then the frontend: for instance in React frontend: 
+            - index.js
+            - App.js
+            - Package.json
+            - Specific component to update a certain feature/page (ie, Dashboard)
+
+        - TIPS: Typing letter "T" in Github repo page, you can search for specific page or route 
+        - TIPS: search the specific variables/codes in the search bar in Gtihub can help you to narrow down what you are looking for 
+       - doing `npm test` can be helpful to test if the codebase is working as expected 
+       - Suggested to update codes through VSC or any code editing tools, instead of directly through Github
+       - This is a great start to know how to make contribution to a large open source codebase! 
+
+- Reflection: 
+
+    - I think this session works out better than the previous session. I feel like the office hours style suggested by Mentor Jenny is definitely working! 
+    - Every students get to participate and ask their specific questions on the problems or issues they encountered. 
+
 
 <!--
 
