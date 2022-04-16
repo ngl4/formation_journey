@@ -880,7 +880,7 @@ Here is what I find useful while working through this take home challenge. I onl
 
 Reflection on my Take Home Challenge and Result: 
 
-After two days working on the HTML/CSS Take Home challenge, I have submitted it yesterday and got a "weak yes" from the challenge. I am super glad I passed this challenge, but I also know I need to do more practices to improve my Frontend skills so I will no longer get a "weak yes", but a "strong firm yes". I still need to keep practicing my frontend skills every week to gradually improve my overall frontend skills. 
+After two days working on the HTML/CSS Take Home challenge, I have submitted it yesterday and got a "weak yes" from the challenge. I am super glad I passed this challenge, but I also know I need to do more practices to improve my Frontend skills so I will no longer get a "weak yes", but a "strong firm yes". **I still need to keep practicing my frontend skills every week to gradually improve my overall frontend skills.** 
 
 ### React Router 
 Two ways to read the URL params/access the params of the router path: 
