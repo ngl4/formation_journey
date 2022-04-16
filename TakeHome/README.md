@@ -876,6 +876,76 @@ Here is what I find useful while working through this take home challenge. I onl
     - I think this session works out better than the previous session. I feel like the office hours style suggested by Mentor Jenny is definitely working! 
     - Every students get to participate and ask their specific questions on the problems or issues they encountered. 
 
+## Notes 04/14/22 - 04/15/22 
+
+Reflection on my Take Home Challenge and Result: 
+
+After two days working on the HTML/CSS Take Home challenge, I have submitted it yesterday and got a "weak yes" from the challenge. I am super glad I passed this challenge, but I also know I need to do more practices to improve my Frontend skills so I will no longer get a "weak yes", but a "strong firm yes". I still need to keep practicing my frontend skills every week to gradually improve my overall frontend skills. 
+
+### React Router 
+Two ways to read the URL params/access the params of the router path: 
+
+```js
+import React from "react";
+import { BrowserRouter as Router, Route, useParams } from "react-router-dom";
+
+function Body(props) {
+  //1. Read 'thing' using 'useParams'
+  // let { thing } = useParams();
+  // return <div>The parameter 'thing' has the value: {thing}</div>;
+
+  //2. Read 'thing' using 'props.match'
+  return (
+    <div>The parameter 'thing' has the value: {props.match.params.thing}</div>
+  );
+}
+
+export default function App() {
+  return (
+    <Router>
+      <Route path="/:thing" component={Body} />
+    </Router>
+  );
+}
+```
+Here is where you can find more info regarding the `useParams` and `props.match`: 
+- `useParams`: [Go to useParams](https://v5.reactrouter.com/web/api/Hooks/useparams)
+- `props.match`: [Go to Route props](https://v5.reactrouter.com/web/api/Route/component)
+
+
+## React setState, useEffect, & setTimeOut 
+
+```js
+import React, { useState, useEffect } from "react";
+
+/**
+ * 1. Fill in missing state variable declarations
+ * 2. Update the counter by 1 on each interval tick 
+ * 3. Update the counter by doubling it on each interval tick  
+
+ * 4. Stop ticking the timer when it is larger than 1,000,000; <-- this took me a while ~ I realize after searching, I should be adding if condition in the render function and not within the setTimeout function. 
+ */
+export default function App() {
+  const [counter, setCounter] = useState(0); //1. 
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      let temp = counter === 0 ? 1 : counter;
+      setCounter(temp * 2); //if you do setCounter(counter * 2) it will NOT WORK!!
+    }, 1000);
+    return () => clearTimeout(timeout);
+  }, [counter]);
+
+  return (
+    <div> 
+      {counter > 1000000 //4.
+        ? "Stop counting since it is over 1,000,000 ticks" 
+        : counter}
+    </div>
+  );
+}
+
+```
+
 
 <!--
 
