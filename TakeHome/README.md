@@ -913,7 +913,7 @@ Here is where you can find more info regarding the `useParams` and `props.match`
 - `props.match`: [Go to Route props](https://v5.reactrouter.com/web/api/Route/component)
 
 
-## React setState, useEffect, & setTimeOut 
+### React setState, useEffect, & setTimeOut 
 
 ```js
 import React, { useState, useEffect } from "react";
@@ -946,6 +946,11 @@ export default function App() {
 
 ```
 
+### Component Lifecycle in React
+
+`In React, “mount” means the moment when your Component is inserted into the DOM.`
+
+Read more [here](https://jaketrent.com/post/what-does-mount-mean-in-react)!!
 
 <!--
 
