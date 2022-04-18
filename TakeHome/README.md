@@ -952,6 +952,95 @@ export default function App() {
 
 Read more [here](https://jaketrent.com/post/what-does-mount-mean-in-react)!!
 
+
+## Notes 04/17/22
+
+### Event Loop 
+This is how events and asynchronous operations are handled in JavaScript!!
+
+Basic Terms (bold ones) that help you to understand what an event loop is: 
+
+- Heap: memory allocation 
+
+- **Stack** 
+
+- **Web APIs**
+
+- **Render Queue**
+
+- **Callback Queue**
+
+Great video to go through what an event loop is [here](https://www.youtube.com/watch?v=8aGhZQkoFbQ)!!
+
+
+### React (Tic Tac Toe Tutorial) - Class Components
+
+[Here](https://reactjs.org/tutorial/tutorial.html) is where you can find the tutorial for this exercise!! 
+
+#### What is React? 
+
+```
+React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
+```
+
+### Controlled Components
+Any child components that are fully in control by the parent component is considereed as "Controlled Components". For instance in the Tic Tac Toe game, all the Square components (that do not have their own individual states and only take in values that are passed in from the parent component) are considered Controlled Components of the Board component (parent compoment). 
+
+### Why Immutability is important in React? 
+
+- Complex Features Become Simple
+ie, "Time travel" feature ~ "that allows us to review the tic-tac-toe game’s history and “jump back” to previous moves."
+
+```
+Avoiding direct data mutation lets us keep previous versions of the game’s history intact, and reuse them later.
+```
+
+- Detecting Changes
+Easier to detect changes when we can just simply compare the immutable object with the copied object to see any differences 
+
+- Determining When to Re-Render in React (_still not fully understood?!_)
+
+```
+The main benefit of immutability is that it helps you build pure components in React. Immutable data can easily determine if changes have been made, which helps to determine when a component requires re-rendering.
+
+You can learn more about shouldComponentUpdate() and how you can build pure components by reading Optimizing Performance.
+```
+
+### Functional Components
+
+```
+In React, function components are a simpler way to write components that only contain a render method and don’t have their own state. Instead of defining a class which extends React.Component, we can write a function that takes props as input and returns what should be rendered.
+```
+
+### Taking Turn (X or O) 
+
+1. Create a bool state variable ie, "isXNext" 
+2. Use the ternary operator (based of the isXNext bool state) to know whether it is the "X" or "O" player turn 
+
+### Creating a helpher function to calculate and declare a winner
+
+### Lifting a state up (from Board to GameManager)
+
+### concat method is more preferable than push
+
+```
+Unlike the array push() method you might be more familiar with, the concat() method doesn’t mutate the original array, so we prefer it.
+```
+
+### Tutorials
+
+[Here](https://reactjs.org/tutorial/tutorial.html) is where you can find the tutorial for this exercise!! 
+
+
+### Data Immutability in React 
+
+Practice more [here](https://codesandbox.io/s/immutable-data-exercise-solved-p6k6co)!!! ~ pay closer attention to 2D array!!!
+
+### Simple Node Server.js
+
+Practice more [here](https://codesandbox.io/s/formation-node-setup-solved-sort-of-hur8sp)!! 
+
+
 <!--
 
 ## Notes
