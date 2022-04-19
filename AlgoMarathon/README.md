@@ -30,7 +30,7 @@ https://leetcode.com/problems/arithmetic-slices/
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Minutes | 30  | --  | --  | --  | --  | --  | --  |
 
-[Details here]()
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/ArithmeticSlices.js)
 
 
 ### Algo: Sorted Array to BST
@@ -46,7 +46,7 @@ https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Minutes | 30  | --  | --  | --  | --  | --  | --  |
 
-[Details here]()
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/SortedArraytoBST.js)
 
 
 <!--
