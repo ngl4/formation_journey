@@ -10,6 +10,8 @@ Welcome to Level 2 of Algo Blitz!!
 
 - Follow through the Formation Tasks, and practice more on Neetcode, Leetcode (sort by problem type and acceptance rate), AlgoExpert if needed.
 
+_Special thanks to a Formation Fellow Dana Ng who has introduced me to keep track of my progress using Attempts table_
+
 ## Fundamentals 
 ...
 
@@ -47,6 +49,20 @@ https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/
 | Minutes | 30  | --  | --  | --  | --  | --  | --  |
 
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/SortedArraytoBST.js)
+
+
+#### Algo: Convert Array into Zig Zag
+Easy
+
+Convert an array in a zig zag fashion
+
+https://www.geeksforgeeks.org/convert-array-into-zig-zag-fashion/
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 37  | --  | --  | --  | --  | --  | --  |
+
+[Details here]()
 
 
 <!--
