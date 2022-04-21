@@ -1,6 +1,6 @@
 # Algo Workout With ...
 
-## Vinit Parikh 04/20/22
+## Vinit Parikh 04/20/22 (Array)
  - [1 - js](https://github.com/ngl4/formation_journey/blob/main/AlgoWorkout/Vinit/04-20-22(1).js)
  - [2 - python](https://github.com/ngl4/formation_journey/blob/main/AlgoWorkout/Vinit/04-20-22(2).py)
 
