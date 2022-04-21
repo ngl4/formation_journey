@@ -6,6 +6,6 @@ I will be documenting what I have learned being a Frontend Engineering Fellow at
 * [Take Home](https://github.com/ngl4/formation_journey/tree/main/TakeHome) 
 * [Algo Marathon](https://github.com/ngl4/formation_journey/tree/main/AlgoMarathon)
 * Collections of the [Monday's Words of Wisdom](https://github.com/ngl4/formation_journey/tree/main/WordsOfWisdom) from the Formation Team!
-* Small Group Algo Workout Reflection _(upcoming)_
+* Small Group [Algo Workout Takeaways & Reflection]()
 
 
