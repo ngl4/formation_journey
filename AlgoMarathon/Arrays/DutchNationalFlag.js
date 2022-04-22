@@ -7,9 +7,15 @@
   Examples:
   • Given an array: [2, 1] // returns [1, 2]
   • Given an array: [0, 2, 1, 0, 1, 2] // returns [0, 0, 1, 1, 2, 2]
+
   
-  
-  Visualization 
+   */
+
+  //ATTEMPT #1 (unsure): Walking through the problem with Alexis!!
+
+
+  /*
+  Visualization: 
   
   0, 0, 1, 1, 2, 2
   ^ (do not move at all)
@@ -20,10 +26,8 @@
   - .sort() method. Time: O(nlogn) 
   -  bubble sort method. Time: O(n^2)
   -  one pass Time: O(n)
-  
-   */
 
-  //ATTEMPT #1 (unsure): Walking through the problem with Alexis!!
+  */
   
   function dnf(input) {
 
