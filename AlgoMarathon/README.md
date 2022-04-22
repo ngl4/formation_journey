@@ -69,7 +69,7 @@ Attempt#1: includes time that I watched the Youtube video (8mins)
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/ConvertArrToZigzag.js)
 
 
-#### Learn Strength Algo: Dutch National Flag
+### Learn Strength Algo: Dutch National Flag
 
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -77,7 +77,7 @@ Attempt#1: includes time that I watched the Youtube video (8mins)
 
 Attempt#1: spent an extra 15 mins to read through the solution in Leetcode regarding the One Pass approach to this problem. 
 
-[Details here]()
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/DutchNationalFlag.js)
 
 
 

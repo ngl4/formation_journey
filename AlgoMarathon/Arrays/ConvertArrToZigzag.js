@@ -14,23 +14,25 @@ Output: arr[] = {1, 4, 2, 3}
 
 */
 
-//Attempt #1
+//Attempt #1 - unsure
 
 const createZigzag = (arr) => { 
-    for (let i = 0; i < arr.length; i++) {
-      for (let j = 0; j < arr.length; j++) {
-        let currVal = arr[j]
-        let nextVal = arr[j+1]; 
-        if (arr[j+1] < arr[j]){
-          arr[j+1] = currVal; 
-          arr[j] = nextVal; 
-        }
-      }
-    }
-    for (let i = 1; i < arr.length - 1; i+=2) {
-      [arr[i], arr[i+1]] = [arr[i+1], arr[i]]; 
-    }
-    return arr; 
+
+    //ATTEMPT1: BUBBLE SORT AND SWAPPING - O(N^2)
+    // for (let i = 0; i < arr.length; i++) {
+    //   for (let j = 0; j < arr.length; j++) {
+    //     let currVal = arr[j]
+    //     let nextVal = arr[j+1]; 
+    //     if (arr[j+1] < arr[j]){
+    //       arr[j+1] = currVal; 
+    //       arr[j] = nextVal; 
+    //     }
+    //   }
+    // }
+    // for (let i = 1; i < arr.length - 1; i+=2) {
+    //   [arr[i], arr[i+1]] = [arr[i+1], arr[i]]; 
+    // }
+    // return arr; 
   }
   
   const test1 = createZigzag([1, 4, 3, 2]); 

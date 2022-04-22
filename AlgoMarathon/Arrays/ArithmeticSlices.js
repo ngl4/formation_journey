@@ -1,4 +1,4 @@
-//Attempt #1 (Failed)
+//Attempt #1 (unsure)
 //Approach: Better Brute Force
 //Time: o(n^2)
 //Space: O(1)

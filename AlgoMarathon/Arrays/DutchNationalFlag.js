@@ -27,29 +27,29 @@
   
   function dnf(input) {
 
-
-    let movableP2 = false; 
-    let p1 = input[0]; 
-    let p2 = input[1];   
-    let inc = 1; 
-    for(let i = 2; i < input.length; i++) {
-      let p3 = input[i]; 
-      if (p2 < p1) {
-        [p2, p1] = [p1, p2];
-        movableP2 = true; 
-      }
-      if (p3 < p2) {
-        [p3, p2] = [p2, p3];
-      }
-      if (movableP2) {
-        inc += 1; 
-        p2 = input[inc]; 
-        movableP2 = false; 
-      }
-    }
-    return input;
+    // ATTEMPT#1 : 3 POINTERS - FAILED 
+    // let movableP2 = false; 
+    // let p1 = input[0]; 
+    // let p2 = input[1];   
+    // let inc = 1; 
+    // for(let i = 2; i < input.length; i++) {
+    //   let p3 = input[i]; 
+    //   if (p2 < p1) {
+    //     [p2, p1] = [p1, p2];
+    //     movableP2 = true; 
+    //   }
+    //   if (p3 < p2) {
+    //     [p3, p2] = [p2, p3];
+    //   }
+    //   if (movableP2) {
+    //     inc += 1; 
+    //     p2 = input[inc]; 
+    //     movableP2 = false; 
+    //   }
+    // }
+    // return input;
   
-    // TEST CASES PASSED - BUBBLE SORT METHOD
+    // ATTEMPT#1: BUBBLE SORT METHOD - PASSED
     // for(let i = 0; i < input.length; i++){
     //   for (let j = 0; j < input.length; j++) {
     //     const curVal = input[j]; 
@@ -94,7 +94,7 @@
 • Two passes:
     First pass: count the number of 0s, 1s and 2s. 
     Second pass: overwrite the original array with the correct number of 0s, then 1s, then 2s.
-    
+
 • One pass (read about this on Leetcode)
 
   */

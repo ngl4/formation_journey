@@ -1,5 +1,5 @@
-//Attempt #1 (Failed)
-//Approaches: Preorder Traversal 
+//Attempt #1 (unsure)
+//Approaches found on Leetcode: Preorder Traversal 
 //Time: O(N)
 //Space: O(logN)
 
