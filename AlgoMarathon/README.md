@@ -80,13 +80,21 @@ Attempt#1: spent an extra 15 mins to read through the solution in Leetcode regar
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/DutchNationalFlag.js)
 
 
+### Number elements repeated X times in array
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 30  | --  | --  | --  | --  | --  | --  |
+
+[Details here]()
+
 
 <!--
 
 ### Week 1: Focus on Arrays
 (April 18th - April 24th)
 
-####
+###
 
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
