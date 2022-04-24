@@ -221,7 +221,7 @@ Attempt#1: spent an extra 15 mins to read through the solution in Leetcode regar
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Minutes | 30  | --  | --  | --  | --  | --  | --  |
 
-[Details here]()
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/2DMatrix.js)
 
 <!--
 

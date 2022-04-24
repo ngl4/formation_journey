@@ -65,5 +65,38 @@ Still get stuck at how to push the added values into the res array
 Future Attempts: 
 - Double check with other fellows to see how they would approach this problem 
 - Rework on this problem again and solve it under 20 mins
+*/
 
-*/ 
+
+/*______________________
+
+I have sent this problem in the Mattermost channel and got a response from Fellow Arthur Damm: 
+
+Hi Cindy! So it looks like you are adding up consecutive elements in your inner loop, 
+but you want to add up first + last, 2nd-first + 2nd-last, and so on... 
+Those happen to be the same in a 2 element row but not for any other size.
+
+The easiest way is that for each row, you have 2 pointers j, k with j starting at beginning and k starting at end, 
+and in each iteration you add them up, then move j forward and k back.
+
+Also note they want a new matrix back, so you'll have to push a row array onto res, 
+not just single elements (which would make res a 1-D array in the end)
+
+The only question is what to do about the middle element if the row is odd-numbered. 
+They may not want it doubled, in which case I would add an if(j == k) condition in the loop 
+and only push the element at j, not at j + k, in that one case. 
+But I would have to look at what the test cases wanted, it could go either way. 
+
+function solution(matrix) {
+    let res = []; 
+    for (let i = 0; i < matrix.length; i++) {
+        let row = [];
+        for (let j = 0, k = matrix[i].length - 1; j <= k; j++, k--) {
+                row.push([matrix[i][j] + matrix[i][k]);
+            }
+        }
+        res.push(row);
+    }
+    return res; 
+}
+________________________*/
