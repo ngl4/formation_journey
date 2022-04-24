@@ -129,7 +129,7 @@ function nextWord(word){
 }
 ```
 
-I am not entirely sure I fully understand this problem
+I am not entirely sure I fully understand this problem at first. After reviewing this [site](https://www.tutorialcup.com/interview/string/next-permutation.htm), I have finally understood the problem. 
 
 Here are some questions you could ask: 
 - Is it even possible? (this happens in transforming type of questions, taking in an input and transforming into something, sometimes it is not even possible to transform)
