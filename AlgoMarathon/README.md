@@ -219,7 +219,9 @@ Attempt#1: spent an extra 15 mins to read through the solution in Leetcode regar
 
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Minutes | 30  | --  | --  | --  | --  | --  | --  |
+| Minutes | 30  | 60  | --  | --  | --  | --  | --  |
+
+Attempt2: learning the pattern through the guidance of a Formation fellow!! 
 
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/2DMatrix.js)
 
