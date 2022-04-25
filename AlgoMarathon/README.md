@@ -225,6 +225,15 @@ Attempt2: learning the pattern through the guidance of a Formation fellow!!
 
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/2DMatrix.js)
 
+
+### Group Anagram (Array of Strings)
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 35  | --  | --  | --  | --  | --  | --  |
+
+[Details here]()
+
 <!--
 
 ### Week 1: Focus on Arrays
