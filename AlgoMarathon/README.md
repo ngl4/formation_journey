@@ -232,7 +232,7 @@ Attempt2: learning the pattern through the guidance of a Formation fellow!!
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Minutes | 35  | --  | --  | --  | --  | --  | --  |
 
-[Details here]()
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Strings/GroupAnagrams.js)
 
 <!--
 
