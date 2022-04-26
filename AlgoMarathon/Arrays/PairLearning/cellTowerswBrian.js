@@ -1,6 +1,8 @@
 /*
 One-on-One with Brian Do!!! (around close to 2hrs)
 
+ATTEMPT #1
+
 Prompt (This is considered a MEDIUM TYPE problem)
 
 You are given an array representing the positions of cell towers along a 2 dimensional line. You are given a second array representing positions of customers across the same 2 dimensional line. Given these two inputs, you must determine a signal strength k such that every customer is covered by at least one cell tower. All cell towers must have the exact same signal strength and covers customers to its left and right equally.
