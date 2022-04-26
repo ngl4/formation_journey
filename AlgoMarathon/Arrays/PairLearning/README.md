@@ -1,13 +1,16 @@
 # Pair Learning in Algo Marathon 
 
 ## Brian Do (04/25/22)
-- KEY TAKEAWAY: Understand the problem and able to describe it, and `to come up with a solution plain English`. Practice doing this more whenever I encounter a problem!!! 
+- Going through [a Medium array problem](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/PairLearning/cellTowerswBrian.js)
+- KEY TAKEAWAY: Understand a problem and able to describe it, and `to come up with a solution plain English`. Practice doing this more whenever I encounter a problem!!! 
 
 - If the problem is harder than you, it might be best to reach out to the Fellow Manager to lower the difficulty. 
 
 - `Pre-coding` is what I need to focus to practice more and start with `easy` type of problems!! 
 
 - `intuition` - Brian has mentioned this several times during the session. It is really crucial to approach an unknown problem with intuition. This does not come naturally, it comes with practices. 
+
+- Learned about the difference between `||` (falsy) and `??` (nullish) in Javascript 
 
 **Reflection:** 
 
