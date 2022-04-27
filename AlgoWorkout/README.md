@@ -65,7 +65,7 @@
 
 ## Stanley Ye 04/26/22 (Trie)
 
-- [1 - js]()
+- [1 - js](https://github.com/ngl4/formation_journey/blob/main/AlgoWorkout/Stanley%20/autocomplete.js)
 
 **Reflection & Takeaways**
 
