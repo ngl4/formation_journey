@@ -62,6 +62,32 @@
 
 - GET REALLY GOOD AT TYPING FAST - this will be super helpful in interview situation
 
+
+## Stanley Ye 04/26/22 (Trie)
+
+- [1 - js]()
+
+**Reflection & Takeaways**
+
+- Learn how the `trie` data structure works 
+
+- If you encounter any `autocomplete` problems, `trie` is one of the go-to data structure for those scenarios
+
+- As a group, we have tried to implement the solution using the Binary Tree data structure. However, I realize I froze up and realize I still need to work on practicing understanding how to use binary tree to solve this problem. 
+
+- I stil feel really uncomfortable in this workout session. I feel like I have a hard time coming up with a solution for the problem and unable to do well at `precoding` (that another fellow Brian Do has pointed out to me before)
+
+- I need to learn to ask questions and phrase them well so it is clear for the mentor to know what I am asking. I feel like even I listen back to my own questions, I do not know what I am asking exactly myself. 
+
+- I need to practice to work with my anxiety and not work against myself due to my anxiety. 
+
+- Stanely has assigned us to work on this problem as our Homework and then send him our solution once we have figured out how to solve the problem.
+
+- One more thing to look into while doing the homework is to understand `why trie, this data structure, is better than the use of other data structures?` - I think this is great to do a comparison in their Time & Space Complexity!! 
+
+
+
+
 <!-- 
 
 - []()
