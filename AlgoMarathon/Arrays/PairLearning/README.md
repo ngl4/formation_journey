@@ -27,7 +27,7 @@
 ## Jiyoon (04/27/22)
 
 **Reflection & Takeaways**
-We went over [the same cell Towers problem]() and this time I was able to see a different approach to the problem and visualization of the problem in the lens of another programmer. 
+We went over [the same cell Towers problem](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/PairLearning/cellTowerswJiyoon.py) and this time I was able to see a different approach to the problem and visualization of the problem in the lens of another programmer. 
 
 I had a great session with Jiyoon. She was prepared to come in the session and share her understanding of the problem. She walked through the problem with visualization that helped me to understand it better. She was also able to clearly verbalize her thought process and was really patience in explaining the problem slowly in the session. 
 
