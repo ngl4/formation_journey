@@ -238,10 +238,10 @@ https://www.algoexpert.io/questions/Group%20Anagrams
 
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Strings/GroupAnagrams.js)
 
-### Week 2: Focus on Arrays & some Strings
+## Week 2: Focus on Arrays & some Strings
 (April 25th - May 1st)
 
-###
+### Implement strStr 
 
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -251,7 +251,7 @@ https://www.algoexpert.io/questions/Group%20Anagrams
 
 <!--
 
-### Week 1: Focus on Arrays
+## Week 1: Focus on Arrays
 (April 18th - April 24th)
 
 ###
