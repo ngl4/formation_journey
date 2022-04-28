@@ -24,7 +24,16 @@
 
 - It is so cool to see that he can use his intuition and test out a lot of trials and errors in his mind already. 
 
+## Jiyoon (04/27/22)
 
+**Reflection & Takeaways**
+We went over [the same cell Towers problem]() and this time I was able to see a different approach to the problem and visualization of the problem in the lens of another programmer. 
+
+I had a great session with Jiyoon. She was prepared to come in the session and share her understanding of the problem. She walked through the problem with visualization that helped me to understand it better. She was also able to clearly verbalize her thought process and was really patience in explaining the problem slowly in the session. 
+
+I have learned something new regarding the O(n) time and space complexity - I feel like Jiyoon has a really good understanding on them. She explains to me the importance to talk about `what “n” means` and `the importance to apply the complexity based on the problem scenario, instead of just assuming` all for loop is going to return O(n) and all nested for loop will return O(n^2). This is a really good point and I will keep it in mind whenever I run into future algo problem. 
+
+## 
 
 
 
