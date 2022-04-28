@@ -238,6 +238,17 @@ https://www.algoexpert.io/questions/Group%20Anagrams
 
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Strings/GroupAnagrams.js)
 
+### Week 2: Focus on Arrays & some Strings
+(April 25th - May 1st)
+
+###
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 30  | --  | --  | --  | --  | --  | --  |
+
+[Details here]()
+
 <!--
 
 ### Week 1: Focus on Arrays
