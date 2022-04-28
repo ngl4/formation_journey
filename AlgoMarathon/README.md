@@ -247,7 +247,7 @@ https://www.algoexpert.io/questions/Group%20Anagrams
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Minutes | 30  | --  | --  | --  | --  | --  | --  |
 
-[Details here]()
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Strings/implementStrstr.js)
 
 <!--
 
