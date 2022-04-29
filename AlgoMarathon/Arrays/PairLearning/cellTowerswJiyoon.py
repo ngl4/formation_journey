@@ -1,3 +1,72 @@
+'''
+SOLUTIONS from Carlos and his pair leanring fellow 
+'''
+
+def search1(customers, towers):
+  closestTower = [float("inf")] * len(customers)
+  # create dictionaries to determine if element is customer/tower
+  t_dict = {}
+  c_dict = {}
+
+  for t in towers:
+      t_dict[t] = True
+  for c in customers:
+      c_dict[c] = True
+  
+  merged = customers + towers
+  merged.sort()
+  
+  # left to right
+  left = None
+  print(merged)
+  for i in range(len(merged)):
+      if merged[i] in t_dict:
+          left = merged[i]
+      if merged[i] in c_dict:
+          idx = customers.index(merged[i])
+          if left:
+              closestTower[idx] = abs(left - merged[i])
+  
+  # right to left
+  right = None
+  for j in reversed(range(len(merged))):
+      if merged[j] in t_dict:
+          right = merged[j]
+      if merged[j] in c_dict:
+          idx = customers.index(merged[j])
+          if right:
+              closestTower[idx] = min(abs(merged[j] - right), closestTower[idx])
+  
+  print(closestTower)
+  return max(closestTower)
+
+
+
+def search(customers, towers):
+    closestTower = [0] * len(customers)
+    diff = float("inf")
+    largest = 0
+    smallest = 0
+    for i in range(len(customers)):
+        smallestDiff = float("inf")
+        for j in range(len(towers)):
+            largest = max(customers[i], towers[j])
+            smallest = min(customers[i], towers[j])
+            diff = largest - smallest
+            if diff < smallestDiff:
+                smallestDiff = diff
+                closestTower[i] = smallestDiff
+    return max(closestTower)
+
+towers1 = [0, 2, 6, 10]
+customers1 = [0, 5, 11]
+print(search1(customers1, towers1), 1)
+towers2 = [0, 2, 6, 10]
+customers2 = [0, 4, 13]
+print(search1(customers2, towers2), 3)
+  
+  
+  
   # /*
   #   Jiyoon's Approach in Python
 
@@ -75,29 +144,29 @@ we don't want smallest min, we want smallest max
 '''
 
 
-def search(listener, towers):
+# def search(listener, towers):
     
-    i = j = 0
+#     i = j = 0
 
-    customer_strength = []
-    while i < len(towers) and j < len(listener):
+#     customer_strength = []
+#     while i < len(towers) and j < len(listener):
 
-        curr_strength = abs(towers[i] - listener[j])
-        if i + 1 < len(towers):
-            one_tower_over = abs(towers[i + 1] - listener[j])
-            if one_tower_over < curr_strength:
-                customer_strength.append(one_tower_over)
-                i += 1
-            else:
-                customer_strength.append(curr_strength)
-        else:
-            customer_strength.append(curr_strength)
+#         curr_strength = abs(towers[i] - listener[j])
+#         if i + 1 < len(towers):
+#             one_tower_over = abs(towers[i + 1] - listener[j])
+#             if one_tower_over < curr_strength:
+#                 customer_strength.append(one_tower_over)
+#                 i += 1
+#             else:
+#                 customer_strength.append(curr_strength)
+#         else:
+#             customer_strength.append(curr_strength)
         
-        i += 1
-        j += 1
+#         i += 1
+#         j += 1
 
     # print(customer_strength)
-    return max(customer_strength)
+    # return max(customer_strength)
 
 
 
