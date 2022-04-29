@@ -1,7 +1,7 @@
 # Pair Learning 
 
 ## Carlos Portillo (04/28/22)
-We went over the [problem on implement strStr](). A slightly simplier algo problem. Carlos was a great host and he did well int he following:
+We went over the [problem on implement strStr](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Strings/Pair%20Learning/implementStrstrwCarlos.js). A slightly simplier algo problem. Carlos was a great host and he did well int he following:
 
 1. Identify and Ask follow up questions to help the pair learning fellow instead of just providing an answer, ie, the `.slice()` method (possible how it works behind the scene - if it is coded from scratch...), would it be the same to use `<=` is better than `= ... +1` in the second condition of the for loop `for (c1; c2; c3)` for this problem. 
 
