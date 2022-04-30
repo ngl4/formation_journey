@@ -7,5 +7,6 @@ I will be documenting what I have learned being a Frontend Engineering Fellow at
 * [Algo Marathon](https://github.com/ngl4/formation_journey/tree/main/AlgoMarathon)
 * Collections of the [Monday's Words of Wisdom](https://github.com/ngl4/formation_journey/tree/main/WordsOfWisdom) from the Formation Team!
 * Small Group [Algo Workout Takeaways & Reflection](https://github.com/ngl4/formation_journey/tree/main/AlgoWorkout)
+* [Weekly Mentor Session]() ~ coming soon! 
 
 

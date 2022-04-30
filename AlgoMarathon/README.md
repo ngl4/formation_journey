@@ -242,12 +242,26 @@ https://www.algoexpert.io/questions/Group%20Anagrams
 (April 25th - May 1st)
 
 ### Implement strStr 
+Easy
 
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Minutes | 30  | --  | --  | --  | --  | --  | --  |
 
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Strings/implementStrstr.js)
+
+### Learn Strength Algo: Shifted Binary Search
+Hard 
+
+https://www.algoexpert.io/questions/Shifted%20Binary%20Search
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 50  | --  | --  | --  | --  | --  | --  |
+
+Spent several mins to watch through some videos related to this algo. 
+
+[Details here]()
 
 <!--
 
