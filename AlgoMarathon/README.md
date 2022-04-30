@@ -261,7 +261,7 @@ https://www.algoexpert.io/questions/Shifted%20Binary%20Search
 
 Spent several mins to watch through some videos related to this algo. 
 
-[Details here]()
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/Searching/ShiftedBinarySearch.js)
 
 <!--
 
