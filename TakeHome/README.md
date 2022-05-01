@@ -707,7 +707,7 @@ _The above notes are taken after watching this [video](https://www.youtube.com/w
 
 ## Notes 04/09/22
 
-### First Frontend Study Session 
+### First Frontend Study Session
 
 - Small Group Study Session with Jenny Xing (Mentor in the Take Home Challenge) and Clarence Luk (fellow who already completed the Take Home Challenge) ~ Study buddies: Gerardo, Eric, and Richard
 
@@ -780,38 +780,41 @@ Here is what I find useful while working through this take home challenge. I onl
 - Time management (set up a plan to know what you need to do first, step by step)
 - Being familiarize with CSS property is really helpful ie, `clip-path` (read more [here](https://uhded.com/diagonal-section-css))
 
-
 ## Notes 04/13/22
 
 ### Second Frontend Office Hours Session
 
-- A Small group office hours session with Erik Ritter, a frontend mentor at Formation. 
+- A Small group office hours session with Erik Ritter, a frontend mentor at Formation.
 
 - Takeaways:
-    - React Router Task in Formation Take Home: `:thing` ~ the colon means to find a match and store it as a paramater "thing" - match and store as parameter 
-        - using the [React Router Docs](https://v5.reactrouter.com/web/guides/quick-start) to figure out how to use `useParams` and `props.match` 
 
-    - Semantic version update in dependencies:
-        - major update - large changes that require large modifications in the current script setup
-        - minor update - should not be a big impact on the current script 
-        - patch update
-        - ie, React update in React Router from v5 -> v6 just literally yesterday (still not sure if there are any udpates...need to read through documentation to find out more...)
+  - React Router Task in Formation Take Home: `:thing` ~ the colon means to find a match and store it as a paramater "thing" - match and store as parameter
 
-    - For those who are looking for people to follow in the Frontend dev on Twitter, look out the following: 
-        - https://twitter.com/kentcdodds
-        - https://twitter.com/Wattenberger
-    
-    - Destructuring in props 
+    - using the [React Router Docs](https://v5.reactrouter.com/web/guides/quick-start) to figure out how to use `useParams` and `props.match`
 
-    ```js
-  //no destructuring 
-   const Child = (props) => {
+  - Semantic version update in dependencies:
+
+    - major update - large changes that require large modifications in the current script setup
+    - minor update - should not be a big impact on the current script
+    - patch update
+    - ie, React update in React Router from v5 -> v6 just literally yesterday (still not sure if there are any udpates...need to read through documentation to find out more...)
+
+  - For those who are looking for people to follow in the Frontend dev on Twitter, look out the following:
+
+    - https://twitter.com/kentcdodds
+    - https://twitter.com/Wattenberger
+
+  - Destructuring in props
+
+  ```js
+  //no destructuring
+  const Child = (props) => {
     return <Grandchild setText={props.setText} />;
   };
 
   //destructuring #1
-    const Child = (props) => {
-    const {setText} = props; 
+  const Child = (props) => {
+    const { setText } = props;
     return <Grandchild setText={setText} />;
   };
 
@@ -819,19 +822,19 @@ Here is what I find useful while working through this take home challenge. I onl
   const Child = ({ setText }) => {
     return <Grandchild setText={setText} />;
   };
+  ```
 
-    ```
+  - Two Ways to pass value back up from the child components to the parent component:
 
-    - Two Ways to pass value back up from the child components to the parent component: 
-        - Passing a state variable down to the Child components and then update the state of the Parent component
-        - `useContext` Hooks 
-    
-    - Redux - state management 
+    - Passing a state variable down to the Child components and then update the state of the Parent component
+    - `useContext` Hooks
 
-    - Not all react component will render something to HTML, ie, 
+  - Redux - state management
 
-    ```js
-    const Child = ({ setText }) => {
+  - Not all react component will render something to HTML, ie,
+
+  ```js
+  const Child = ({ setText }) => {
     return <Grandchild setText={setText} />;
   };
 
@@ -854,36 +857,38 @@ Here is what I find useful while working through this take home challenge. I onl
       </MyComponent>
     );
   };
+  ```
 
-    ```
+  - How to read through an unfamiliar full stack codebase?
 
-    - How to read through an unfamiliar full stack codebase? 
-        - start with backend (server.js) 
-        - then the frontend: for instance in React frontend: 
-            - index.js
-            - App.js
-            - Package.json
-            - Specific component to update a certain feature/page (ie, Dashboard)
+    - start with backend (server.js)
+    - then the frontend: for instance in React frontend:
 
-        - TIPS: Typing letter "T" in Github repo page, you can search for specific page or route 
-        - TIPS: search the specific variables/codes in the search bar in Gtihub can help you to narrow down what you are looking for 
-       - doing `npm test` can be helpful to test if the codebase is working as expected 
-       - Suggested to update codes through VSC or any code editing tools, instead of directly through Github
-       - This is a great start to know how to make contribution to a large open source codebase! 
+      - index.js
+      - App.js
+      - Package.json
+      - Specific component to update a certain feature/page (ie, Dashboard)
 
-- Reflection: 
+    - TIPS: Typing letter "T" in Github repo page, you can search for specific page or route
+    - TIPS: search the specific variables/codes in the search bar in Gtihub can help you to narrow down what you are looking for
+    - doing `npm test` can be helpful to test if the codebase is working as expected
+    - Suggested to update codes through VSC or any code editing tools, instead of directly through Github
+    - This is a great start to know how to make contribution to a large open source codebase!
 
-    - I think this session works out better than the previous session. I feel like the office hours style suggested by Mentor Jenny is definitely working! 
-    - Every students get to participate and ask their specific questions on the problems or issues they encountered. 
+- Reflection:
 
-## Notes 04/14/22 - 04/15/22 
+  - I think this session works out better than the previous session. I feel like the office hours style suggested by Mentor Jenny is definitely working!
+  - Every students get to participate and ask their specific questions on the problems or issues they encountered.
 
-Reflection on my Take Home Challenge and Result: 
+## Notes 04/14/22 - 04/15/22
 
-After two days working on the HTML/CSS Take Home challenge, I have submitted it yesterday and got a "weak yes" from the challenge. I am super glad I passed this challenge, but I also know I need to do more practices to improve my Frontend skills so I will no longer get a "weak yes", but a "strong firm yes". **I still need to keep practicing my frontend skills every week to gradually improve my overall frontend skills.** 
+Reflection on my Take Home Challenge and Result:
 
-### React Router 
-Two ways to read the URL params/access the params of the router path: 
+After two days working on the HTML/CSS Take Home challenge, I have submitted it yesterday and got a "weak yes" from the challenge. I am super glad I passed this challenge, but I also know I need to do more practices to improve my Frontend skills so I will no longer get a "weak yes", but a "strong firm yes". **I still need to keep practicing my frontend skills every week to gradually improve my overall frontend skills.**
+
+### React Router
+
+Two ways to read the URL params/access the params of the router path:
 
 ```js
 import React from "react";
@@ -908,12 +913,13 @@ export default function App() {
   );
 }
 ```
-Here is where you can find more info regarding the `useParams` and `props.match`: 
+
+Here is where you can find more info regarding the `useParams` and `props.match`:
+
 - `useParams`: [Go to useParams](https://v5.reactrouter.com/web/api/Hooks/useparams)
 - `props.match`: [Go to Route props](https://v5.reactrouter.com/web/api/Route/component)
 
-
-### React setState, useEffect, & setTimeOut 
+### React setState, useEffect, & setTimeOut
 
 ```js
 import React, { useState, useEffect } from "react";
@@ -926,7 +932,7 @@ import React, { useState, useEffect } from "react";
  * 4. Stop ticking the timer when it is larger than 1,000,000; <-- this took me a while ~ I realize after searching, I should be adding if condition in the render function and not within the setTimeout function. 
  */
 export default function App() {
-  const [counter, setCounter] = useState(0); //1. 
+  const [counter, setCounter] = useState(0); //1.
   useEffect(() => {
     const timeout = setTimeout(() => {
       let temp = counter === 0 ? 1 : counter;
@@ -936,14 +942,13 @@ export default function App() {
   }, [counter]);
 
   return (
-    <div> 
+    <div>
       {counter > 1000000 //4.
-        ? "Stop counting since it is over 1,000,000 ticks" 
+        ? "Stop counting since it is over 1,000,000 ticks"
         : counter}
     </div>
   );
 }
-
 ```
 
 ### Component Lifecycle in React
@@ -952,17 +957,25 @@ export default function App() {
 
 Read more [here](https://jaketrent.com/post/what-does-mount-mean-in-react)!!
 
+## Notes 04/16/22
+
+### One-on-One with Frontend Mentor Jenny Xing @ Formation
+
+Takeaways:
+
+-
 
 ## Notes 04/17/22
 
-### Event Loop 
+### Event Loop
+
 This is how events and asynchronous operations are handled in JavaScript!!
 
-Basic Terms (bold ones) that help you to understand what an event loop is: 
+Basic Terms (bold ones) that help you to understand what an event loop is:
 
-- Heap: memory allocation 
+- Heap: memory allocation
 
-- **Stack** 
+- **Stack**
 
 - **Web APIs**
 
@@ -972,31 +985,31 @@ Basic Terms (bold ones) that help you to understand what an event loop is:
 
 Great video to go through what an event loop is [here](https://www.youtube.com/watch?v=8aGhZQkoFbQ)!!
 
-
 ### React (Tic Tac Toe Tutorial) - Class Components
 
-[Here](https://reactjs.org/tutorial/tutorial.html) is where you can find the tutorial for this exercise!! 
+[Here](https://reactjs.org/tutorial/tutorial.html) is where you can find the tutorial for this exercise!!
 
-#### What is React? 
+#### What is React?
 
 ```
 React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
 ```
 
 ### Controlled Components
-Any child components that are fully in control by the parent component is considereed as "Controlled Components". For instance in the Tic Tac Toe game, all the Square components (that do not have their own individual states and only take in values that are passed in from the parent component) are considered Controlled Components of the Board component (parent compoment). 
 
-### Why Immutability is important in React? 
+Any child components that are fully in control by the parent component is considereed as "Controlled Components". For instance in the Tic Tac Toe game, all the Square components (that do not have their own individual states and only take in values that are passed in from the parent component) are considered Controlled Components of the Board component (parent compoment).
+
+### Why Immutability is important in React?
 
 - Complex Features Become Simple
-ie, "Time travel" feature ~ "that allows us to review the tic-tac-toe game’s history and “jump back” to previous moves."
+  ie, "Time travel" feature ~ "that allows us to review the tic-tac-toe game’s history and “jump back” to previous moves."
 
 ```
 Avoiding direct data mutation lets us keep previous versions of the game’s history intact, and reuse them later.
 ```
 
 - Detecting Changes
-Easier to detect changes when we can just simply compare the immutable object with the copied object to see any differences 
+  Easier to detect changes when we can just simply compare the immutable object with the copied object to see any differences
 
 - Determining When to Re-Render in React (_still not fully understood?!_)
 
@@ -1012,14 +1025,14 @@ You can learn more about shouldComponentUpdate() and how you can build pure comp
 In React, function components are a simpler way to write components that only contain a render method and don’t have their own state. Instead of defining a class which extends React.Component, we can write a function that takes props as input and returns what should be rendered.
 ```
 
-### Taking Turn (X or O) 
+### Taking Turn (X or O)
 
-1. Create a bool state variable ie, "isXNext" 
-2. Use the ternary operator (based of the isXNext bool state) to know whether it is the "X" or "O" player turn 
+1. Create a bool state variable ie, "isXNext"
+2. Use the ternary operator (based of the isXNext bool state) to know whether it is the "X" or "O" player turn
 
-### Creating a helpher function to calculate and declare a winner
+- Creating a helpher function to calculate and declare a winner
 
-### Lifting a state up (from Board to GameManager)
+- Lifting a state up (from Board to GameManager)
 
 ### concat method is more preferable than push
 
@@ -1029,17 +1042,364 @@ Unlike the array push() method you might be more familiar with, the concat() met
 
 ### Tutorials
 
-[Here](https://reactjs.org/tutorial/tutorial.html) is where you can find the tutorial for this exercise!! 
+[Here](https://reactjs.org/tutorial/tutorial.html) is where you can find the tutorial for this exercise!!
 
-
-### Data Immutability in React 
+### Data Immutability in React
 
 Practice more [here](https://codesandbox.io/s/immutable-data-exercise-solved-p6k6co)!!! ~ pay closer attention to 2D array!!!
 
 ### Simple Node Server.js
 
-Practice more [here](https://codesandbox.io/s/formation-node-setup-solved-sort-of-hur8sp)!! 
+Practice more [here](https://codesandbox.io/s/formation-node-setup-solved-sort-of-hur8sp)!!
 
+## Notes 04/30/22
+
+### JavaScript String Manipulation (different Js methods)
+
+1. isPlural function - using `endsWith(string)` js method
+
+```js
+/*
+Create a function that takes in a word and determines whether or not it is plural. A plural word is one that ends in "s".
+
+This is an oversimplification of the English language. We are ignoring edge cases like "goose" and "geese", "fungus" and "fungi", etc.
+*/
+//There are 3 common ways to do this:
+
+function isPlural(word) {
+  return word.endsWith("s");
+}
+
+function isPlural(word) {
+  return word[word.length - 1] == "s";
+}
+
+function isPlural(word) {
+  return word.charAt(word.length - 1) === "s";
+}
+```
+
+2. findNemo function - using `findIndex(cb)` method (the cb is similar to filter method)
+
+```js
+/*
+You're given a string of words. You need to find the word "Nemo", and return a string like this: "I found Nemo at [the order of the word you find Nemo]!".
+
+If you can't find Nemo, return "I can't find Nemo :(".
+
+Notes
+! , ? . are always separated from the last word.
+
+Nemo will always look like Nemo, and not NeMo or other capital variations.
+
+Nemo's, or anything that says Nemo with something behind it, doesn't count as Finding Nemo.
+
+If there are multiple Nemo's in the sentence, only return the first one.
+
+*/
+//my attempt
+function findNemo(sentence) {
+  const foundWord =
+    sentence.split(" ").findIndex((word) => word === "Nemo") + 1;
+  return foundWord
+    ? "I found Nemo at " + foundWord + "!"
+    : "I can't find Nemo :(";
+}
+
+//better attempt
+const findNemo = (sentence) => {
+  const index = sentence.split(" ").findIndex((e) => e === "Nemo");
+  return index >= 0 ? `I found Nemo at ${index + 1}!` : "I can't find Nemo :(";
+};
+
+//other attempt
+function findNemo(sentence) {
+  return sentence.includes("Nemo ")
+    ? "I found Nemo at " + (sentence.split(" ").indexOf("Nemo") + 1) + "!"
+    : "I can't find Nemo :(";
+}
+```
+
+3. Remove Trailing and Leading Zeros - `parseFloat(string)` method (string -> number) will remove trailing and leading zeros automatically. You only need to use `toString()` method (number -> string) to turn to a string and return output.
+
+```js
+/*
+Create a function that takes in a number as a string n and returns the number without trailing and leading zeros.
+
+Trailing Zeros are the zeros after a decimal point which don't affect the value (e.g. the last three zeros in 3.4000 and 3.04000).
+Leading Zeros are the zeros before a whole number which don't affect the value (e.g. the first three zeros in 000234 and 000230).
+Examples
+removeLeadingTrailing("230.000") ➞ "230"
+
+removeLeadingTrailing("00402") ➞ "402"
+
+removeLeadingTrailing("03.1400") ➞ "3.14"
+
+removeLeadingTrailing("30") ➞ "30"
+
+Notes
+Return a string.
+If you get a number with .0 on the end, return the integer value (e.g. return "4" rather than "4.0").
+If the number is 0, 0.0, 000, 00.00, etc... return "0".
+*/
+//my attempt
+function removeLeadingTrailing(n) {
+  return parseFloat(n).toString();
+}
+
+//better attempt
+const removeLeadingTrailing = (n) => parseFloat(n).toString();
+```
+
+4. `Recursion` to Repeat a String n Number of Times
+
+Recursion is the act of a function that is calling itself
+
+https://www.freecodecamp.org/news/three-ways-to-repeat-a-string-in-javascript-2a9053b93a2d/
+
+```js
+/*
+Create a recursive function that takes two parameters and repeats the string n number of times. The first parameter txt is the string to be repeated and the second parameter is the number of times the string is to be repeated.
+
+String.prototype.repeat() is not allowed
+
+Examples
+repetition("ab", 3) ➞ "ababab"
+
+repetition("kiwi", 1) ➞ "kiwi"
+
+repetition("cherry", 2) ➞ "cherrycherry"
+
+Notes
+The second parameter of the function is positive integer.
+*/
+
+//Solution from the FreeCodeCamp link
+function repetition(txt, n) {
+  if (n < 0) return "";
+  if (n === 1) return txt;
+  else return txt + repetition(txt, n - 1);
+}
+
+//Another way:
+function repetition(txt, n) {
+  return n ? txt + repetition(txt, n - 1) : "";
+}
+
+//Another way that is easier to understand (similar to first way):
+function repetition(txt, n) {
+  if (n == 1) {
+    return txt;
+  }
+  return txt + repetition(txt, n - 1);
+}
+```
+
+5. Convert to Decimal Notation - `map` and `parseFloat` methods
+
+```js
+/*
+Create a function to convert an array of percentages to their decimal equivalents.
+
+Examples
+convertToDecimal(["1%", "2%", "3%"]) ➞ [0.01, 0.02, 0.03]
+
+convertToDecimal(["45%", "32%", "97%", "33%"]) ➞ [0.45, 0.32, 0.97, 0.33]
+
+convertToDecimal(["33%", "98.1%", "56.44%", "100%"]) ➞ [0.33, 0.981, 0.5644, 1]
+*/
+
+//my attempt:
+function convertToDecimal(perc) {
+  return perc.map((num) => parseFloat(num) * 0.01);
+}
+
+//Better attempt:
+function convertToDecimal(perc) {
+  return perc.map((x) => parseFloat(x) / 100);
+}
+```
+
+6. Reverse the Case
+
+```js
+/*
+Given a string, create a function to reverse the case. All lower-cased letters should be upper-cased, and vice versa.
+
+Examples
+reverseCase("Happy Birthday") ➞ "hAPPY bIRTHDAY"
+
+reverseCase("MANY THANKS") ➞ "many thanks"
+
+reverseCase("sPoNtAnEoUs") ➞ "SpOnTaNeOuS"
+*/
+
+//my attempt
+function reverseCase(str) {
+  return str
+    .split("")
+    .map((char) => {
+      return char === char.toLowerCase()
+        ? char.toUpperCase()
+        : char.toLowerCase();
+    })
+    .join("");
+}
+
+//better attempt
+function reverseCase(str) {
+  return [...str]
+    .map((c) => (c.toLowerCase() == c ? c.toUpperCase() : c.toLowerCase()))
+    .join("");
+}
+```
+
+7. Count Instances of a Character in a String - using `[...str]` to turn a string into an array that split all the characters of the string. Then using the `filter` method to find the matched character. Using the `.length` to find the length of the filtered array
+
+```js
+/*
+Create a function that takes two strings as arguments and returns the number of times the first string (the single character) is found in the second string.
+
+Examples
+charCount("a", "edabit") ➞ 1
+
+charCount("c", "Chamber of secrets") ➞ 1
+
+charCount("b", "big fat bubble") ➞ 4
+
+Notes
+Your output must be case-sensitive (see second example).
+*/
+
+function charCount(myChar, str) {
+  return [...str].filter((char) => char === myChar).length;
+}
+
+//better attempt
+function charCount(myChar, str) {
+  return [...str].filter((x) => x === myChar).length;
+}
+```
+
+8. Say "Hello" Say "Bye"
+
+```js
+/*
+Write a function that takes a string name and a number num (either 0 or 1) and return "Hello" + name if num is 1, otherwise return "Bye" + name.
+
+Examples
+sayHelloBye("alon", 1) ➞ "Hello Alon"
+
+sayHelloBye("Tomi", 0) ➞ "Bye Tomi"
+
+sayHelloBye("jose", 0) ➞ "Bye Jose"
+
+Notes
+The name you return must be capitalized.
+*/
+
+//My attempt
+function sayHelloBye(name, num) {
+  const personName = name.charAt(0).toUpperCase() + name.slice(1);
+  return num === 0 ? "Bye " + personName : "Hello " + personName;
+}
+
+// better attempt
+const sayHelloBye = (name, num) =>
+  (num ? "Hello " : "Bye ") + name[0].toUpperCase() + name.slice(1);
+
+//Optimized my attempt: (remove DRY code)
+function sayHelloBye(name, num) {
+  const personName = name[0].toUpperCase() + name.slice(1);
+  return (num ? "Hello " : "Bye ") + personName;
+}
+```
+
+9. Move Capital Letters to the Front - using `.match()` method and `regex`
+
+```js
+/*
+Create a function that moves all capital letters to the front of a word.
+
+Examples
+capToFront("hApPy") ➞ "APhpy"
+
+capToFront("moveMENT") ➞ "MENTmove"
+
+capToFront("shOrtCAKE") ➞ "OCAKEshrt"
+
+Notes
+Keep the original relative order of the upper and lower case letters the same.
+*/
+
+function capToFront(s) {
+  return s.match(/[A-Z]/g).join("") + s.match(/[a-z]/g).join("");
+}
+
+function capToFront(s) {
+  let lowerCase = [...s].filter((l) => l === l.toLowerCase());
+  let upperCase = [...s].filter((l) => l === l.toUpperCase());
+  return [...upperCase, ...lowerCase].join("");
+}
+
+function capToFront(s) {
+  let upper = "";
+  let lower = "";
+  for (let letter of s) {
+    letter.toUpperCase() == letter ? (upper += letter) : (lower += letter);
+  }
+  return upper + lower;
+}
+```
+
+10. Recursion: Palindrome Word
+
+https://codeburst.io/learn-and-understand-recursion-in-javascript-b588218e87ea
+
+```js
+/*
+Create a recursive function that determines whether a word is a palindrome or not.
+
+Examples
+isPalindrome("madam") ➞ true
+
+isPalindrome("adieu") ➞ false
+
+isPalindrome("rotor") ➞ true
+
+Notes
+All inputs are in lowercase.
+*/
+
+function isPalindrome(wrd) {
+  return (
+    !wrd || (wrd[0] === wrd[wrd.length - 1] && isPalindrome(wrd.slice(1, -1)))
+  );
+}
+
+function isPalindrome(wrd) {
+  let base = wrd.length === 0 ? "" : isPalindrome(wrd.substr(1)) + wrd[0];
+
+  let reversed = wrd.split("").reverse().join("");
+  let original = wrd;
+
+  return reversed === original;
+}
+```
+
+### More on Recursion
+
+Recursion is the act of a function that is calling itself
+
+https://www.freecodecamp.org/news/three-ways-to-repeat-a-string-in-javascript-2a9053b93a2d/
+
+Understanding how recursion works in numbers and strings:
+
+https://codeburst.io/learn-and-understand-recursion-in-javascript-b588218e87ea
+
+More practice in Recursion
+
+https://edabit.com/collection/YJH4pAyqDbhLc4STc
 
 <!--
 
