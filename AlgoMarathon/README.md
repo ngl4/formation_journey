@@ -263,6 +263,26 @@ Spent several mins to watch through some videos related to this algo.
 
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/Searching/ShiftedBinarySearch.js)
 
+### Learn Strength Algo: Three Number Sum
+Medium
+
+- Backtracking Brute Force Solution (basic) - O(n^3)
+- Two-pointers Solution (more optimized) - O(n^2)
+
+https://www.algoexpert.io/questions/Three%20Number%20Sum
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 50  | --  | --  | --  | --  | --  | --  |
+
+Attempt#1 
+- no success in implementing the solution 
+- spent most of the time understanding the problem and the approach 
+- I think I have spent slightly longer time than expected on the problem. 
+- I will make sure to be aware of this when working on other algo problems 
+
+[Details here]()
+
 <!--
 
 ## Week 1: Focus on Arrays
