@@ -297,7 +297,7 @@ https://leetcode.com/problems/backspace-string-compare/
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Minutes | 30  | --  | --  | --  | --  | --  | --  |
 
-[Details here]()
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Strings/BackSpaceStringCompare.js)
 
 
 ### Algo: Minimum Domino Rotations For Equal Row
@@ -313,7 +313,7 @@ https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
 
 Attempt#1: stopped at 30 mins coding up the solution (only a few test cases passed) and look 20 mins to review solutions.
 
-[Details here]()
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/minDominosRotationEqualRow.js)
 
 
 ## Week 3: Arrays 
