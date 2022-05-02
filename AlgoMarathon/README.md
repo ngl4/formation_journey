@@ -266,6 +266,8 @@ Spent several mins to watch through some videos related to this algo.
 ### Learn Strength Algo: Three Number Sum
 Medium
 
+https://www.algoexpert.io/questions/Three%20Number%20Sum
+
 - Backtracking Brute Force Solution (basic) - O(n^3)
 - Two-pointers Solution (more optimized) - O(n^2)
 
@@ -280,6 +282,66 @@ Attempt#1
 - spent most of the time understanding the problem and the approach 
 - I think I have spent slightly longer time than expected on the problem. 
 - I will make sure to be aware of this when working on other algo problems 
+
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/ThreeNumSum.js)
+
+
+### Algo: Backspace String Compare
+Easy
+
+String + Two-Pointers
+
+https://leetcode.com/problems/backspace-string-compare/ 
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 30  | --  | --  | --  | --  | --  | --  |
+
+[Details here]()
+
+
+### Algo: Minimum Domino Rotations For Equal Row
+Medium
+
+Array + Greedy
+
+https://leetcode.com/problems/minimum-domino-rotations-for-equal-row/
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 50  | --  | --  | --  | --  | --  | --  |
+
+Attempt#1: stopped at 30 mins coding up the solution (only a few test cases passed) and look 20 mins to review solutions.
+
+[Details here]()
+
+
+## Week 3: Arrays 
+(May 2nd - May 8th)
+
+### Algo: Smallest Difference
+Medium 
+
+Array 
+
+https://www.algoexpert.io/questions/Smallest%20Difference
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | --  | --  | --  | --  | --  | --  | --  |
+
+[Details here]()
+
+### Learn Strength Algo: Water Area
+Hard 
+
+Array + Dynamic Programming 
+
+https://www.algoexpert.io/questions/Water%20Area
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | --  | --  | --  | --  | --  | --  | --  |
 
 [Details here]()
 
