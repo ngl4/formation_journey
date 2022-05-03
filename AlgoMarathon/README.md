@@ -319,6 +319,18 @@ Attempt#1: stopped at 30 mins coding up the solution (only a few test cases pass
 ## Week 3: Arrays 
 (May 2nd - May 8th)
 
+### Algo: Merge 3 sorted lists
+Easy 
+
+Array 
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 25  | --  | --  | --  | --  | --  | --  |
+
+[Details here]()
+
+
 ### Algo: Smallest Difference
 Medium 
 
