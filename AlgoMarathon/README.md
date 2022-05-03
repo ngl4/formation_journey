@@ -344,7 +344,7 @@ https://www.algoexpert.io/questions/Smallest%20Difference
 
 Attempt#1: it includes the time to watch the video explanation of the problem
 
-[Details here]()
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/smallestDifference.js)
 
 ### Learn Strength Algo: Water Area
 Hard 
