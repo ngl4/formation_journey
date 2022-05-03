@@ -328,7 +328,7 @@ Array
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Minutes | 25  | --  | --  | --  | --  | --  | --  |
 
-[Details here]()
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/mergeThreeLists.js)
 
 
 ### Algo: Smallest Difference
