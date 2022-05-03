@@ -340,7 +340,9 @@ https://www.algoexpert.io/questions/Smallest%20Difference
 
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Minutes | --  | --  | --  | --  | --  | --  | --  |
+| Minutes | 40  | --  | --  | --  | --  | --  | --  |
+
+Attempt#1: it includes the time to watch the video explanation of the problem
 
 [Details here]()
 
