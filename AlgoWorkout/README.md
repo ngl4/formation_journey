@@ -87,7 +87,7 @@
 
 ## Vinit Parikh 05/04/22 (Stack - Medium)
 
-- [1 - js]()
+- [1 - js](https://github.com/ngl4/formation_journey/blob/main/AlgoWorkout/Vinit/05-04-22.js)
 
 **Reflection & Takeaways**
 - This is a problem that seems easy but it is actually pretty challenging. 
