@@ -85,10 +85,32 @@
 
 - One more thing to look into while doing the homework is to understand `why trie, this data structure, is better than the use of other data structures?` - I think this is great to do a comparison in their Time & Space Complexity!! 
 
+## Vinit Parikh 05/04/22 (Stack - Medium)
+
+- [1 - js]()
+
+**Reflection & Takeaways**
+- This is a problem that seems easy but it is actually pretty challenging. 
+- The brute force approach is using a nested loop (for loop and a while loop) with the Time Complexity of O(n^2)
+- The Optimized approach of the problem is using Stack. It is also using a nested loop (for loop and while loop), but the Time Complexity is O(n), since the time complexity in stack (while loop) is so minor when looking into big data, as a result, the total time complexity is O(n)
+- Vinit is thorough in his explanation and it is great to see how he works through the optimized version of the solution to this problem. Seeing the visualization that Vinit has set up helps me to understand how he is able to visualize through a problem. Best way to unblock ourselves is to `visualize` the problem/ the approach `step-by-step`. 
+- In this session, `my biggest takeaway is to be able to identify our weaknesses during practice and work through a bunch of problems related to that particular area`. We are all learning and practicing as we go and Vinit is showing us how he would be able to handle a problem and `explain his thought process out loud, and this eventually helps him to identify the bug in the codes`. 
+
+What I have learned: 
+- In JavaScript, you can do this to autofill an entire array - `let randomArr = new Array(input.length).fill(0)`
+- Difference in using `let randomArr = []` vs `let randomArr = new Array(input.length).fill(0)` ?
+    - Depends on the problem you encountered, if you need the particular index to swap with other values and the default ones are still in place without the change of their indices unless needed, then I think it would be best to create an array and fill it up with values. Please disregard this statement if you find it confusing. I am just writing down what I think. 
+
+What I think I did well today: 
+- Ask if I could read through the problem out loud. 
+- Ask questions since I am not entirely sure what the problem is, through the answer of the interviewer, it helps me to fully understand what the problem is about
+- Pay close attention 
 
 
 
 <!-- 
+
+##
 
 - []()
 

@@ -343,6 +343,7 @@ https://www.algoexpert.io/questions/Smallest%20Difference
 | Minutes | 40  | --  | --  | --  | --  | --  | --  |
 
 Attempt#1: it includes the time to watch the video explanation of the problem
+In this attempt, I have started to screen record myself for learning purpose! Thanks to Fellow Ryan Sam who has suggested me to do this! 
 
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/smallestDifference.js)
 
@@ -355,7 +356,9 @@ https://www.algoexpert.io/questions/Water%20Area
 
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Minutes | --  | --  | --  | --  | --  | --  | --  |
+| Minutes | 25  | --  | --  | --  | --  | --  | --  |
+
+Attempt#1: I took the time to understand the problem and try to think of approaches for around 10 mins. I realize I did not make any progress, them I have started to go over the video explanation of the problem. 
 
 [Details here]()
 

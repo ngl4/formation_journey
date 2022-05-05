@@ -1,4 +1,6 @@
 /*
+Array Type Problem 
+
 Prompt: 
 
 Given an array of number that may contain duplicates, return a new array without the duplicates.
