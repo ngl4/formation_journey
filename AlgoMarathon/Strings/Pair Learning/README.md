@@ -23,3 +23,9 @@ i = 1, j = 1
  ```
 
 I have had a great session with Carlos and learned something new from him. The biggest takeaway from this session is to be constantly asking questions and being curious on why the programmer has chosen to approach the problem in a certain way ~ even if we may or may not come up with an answer, it is still good that we have thought and had a deeper discussion on the problem rather than simply just working to get a correct solution only. We also got the chance to get to know each other a little more at the end of the session. (in terms of our interest area)
+
+
+## Arthur Damm (05/06/22)
+This is the best session I have had. I have learned a ton a ton from Arthur!! He is amazing! Based on how Arthur explains a problem, it helps me to understand how he thinks of an approach and how he pseudocode the problem. I have a marvelous experience during this session. 
+
+Takeaways: (coming soon!)
