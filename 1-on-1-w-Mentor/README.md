@@ -6,7 +6,17 @@ Questions, Experience, Algo Problem, Anything that the Mentor would like to shar
 **Takeaways & Reflection:**
 - `Know your weaknesses and practice a lot to make them into your strengths` - I really think this is my biggest takeaway from the conversation. It is so crucial to identify what my weakness is and to work on making it into a strength. 
 
+- When learning the patterns, focus mainly on the easy leetcode problems 
+
 - Learning to find patterns by doing a lot of similar problems to understand how they work
+
+- Take a week off from that particular problem type and revisit again to see what you learned sticked
+
+- The more repetition, the better it is to build up your muscle memory 
+
+- Being able to work through the fundamentals really quickly ie, able to traverse a tree using DFS or BFS easily 
+
+- Practice by getting as many problems as possible, and deeply analyze the possible solutions. 
 
 - Know your primary language really well
 
