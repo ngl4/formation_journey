@@ -28,4 +28,17 @@ I have had a great session with Carlos and learned something new from him. The b
 ## Arthur Damm (05/06/22)
 This is the best session I have had. I have learned a ton a ton from Arthur!! He is amazing! Based on how Arthur explains a problem, it helps me to understand how he thinks of an approach and how he pseudocode the problem. I have a marvelous experience during this session. 
 
-Takeaways: (coming soon!)
+**Takeaways**: 
+- Balance out `the time spent to look at a bunch of problems to identify the common pattern with a problem type` (ie, Array, Stack, Tree, Linked List, Recursion, etc.) and `the time spent on solving and implementing the problem using the engineering methods` 
+  - For instance, 5mins approach, 5-10mins reviewed through the solutions - for identifying general pattern in a problem type
+  - And 15-30mins applied the engineering methods on a particular problem - to assess and make sure you have fully understood a problem type 
+
+- `Understanding` and `Memorizing` are both necessary when learning the patterns of each problem type or algorithms. You need to memorize in order to support your understanding, and similarly through understanding, it helps you to remember. 
+
+- When you are stucked, you can walk through your thought process and `state your thought`, and `ask` the interviewer, `if you are on the right track`. 
+
+- Learning DSA requires us to learn the principle (pattern) and then know how to practice (implement) them
+
+- `Lee215` is one of the Leetcode members who would always provide a solution to a Leetcode problem in multiple languages ~ Arthur finds his answer to be really helpful!!
+
+- Python, JavaScript (interpreted language, fast to process, but slower to run), Java (compiled language - once updated, run fast)
