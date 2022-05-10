@@ -33,7 +33,24 @@ I had a great session with Jiyoon. She was prepared to come in the session and s
 
 I have learned something new regarding the O(n) time and space complexity - I feel like Jiyoon has a really good understanding on them. She explains to me the importance to talk about `what “n” means` and `the importance to apply the complexity based on the problem scenario, instead of just assuming` all for loop is going to return O(n) and all nested for loop will return O(n^2). This is a really good point and I will keep it in mind whenever I run into future algo problem. 
 
-## 
+## Stoney (05/09/22)
+
+**Takeaways**
+Interesting new approach introduced by Stoney to solve the problem. I was able to successfully code out the approach that Stoney has suggested. I have learned something new during this session. Interesting idea to use `increment` and `decrement` as a way to keep track of number of repetitive elements. Really smart approach suggested by Stoney: 
+
+```js
+function numElementsRepeatedX(input, target) {
+    let numOfRepXtime = 0;
+    let numMap = new Map(); 
+    for (let i = 0; i < input.length; i++) {
+      const count = (numMap.get(input[i]) || 0) + 1; 
+      numMap.set(input[i], count); 
+      if (count === target) numOfRepXtime++;
+      if (count === target + 1) numOfRepXtime--; //decrement once if the value is found to have repeated more than the target time, benefit: it will not keep decrementing if the count is still incrementing of a particular value 
+    }
+  return numOfRepXtime;  
+}
+```
 
 
 

@@ -374,12 +374,80 @@ Attempt#1: I took the time to understand the problem and try to think of approac
 
 [Details here]()
 
+
+## Week 4: Working through multiple EASY (or some Medium) problems 
+
+### Contains Duplicate (Array)
+
+https://leetcode.com/problems/contains-duplicate/
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 10  | --  | --  | --  | --  | --  | --  |
+
+Attempt#1: try to solve it within 5 mins - no success - since I forgot how to add items to a set in JavaSCript. Reviewed through Neetcode video on all the approaches to the problem. Wrote down notes while watching.
+
+###  Valid Anagram (Array)
+
+https://leetcode.com/problems/valid-anagram/
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 13  | --  | --  | --  | --  | --  | --  |
+
+Attempt#1: 3 mins - success - T: O(nlogn) S: O(1) - using `split('').sort().join('')` to solve the problem - but it is not an optimal solution. Reviewed through Neetcode Video. Wrote down notes while watching.
+
+
+### Two Sum (Array)
+
+https://leetcode.com/problems/two-sum/
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 20  | --  | --  | --  | --  | --  | --  |
+
+Attempt #1: 3mins - no success - did not even start coding and can only think of nested loop approach but unable to code it out. Reviewed through Neetcode Video. Wrote down notes while watching.
+
+### Valid Palindrome (Two Pointers + String)
+
+https://leetcode.com/problems/valid-parentheses/
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | --  | --  | --  | --  | --  | --  | --  |
+
+
+### Best Time to Buy and Sell Stock (Array, DP, Sliding Window)
+
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | --  | --  | --  | --  | --  | --  | --  |
+
+### Valid Parentheses (Stack + String)
+
+https://leetcode.com/problems/valid-parentheses/
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | --  | --  | --  | --  | --  | --  | --  |
+
+## Binary Tree Level Order Traversal (Tree)
+Medium
+
+https://leetcode.com/problems/binary-tree-level-order-traversal/
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 20  | --  | --  | --  | --  | --  | --  |
+
 <!--
 
 ## Week 1: Focus on Arrays
 (April 18th - April 24th)
 
-###
+### ()
 
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |

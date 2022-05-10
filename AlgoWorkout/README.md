@@ -107,6 +107,19 @@ What I think I did well today:
 - Pay close attention 
 
 
+## Temi 05/09/22 (Sliding Window + Array + DP - Easy)
+
+- [1 - Js]()
+
+- Can be found on Leetcode: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+    - After checking on the approaches used during the session, they are also the solutions stated on Leetcode. Really eye-opening since other fellows are able to come up with solutions that are similar to what is suggested in Leetcode. 
+
+**Reflection & Takeaways**
+- Break up the problem into a smaller piece is key to coming up with a solution 
+- In order for us to look back as we go through an iteration, we need to have a flag to help us to keep track of the particular value that we can look back on. (set up a min variable)
+- I did not do so well in this workout session. I am seeing only the surface of the problem and did not think deep enough. I think I struggle with coming up with an approach. I need to be able to train myself to quickly transition from understanding the problem (making sure I truly understand the problem is KEY here). 
+- Overall, I still need to practice more. I need to be at least feel really comfortable using the brute force to solve any problem. This is the key. Once I am good at this, I can start to learn how to optimize my code. 
+
 
 <!-- 
 
