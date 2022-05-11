@@ -66,6 +66,11 @@ Cons:
     - the host should be well prepared for the session and perform just as an interviewer 
     - Time limit + interview intensive environment
 
+## _"Engineering Arguments or Debate is highly encouraged"_ 
+- If you have a strong opinion on a particular engineering practice, debate about it to win the argument!
+
+## ...
+
 <br>
 <br>
 
@@ -74,4 +79,6 @@ Cons:
 ## _"Job Hunt - Response Time to Recruiters - 24 hrs"_ 
 - Business happens fast and it does not wait - so it is crucial to respond to Recruiters message as soon as you have received them. This also gives others a better impression on you. It also show you are serious in the job hunting process. 
 - Being accountable with your career coach and make sure communicate any changes (career preferences) ahead of time
+
+
 

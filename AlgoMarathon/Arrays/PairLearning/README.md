@@ -36,7 +36,7 @@ I have learned something new regarding the O(n) time and space complexity - I fe
 ## Stoney (05/09/22)
 
 **Takeaways**
-Interesting new approach introduced by Stoney to solve the problem. I was able to successfully code out the approach that Stoney has suggested. I have learned something new during this session. Interesting idea to use `increment` and `decrement` as a way to keep track of number of repetitive elements. Really smart approach suggested by Stoney: 
+Interesting new approach introduced by Stoney to solve [this problem](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/PairLearning/repeatedXElemswStoney.js). I was able to successfully code out the approach that Stoney has suggested. I have learned something new during this session. Interesting idea to use `increment` and `decrement` as a way to keep track of number of repetitive elements. Really smart approach suggested by Stoney: 
 
 ```js
 function numElementsRepeatedX(input, target) {
@@ -54,7 +54,7 @@ function numElementsRepeatedX(input, target) {
 
 ## Mitch (05/10/22)
 
-We went over the [sortedSquared Algo Easy problem](). Mitch has showed me how he would walk through the problem step by step using the engineering methods. He also has shared a lot of great advices and a [Leetcode pattern resource](https://seanprashad.com/leetcode-patterns/) that I find super helpful! 
+We went over the [sortedSquared Algo Easy problem](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/PairLearning/sortedSquaredwMitch.js). Mitch has showed me how he would walk through the problem step by step using the engineering methods. He also has shared a lot of great advices and a [Leetcode pattern resource](https://seanprashad.com/leetcode-patterns/) that I find super helpful! 
 
 https://leetcode.com/problems/squares-of-a-sorted-array/ 
 

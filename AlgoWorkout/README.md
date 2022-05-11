@@ -109,7 +109,7 @@ What I think I did well today:
 
 ## Temi 05/09/22 (Sliding Window + Array + DP - Easy)
 
-- [1 - Js]()
+- [1 - Js](https://github.com/ngl4/formation_journey/blob/main/AlgoWorkout/Temi/05-09-22.js)
 
 - Can be found on Leetcode: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
     - After checking on the approaches used during the session, they are also the solutions stated on Leetcode. Really eye-opening since other fellows are able to come up with solutions that are similar to what is suggested in Leetcode. 
@@ -123,7 +123,7 @@ What I think I did well today:
 
 ## Temi 05/10/22 (DFS/BFS Binary Tree - Find Depth of the Tree - Easy)
 
-- [1 - Js]()
+- [1 - Js](https://github.com/ngl4/formation_journey/blob/main/AlgoWorkout/Temi/05-10-22.js)
 
 **Reflection & Takeaways**
 - It is really important to understand the `Why` behind every data structure, algorithms, approaches. Always ask why it is working in a certain way. 
