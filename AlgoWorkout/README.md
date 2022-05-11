@@ -121,6 +121,19 @@ What I think I did well today:
 - Overall, I still need to practice more. I need to be at least feel really comfortable using the brute force to solve any problem. This is the key. Once I am good at this, I can start to learn how to optimize my code. 
 
 
+## Temi 05/10/22 (DFS/BFS Binary Tree - Find Depth of the Tree - Easy)
+
+- [1 - Js]()
+
+**Reflection & Takeaways**
+- It is really important to understand the `Why` behind every data structure, algorithms, approaches. Always ask why it is working in a certain way. 
+- Being able to make decision correctly when we have a scenario where the time and space complexity are basically the same, in that case, we just pick the one that is easier to implement. In this particular problem, BFS is easier to implement than DFS. 
+
+Reflection: 
+- I think I need to fully understand the Time and Space Complexity on a Tree problem 
+in terms of DFS (Recursive stack call, Iterative stack), BFS (Queue)
+- Also I have to be really fluent in implementing and explaining all these approaches really well. 
+
 <!-- 
 
 ##

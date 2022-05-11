@@ -52,5 +52,20 @@ function numElementsRepeatedX(input, target) {
 }
 ```
 
+## Mitch (05/10/22)
+
+We went over the [sortedSquared Algo Easy problem](). Mitch has showed me how he would walk through the problem step by step using the engineering methods. He also has shared a lot of great advices and a [Leetcode pattern resource](https://seanprashad.com/leetcode-patterns/) that I find super helpful! 
+
+https://leetcode.com/problems/squares-of-a-sorted-array/ 
+
+Thank you so much that Mitch is willing to help out in sharing how he walked through a problem and how he would explain his thought process along the way. Even though he may come into the session without knowing how to approach the problem, he still able to generate a brute force approach and able to explain the optimal two-pointer solution extremely well. After hearing Mitch's explanationa and visualization, I realize I just have to rely more on the visualization to help me to understand the problem so it can help me to come up with approaches to the problem. 
+
+**Takeaways**
+- Asking questions to narrow down the best path to take (come up with the best solution to solve the problem)
+- `Putting Text into Picture`
+- Always ask `Why` you are asking certain questions - does the question matter or help you to get a better understanding of the problem?
+- `Ask the interviewer to provide an example of the problem (ie, the input and output), if not, you can come up with an example and ask the interviewer to see if they make sense`
+- Paying close attention to the instruction is key!! 
+- For Optimal solution, try to think the possibility of `bringing down the runtime by using up some additional space/memory`
 
 
