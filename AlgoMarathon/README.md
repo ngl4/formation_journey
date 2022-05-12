@@ -433,7 +433,7 @@ https://leetcode.com/problems/valid-parentheses/
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Minutes | --  | --  | --  | --  | --  | --  | --  |
 
-## Binary Tree Level Order Traversal (Tree)
+### Binary Tree Level Order Traversal (Tree)
 Medium
 
 https://leetcode.com/problems/binary-tree-level-order-traversal/
