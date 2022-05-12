@@ -447,6 +447,8 @@ Attempt#1: Trying out on Leetcode and reviewed through Neetcode video
 Attempt#2: Debugged my attempt1 codes, successfully found the issue, console.log to almost every lines to understand what is going on. Reviewed the solution. and Reviewed Neetcode video. Possible future attempt, 
 work on this problem using one of these approaches: BFS recursion, DFS iterative, DFS recursion. 
 
+[Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/BinaryTree/LevelOrderTraversal.js)
+
 
 <!--
 
