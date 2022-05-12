@@ -440,7 +440,13 @@ https://leetcode.com/problems/binary-tree-level-order-traversal/
 
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Minutes | 20  | --  | --  | --  | --  | --  | --  |
+| Minutes | 20  | 60  | --  | --  | --  | --  | --  |
+
+Attempt#1: Trying out on Leetcode and reviewed through Neetcode video
+
+Attempt#2: Debugged my attempt1 codes, successfully found the issue, console.log to almost every lines to understand what is going on. Reviewed the solution. and Reviewed Neetcode video. Possible future attempt, 
+work on this problem using one of these approaches: BFS recursion, DFS iterative, DFS recursion. 
+
 
 <!--
 
