@@ -54,15 +54,28 @@ output: false || false ===> false
 
 */
 var isMonotonic = function(nums) {
-    //easier to understand + cleaner solution - using one pass only 
-    let increasing = true, decreasing = true; 
-    for (let i = 0; i < nums.length - 1; ++i) {
-        if (nums[i] > nums[i+1]) increasing = false; 
-        if (nums[i] < nums[i+1]) decreasing = false; 
-        console.log("inside loop: ", increasing, decreasing); 
+    //FORMATION SOLUTION: 
+    //bitwise AND assignment: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Bitwise_AND_assignment
+    let dec = true; 
+    let inc = true; //1
+    
+    for (let i = 1; i < nums.length; i++) {
+        dec &= nums[i-1] >= nums[i];  //0
+        inc &= nums[i-1] <= nums[i];  //1
+        console.log(dec, inc)
     }
-    console.log("outside loop: ", increasing, decreasing); 
-    return increasing || decreasing; 
+    console.log("out: ", dec, inc)
+    return dec || inc; //0 = false, 1 = true
+
+    //LEETCODE SOLUTION: easier to understand + cleaner solution - using one pass only 
+    // let increasing = true, decreasing = true; 
+    // for (let i = 0; i < nums.length - 1; ++i) {
+    //     if (nums[i] > nums[i+1]) increasing = false; 
+    //     if (nums[i] < nums[i+1]) decreasing = false; 
+    //     console.log("inside loop: ", increasing, decreasing); 
+    // }
+    // console.log("outside loop: ", increasing, decreasing); 
+    // return increasing || decreasing; 
     
     //My first approach: repetitive when doing it in two pass 
     // if (nums.length < 2) return true; //removed in optimal solution
