@@ -65,7 +65,90 @@ How to ask for help:
 3. Remember that it's better to ask for hints & finish coding than to get stuck. You should aim to get a full optimized solution by midway through the interview.
 ```
 
-## ...
+## Vinit (05/12/22) 
+
+Meeting with Mentor Vinit to walk through an Easy problem. It is super great to see the thought process and story that Vinit told when he is solving the problem. 
+
+**Takeaways:**
+- Understand the problem and able to `re-tell a story` from it ~ It is super amazing to see how Vinit walked through the problem as if he is telling a story
+    - He went through initially the possible approaches to the problem 
+    - He started mentioning the possible solution in brute force and the time complexity of O(N^2) and mentioned the inefficiency of it 
+    - He then stated another possible approach which may require sorting, but he argued back and mentioned that since it does not make sense to use sorting in this situation due to the chronological order tof the days (left to right)
+    - After that, he stated there should be a O(N) approach to this problem. He tried to visualize a possible approach by giving a hypothentical example, ie, if I am selling at `4` on day 6 (in Example 1 input), what is the smallest potential lowest price that he could have bought - and looking back, the lowest price in the past days is `1` from day 2. Then, if we are selling at `6` on day 5, what is the smallest potential lowest price, and that is `1` on day 2. Then keep going, if we are selling at `3` on day 4, what is the smallest potential lowest price, and that is still `1` on day 2, and then go on and on ... 
+    - So the greatest I learn from this explanation is that it is really thorough and easy to understand. I can be on the same pace as Vinit was explaining the problem. 
+
+- `Pseudo-coding` should be so clear that you already see a `skeleton (schema)` of how your code would look!! It should also helps you to keep you back on track while you are coding (building) - `the schema should help you to handle all the easy stuff` ie, iterate through the input from left to right (chronologically) -> you know you need a for loop. See more in the below pseudo code from Vinit!! 
+
+- Pretent you are the `compiler` when you are testing your approach/solution 
+
+- Step away from the coding problem, and think about it as a normal daily problem. `How would you solve it without thinking it as a coding problem? how would you solve it as a normal math problem?`  
+
+```js
+
+/*
+Leetcode (Easy)
+
+You are given an array prices where prices[i] is the price of a given stock on the ith day.
+
+You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+
+Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
+
+Example 1:
+
+Input: prices = [7,1,5,3,6,4]
+Output: 5
+Explanation: Buy on day 2 (price = 1) and sell on day 5 (price = 6), profit = 6-1 = 5.
+Note that buying on day 2 and selling on day 1 is not allowed because you must buy before you sell.
+Example 2:
+
+Input: prices = [7,6,4,3,1]
+Output: 0
+Explanation: In this case, no transactions are done and the max profit = 0.
+
+keep track of max profit we've seen thus far as we iterate
+we want to buy at the lowest possible price
+we want to sell at the highest possible price
+
+iterate left to right in chronological order
+keep track of highest profit we've seen so far
+keep track of minimum number (as our ideal buying price)
+every item we look at is treated as a potential selling price
+for each number, calculate profit if we were to buy at min and sell at i'th price, if that's greater than currentMaxProfit, update currentMaxProfit
+
+[7,1,5,3,6,4]
+
+maxProfit: 5
+min: 1
+
+i: 5
+curPrice: 4
+
+*/
+
+const maxProfit = (prices) => {
+  if (prices.length < 2) {
+    return 0;
+  }
+
+  let maxProfit = 0;
+  let min = prices[0];
+
+  for (let i = 1; i < prices.length; i++) {
+    const curPrice = prices[i];
+    maxProfit = Math.max(maxProfit, curPrice - min);
+    min = Math.min(min, curPrice);
+  }
+
+  return maxProfit;
+};
+
+console.log(maxProfit([]));            // 0
+console.log(maxProfit([3]));           // 0
+console.log(maxProfit([4, 3, 2, 1]));  // 0
+console.log(maxProfit([8,8,8,8]));     // 0
+console.log(maxProfit([7,1,5,3,6,4])); // 5
+```
 
 
 <!-- 
