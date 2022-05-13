@@ -374,7 +374,6 @@ Attempt#1: I took the time to understand the problem and try to think of approac
 
 [Details here]()
 
-
 ## Week 4: Working through multiple EASY (or some Medium) problems 
 
 ### Contains Duplicate (Array)
@@ -449,6 +448,15 @@ work on this problem using one of these approaches: BFS recursion, DFS iterative
 
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/BinaryTree/LevelOrderTraversal.js)
 
+
+## is Array Monotonic? (Array)
+Easy
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 30  | --  | --  | --  | --  | --  | --  |
+
+[Details here]()
 
 <!--
 
