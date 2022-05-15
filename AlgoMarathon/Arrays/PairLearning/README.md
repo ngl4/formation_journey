@@ -68,4 +68,12 @@ Thank you so much that Mitch is willing to help out in sharing how he walked thr
 - Paying close attention to the instruction is key!! 
 - For Optimal solution, try to think the possibility of `bringing down the runtime by using up some additional space/memory`
 
+## Derrick (05/13/22)
+
+We went over the [is Monotonic Array Easy problem](). Derrick has provided me feedback and things I should work on to improve. 
+
+**Takeaways**
+- shorten up the pre-coding process and make it more concise, especially the inital visualization and the time to come up with approaches
+
+
 
