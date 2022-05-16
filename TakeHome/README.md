@@ -1401,6 +1401,154 @@ More practice in Recursion
 
 https://edabit.com/collection/YJH4pAyqDbhLc4STc
 
+## Notes 05/15/22
+
+### React: setstate
+
+https://reactjs.org/docs/state-and-lifecycle.html#using-state-correctly
+
+#### What are some lifecycle methods?
+
+https://reactjs.org/docs/state-and-lifecycle.html#adding-lifecycle-methods-to-a-class
+
+See below to see how the lifecycle mehtods work:
+
+```js
+class Clock extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { date: new Date() }; //STEP#2: initialize this.state
+  }
+
+  componentDidMount() {
+    //STEP#4: Once the rendered Clock output is inserted to the DOM, React calls this lifecycle method - React asks the browser to set up a timer that calls the the component's tick() method per second
+    this.timerID = setInterval(() => this.tick(), 1000);
+  }
+
+  componentWillUnmount() {
+    //STEP#7 - If the Clock component is removed from the DOM, React calls this lifecycle method so the timer is stopped
+    clearInterval(this.timerID);
+  }
+
+  tick() {
+    //STEP#5: this method is called every second the browser calls it
+    this.setState({
+      //Using the setState method to help React to know the state has changed, and to call the render() method again
+      date: new Date(),
+    });
+  }
+
+  render() {
+    //STEP#3: calls the render method - React updates the DOM to match the Clock's rendered output
+    return (
+      <div>
+        <h1>Hello, world!</h1>
+        <h2>It is {this.state.date.toLocaleTimeString()}.</h2> {/* STEP#6 - the this.state.date is updated with the new date after the state has set to change in the tick method */}
+      </div>
+    );
+  }
+}
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(<Clock />); //STEP#1 - Class Clock component is passed in to the root.render
+```
+
+#### Should you modify state directly?
+
+- No, DO NOT modify state directly
+- You have to use setState({comment: 'Hello'}) method
+
+#### Does setting state overwrite all properties, or just the ones you provided?
+
+- No, it only update the specific state and where it is being rendered in the DOM
+
+#### Are state updates synchronous or asynchronous?
+
+- both,states updates may be asynchronious
+
+#### Why are state updates asynchronous? (batch updates)
+
+- React may batch multiple `setState()` calls into a single update for performance.
+
+- Because `this.props` and `this.state` may be updated asynchronously, you should not rely on their values for calculating the next state.
+
+- `setState()` that accepts a function rather than an object. That function will receive the previous state as the first argument, and the props at the time the update is applied as the second argument:
+
+```js
+//arrow function
+this.setState((state, props) => ({
+  counter: state.counter + props.increment,
+}));
+
+//normal function
+this.setState(function (state, props) {
+  return {
+    counter: state.counter + props.increment,
+  };
+});
+```
+
+### React: setState with Objects
+When using an object for a certain state, in order to access the specific field, similar to accessing an object, you have to use `dot notation`.
+
+https://codesandbox.io/s/react-practice-state-with-objects-solved-05-15-22-ul8dxx?file=/src/App.js 
+
+### React: useState (practice)
+More practice on `useState` (setState exercise): 
+
+https://codesandbox.io/s/react-practice-10-more-state-solved-loimr3?file=/src/App.js
+
+This is a pretty good exercise on how to `disabled a button` when it matches a certain condition 
+
+### React: useState hook
+
+https://reactjs.org/docs/hooks-state.html
+
+https://codesandbox.io/s/react-practice-use-state-solved-05-15-22-v4lzwc
+
+#### When might we want to use the useState hook?
+When you need a state or some states in your functional component 
+
+#### What is an alternative to the useState hook?
+- Class component in React (similar to below)
+
+```js
+class Example extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0
+    };
+  }
+
+  render() {
+    return (
+      <div>
+        <p>You clicked {this.state.count} times</p>
+        <button onClick={() => this.setState({ count: this.state.count + 1 })}>
+          Click me
+        </button>
+      </div>
+    );
+  }
+}
+```
+
+#### What is the advantage of using the useState hook over its alternative?
+- You do not need to write classes 
+- no more `this` and no more `this.state`
+
+#### Why does multiple calls to setState in one render cause multiple renders? How can this be prevented?
+
+- multiple calls may be batched together by React
+- How to prevent???
+
+### React: useEffect
+
+### React: Scrolling
+
+### Timer: setInterval Debugging
+
 <!--
 
 ## Notes
