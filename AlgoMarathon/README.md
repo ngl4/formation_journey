@@ -458,6 +458,21 @@ Easy
 
 [Details here]()
 
+
+## Week 5: Focus on Arrays & Trees
+
+### Kadane’s Algorithm (Arrays)
+Arrays + Dynamic Programming 
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 45  | --  | --  | --  | --  | --  | --  |
+
+Attempt#1: 15mins trials and errors, brute force double for loop 
+spent the rest of the time to understand how the algo works on Algo Expert
+
+[Details here]()
+
 <!--
 
 ## Week 1: Focus on Arrays

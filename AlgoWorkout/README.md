@@ -134,6 +134,10 @@ Reflection:
 in terms of DFS (Recursive stack call, Iterative stack), BFS (Queue)
 - Also I have to be really fluent in implementing and explaining all these approaches really well. 
 
+## Vinit 05/16/22 (Dynamic Programming - Recursion - Rolling Dice)
+
+- [1 - Js]() 
+
 <!-- 
 
 ##
