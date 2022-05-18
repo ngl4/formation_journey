@@ -158,14 +158,17 @@ I had a great session with Mitch to go through [Squares of Sorted Array]() probl
 - When thinking about optimal solution, ask yourself if it is possible to improve the runtime by allowing to use more spaces/memory, and vice versa. ~ Great point! 
 
 ## Arthur Damm (05/12/22)
+Going through DFS Recursion during the 1-on-1 algo session 
+
 Arthur will give me additional challenges that helps me to understand the problem better by going through his follow-up exercise. ie, the problem is to use DFS top down approach to solve the problem, Arthur's follow-up will be if I can solve the same problem using DFS bottom up approach. It took me a while but I gain deeper understanding on how to use recursion to traverse through a binary tree. 
 
 **Takeaways**
 - Knowing how to apply more than 1 approach to the problem is a great way to learn! 
 
 ## Brian Zhu (05/17/22)
-Notes from Brian Zhu during the Recursive Session: 
+Going through Recursion (Basics) during the 1-on-1 algo session
 
+Notes from Brian Zhu during the Recursive Session: 
 ```
 Recursion:
 
