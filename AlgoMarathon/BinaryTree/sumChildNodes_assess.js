@@ -19,6 +19,48 @@ returns
 
 */
 
+//ARTHUR DAMM'S SOLUTION USING DFS BOTTOM UP POST-ORDER RECURSIVE APPROACH 
+//IT IS SUPER CLEAN!! 
+
+class TreeNode {
+    constructor(value, left = null, right = null) {
+      this.value = value; 
+      this.left = left; 
+      this.right = right; 
+    }
+  }
+  function sumChildren(root) {
+    function dfs(node) {
+      if (!node) return 0; 
+      const originalValue = node.value;
+      // According to example, as long as at least 1 child exists, we replace the value with
+      // the children sums. The return 0 above works well in the case of 1 null child.
+      if (node.left || node.right)
+        node.value = dfs(node.left) + dfs(node.right);
+      return originalValue;
+    }
+    dfs(root);
+    return root;
+  }
+  
+  const tree1 = new TreeNode(1, 
+                new TreeNode(2, new TreeNode(4)), 
+                new TreeNode(3));
+  
+  const tree2 = new TreeNode(1, 
+                new TreeNode(-10, new TreeNode(4), new TreeNode(5)), 
+                new TreeNode(3, null, new TreeNode(8, 
+                                      new TreeNode(7))));
+  
+  console.log(sumChildren(tree1));
+  /*
+     5
+   4   3
+  4   
+  */
+  console.log(sumChildren(tree2));
+  
+
 //ATTEMPT #2: DFS BOTTOM UP POST-ORDER RECURSIVE APPROACH 
 
 /*

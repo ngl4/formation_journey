@@ -1,4 +1,4 @@
-# Coffee Hour with A Mentor
+# Coffee Hour or Algo Session with A Mentor/Fellow Alumni
 Questions, Experience, Algo Problem, Anything that the Mentor would like to share!!
 
 ## Vinit Parikh (05/04/22)
@@ -65,7 +65,7 @@ How to ask for help:
 3. Remember that it's better to ask for hints & finish coding than to get stuck. You should aim to get a full optimized solution by midway through the interview.
 ```
 
-## Vinit (05/12/22) 
+## Vinit Parikh (05/12/22) 
 
 Meeting with Mentor Vinit to walk through an Easy problem. It is super great to see the thought process and story that Vinit told when he is solving the problem. 
 
@@ -149,6 +149,35 @@ console.log(maxProfit([4, 3, 2, 1]));  // 0
 console.log(maxProfit([8,8,8,8]));     // 0
 console.log(maxProfit([7,1,5,3,6,4])); // 5
 ```
+
+
+## Mitch Oliver (05/10/22)
+I had a great session with Mitch to go through [Squares of Sorted Array]() problem and it is great to see how Mitch walked through the problem and talked about his thought process on the problem!! 
+
+**Takeaways**
+- When thinking about optimal solution, ask yourself if it is possible to improve the runtime by allowing to use more spaces/memory, and vice versa. ~ Great point! 
+
+## Arthur Damm (05/12/22)
+Arthur will give me additional challenges that helps me to understand the problem better by going through his follow-up exercise. ie, the problem is to use DFS top down approach to solve the problem, Arthur's follow-up will be if I can solve the same problem using DFS bottom up approach. It took me a while but I gain deeper understanding on how to use recursion to traverse through a binary tree. 
+
+**Takeaways**
+- Knowing how to apply more than 1 approach to the problem is a great way to learn! 
+
+## Brian Zhu (05/17/22)
+Notes from Brian Zhu during the Recursive Session: 
+
+```
+Recursion:
+
+Identify the the recursive case
+    - If you know the result at N, can you call the function with a different input that get us closer to the result?
+        - e.g. recurse(n/2) or recurse(n+1)
+        - Remember that you can call recurse() multiple times
+Identify the base case
+    - Check when does the recursive function stop?
+```
+**Takeaways**
+- when working on recursion, start by coming up with recursive case and then base case! 
 
 
 <!-- 

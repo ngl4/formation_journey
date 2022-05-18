@@ -70,10 +70,23 @@ Thank you so much that Mitch is willing to help out in sharing how he walked thr
 
 ## Derrick (05/13/22)
 
-We went over the [is Monotonic Array Easy problem](). Derrick has provided me feedback and things I should work on to improve. 
+We went over the [is Monotonic Array Easy problem](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/PairLearning/isMonotonicArraywDerrick.js). Derrick has provided me feedback and things I should work on to improve. 
 
 **Takeaways**
 - shorten up the pre-coding process and make it more concise, especially the inital visualization and the time to come up with approaches
 
+## Maggie (05/17/22)
+It was a really great session that we went over the brute force approach to the [maxSumSubarray](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/PairLearning/KadaneAlgowMaggie.js) problem as well as the Kadane's approach! 
 
+https://www.algoexpert.io/questions/Kadane's%20Algorithm
+
+**Takeaways**
+- Step-by-step + Rubber Duck Debugging approach when working through an approach with some failing test cases - test the failing test cases one at a time and to see what is wrong with the solution and try to slowly debugging from there! Thanks for Maggie who has brought this up during the session and reminded me to be aware of this!! 
+
+## Brian Do (05/17/22) 
+- Going through a [medium Sudoku Matrix Array]() problem.
+
+**Takeaways**
+- I have learned something new regarding the use of brute force approach to solve the problem. I think this is super helpful to look at the problem before getting into an optimal solution to the problem. Special thanks to Brian for guiding me through this problem!! 
+- Always ask `why` you pick a certain approach, ie, why do you pick a `map` or a `set` in the first place? instead of an array? 
 
