@@ -21,6 +21,19 @@ Time: O(n)
 Space: O(1)
 
 */
+//Attempt #3 (solved ALL THE EDGE CASES on AlgoExpert using Brute force)
+
+function kadanesAlgorithmInBruteForce(array) {
+    let maxSum = array.length < 2 ? array[0] : -Infinity; 
+    for (let i = 0; i <= array.length; i++) {
+      let sum = array[i];
+      for (let j = i + 1; j < array.length; j++) {
+        sum += array[j]; 
+        if (sum > maxSum) maxSum = Math.max(array[j], maxSum, sum); //edge case: if we reach the last number, and the number is higher than the maxSum and sum
+      }
+    }
+    return maxSum > 0 ? maxSum : array.length === 1 ? array[0] : -1; //edge case: if there is 1 single element, or empty scenario 
+}
 
 //ATTEMPT #2 (SOLVED WITH BRUTE FORCE - THANKS TO FELLOW MAGGIE!!) ~ READ MORE ON TAKEAWAYS IN PAIR LEARNING README!!
 

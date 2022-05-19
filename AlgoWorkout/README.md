@@ -138,6 +138,24 @@ in terms of DFS (Recursive stack call, Iterative stack), BFS (Queue)
 
 - [1 - Js]() 
 
+**Takeaways** 
+- This is a challenging problem and I think I did not do so well for this session. Knowing how recursive works with dynamic programming is definitely something I need to learn and understand. 
+- Visualizing the recursive problem in a tree format is a great idea that Vinit has introduced! 
+
+## Temi 05/18/22 (Two Pointers - Array - 0 and 1 adjacent swapping)
+
+- [1 - Js]() 
+
+**Takeaways** 
+- Questions to ask early on when thinking about the approach to this type of adjacent swapping problem: How to determine which direction to take? starting 0 on the left or on the right? OR starting 1 on the left or on the right? 
+- cost `estimation` vs cost of `doing the work` - when looking at a problem, try to think if it can be solved with estimation or ask yourself if there is a need to do the work? can estimation also solve the problem without _actually_ swapping the numbers 
+- It is really important to understand a problem and come up with a solution (brute force) to the problem 
+- It is not about categorizing the specific problem type, it is how to solve the problem with any algo pattern you can think of 
+- Regarding to `space complexity`, it is not about the use of an extra data structure that would make the space as O(N) or etc. It is about the input size. So as the input size increase, does the extra space grow proportionally? -> if it does, then, it is a O(N), else if the extra space does not grow as the input size increases, then the space complexity is O(1), stays constant. 
+- A fellow mentioned `bubble sort` (basically adjacent swapping) at the end of the session and that definitely reminds me of bubble sort when seeing this problem. We can definitely keep track of the swapping count based on how many times we swapped the numbers 0, 1. Great idea for a brute force approach and also easy to understand. 
+- The optimal approach to this problem is actually using two pointers approach.
+- This is a really great problem to train to think about and try to distinguish if it is an `estimated` problem or a `action required` problem. 
+
 <!-- 
 
 ##
