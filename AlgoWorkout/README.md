@@ -136,7 +136,7 @@ in terms of DFS (Recursive stack call, Iterative stack), BFS (Queue)
 
 ## Vinit 05/16/22 (Dynamic Programming - Recursion - Rolling Dice)
 
-- [1 - Js]() 
+- [1 - Js](https://github.com/ngl4/formation_journey/blob/main/AlgoWorkout/Vinit/05-16-22.js) 
 
 **Takeaways** 
 - This is a challenging problem and I think I did not do so well for this session. Knowing how recursive works with dynamic programming is definitely something I need to learn and understand. 
@@ -144,7 +144,7 @@ in terms of DFS (Recursive stack call, Iterative stack), BFS (Queue)
 
 ## Temi 05/18/22 (Two Pointers - Array - 0 and 1 adjacent swapping)
 
-- [1 - Js]() 
+- [1 - Js](https://github.com/ngl4/formation_journey/blob/main/AlgoWorkout/Temi/05-18-22.js) 
 
 **Takeaways** 
 - Questions to ask early on when thinking about the approach to this type of adjacent swapping problem: How to determine which direction to take? starting 0 on the left or on the right? OR starting 1 on the left or on the right? 
