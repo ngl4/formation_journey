@@ -407,31 +407,6 @@ https://leetcode.com/problems/two-sum/
 
 Attempt #1: 3mins - no success - did not even start coding and can only think of nested loop approach but unable to code it out. Reviewed through Neetcode Video. Wrote down notes while watching.
 
-### Valid Palindrome (Two Pointers + String)
-
-https://leetcode.com/problems/valid-parentheses/
-
-| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
-| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Minutes | --  | --  | --  | --  | --  | --  | --  |
-
-
-### Best Time to Buy and Sell Stock (Array, DP, Sliding Window)
-
-https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
-
-| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
-| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Minutes | --  | --  | --  | --  | --  | --  | --  |
-
-### Valid Parentheses (Stack + String)
-
-https://leetcode.com/problems/valid-parentheses/
-
-| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
-| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Minutes | --  | --  | --  | --  | --  | --  | --  |
-
 ### Binary Tree Level Order Traversal (Tree)
 Medium
 
@@ -472,6 +447,39 @@ Attempt#1: 15mins trials and errors, brute force double for loop
 spent the rest of the time to understand how the algo works on Algo Expert
 
 [Details here]()
+
+### Learn Strength Algo: Binary Tree Lowest Common Ancestor (Trees)
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 35  | --  | --  | --  | --  | --  | --  |
+
+[Details here]()
+
+### Valid Palindrome (Two Pointers + String)
+
+https://leetcode.com/problems/valid-parentheses/
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | --  | --  | --  | --  | --  | --  | --  |
+
+
+### Best Time to Buy and Sell Stock (Array, DP, Sliding Window)
+
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | --  | --  | --  | --  | --  | --  | --  |
+
+### Valid Parentheses (Stack + String)
+
+https://leetcode.com/problems/valid-parentheses/
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | --  | --  | --  | --  | --  | --  | --  |
 
 <!--
 
