@@ -182,6 +182,15 @@ Identify the base case
 **Takeaways**
 - when working on recursion, start by coming up with recursive case and then base case! 
 
+## Mitch Oliver (05/24/22)
+Going through [Trie Insert and Seach problem](https://leetcode.com/problems/implement-trie-prefix-tree/) with Mitch. We mainly walk through the structure and to understand how it works and how to visualize it. 
+
+**Reflection & Takeaways**
+- Being able to see the same problem in other person's perspective is really interesting and it helps me to see why I am not able to implement it from scratch. OR the steps that I am missing when trying to understand the problem, especially when I have no idea what the problem is, and how to solve the problem. 
+- This is a really great session with Mitch when he is showing me how would approach the problem when he is not sure: 
+  1. Visualizing step-by-step and walk through with examples ~ say it out loud
+      - the use of the `Object` when visualizing the Trie data structure is definitely a really good way to show how all the nodes are connected. This definitely helps to understand the structure better
+  2. Going `more` lower level to help with the implementation of the problem if you are stucked at the implementation area. Mitch also mentioned ~ having a good pseudocode can be extremely helpful for implementation. You can go as detailed as possible in your pseudocode so it saved up some time for implementation. 
 
 <!-- 
 ## ...
