@@ -1,5 +1,5 @@
 # Coffee Hour or Algo Session with A Mentor/Fellow Alumni
-Questions, Experience, Algo Problem, Anything that the Mentor would like to share!!
+Questions, Experience, Algo Problem, Anything that the Mentors/Alumni would like to share!!
 
 ## Vinit Parikh (05/04/22)
 
@@ -191,6 +191,102 @@ Going through [Trie Insert and Seach problem](https://leetcode.com/problems/impl
   1. Visualizing step-by-step and walk through with examples ~ say it out loud
       - the use of the `Object` when visualizing the Trie data structure is definitely a really good way to show how all the nodes are connected. This definitely helps to understand the structure better
   2. Going `more` lower level to help with the implementation of the problem if you are stucked at the implementation area. Mitch also mentioned ~ having a good pseudocode can be extremely helpful for implementation. You can go as detailed as possible in your pseudocode so it saved up some time for implementation. 
+
+## Jenny Xing (05/25/22) 
+I have already had several sessions with Jenny Xing, both in group and in 1-on-1, I have been enjoying the time to get to know Mentor Jenny, her experience, insight, perspectives in career and life. There are several resources and takeaways based on my conversation with Jenny. 
+
+My biggest question in a learning journey is `how do I know if I am ready?` - Jenny has shared her insight in this which I find super helpful:
+- Used certain `metrics` or `checklist` to help you to look at so you know what you have done. 
+- For example, `I know I am ready because I have done: 1) ... 2) ... 3) ...`
+
+```
+JUST A SIDE NOTE TO ADD ON TO JENNY'S POINT ABOVE: 
+
+I went to a WWC CONNECT conference on 05/26/2022, the below is what I noted down from Ninti, Google Software Engineer, talk: 
+
+When did I know I was ready: 
+
+- Made it through calendar 
+- Knew a breadth of Data Structure and Algorithms
+- Practiced Interviews, applying to tenants of a successful interview 
+- Could solve most easy problems, some medium problems, and a few hard problems 
+```
+
+**_Takeaways on Learning How to Learn_**
+- When learning a lot of materials in a short period of time, it is cruicial to get the bigger picture (big ideas) down first. In another word, try to use some `visualization` technique ie, place a big board in the room or papers on wall that allow you to see your progress. 
+- Build up a `daily habit` to `recall concepts at the end of the day` based on what you have learned that day. Try to write them down or record what you can remember or *not* remember - this helps you to know how much you have recalled. 
+- `Tackle` any `problems` you are not sure about `as soon as possible`
+- `Train` yourself `to identify` a new problem - what it does and what it falls into in terms of patterns?  
+- In other to pass through challenges, it is super crucial to start to put some `time constraint` for yourself to make sure you need to `accomplish it no matter what it takes by that time`. 
+- `Train` to `verbalize your thought process` by `watching videos on how others do` and by `recording yourself while learning to assess on your own performance` and reflect on what you need to improve.  
+
+**_Takewaways on FrontEnd_**
+
+**What a good fundamental Frontend engineering project should entails?**
+- UX/UI 
+  - Design looks good, no usability issues
+  - UI makes sense 
+  - Nice animation (ie, loading in animation)
+  - Subtle, Feel smooth 
+
+- Code 
+  - If you are working on a certain framework, follow the `best practice` of that framework 
+  - In React, components should organize well, easy to navigate, clean code (just enough in-line comments, normally good frontend code does not need comment)
+
+**JS Doc (library)** 
+- Specific way of commenting that are formatted specifically before a function or decoration 
+
+**Try to setup your code correctly for the first time to reduce future Code Debt** 
+- I think this is definitely a really good point, as for practice on my current side project, I will try my best to keep this idea in mind. 
+- I recently went to WWC conference and learned that in our a lot of daily works, software engineers have been spending decent amount of time to handle `Code Debt`
+
+**Project Priority & Scope**
+- Ask yourself what is the `MVP` of the project looks like? 
+- What is the `scope` of the project? In terms of how much you need to do to reduce the scope to the smallest and so you can archive the MVP asap! 
+- Always `think and analyze on tasks` to see if they meet the `scope` you set for you current `MVP`, this can help you to know which tasks/issues should be prioritized first! 
+- You can always polish the project based on `stages`, so at the `MVP`, focus on only one `feature` and make sure it works. 
+
+**What are Features in Product?**
+- Features are normally come from the `user stories`! 
+- I have thought of different features, but sometimes I forget any features we come up with is due to the needs from the `users`. Having an end user in mind when designing the product is what matters! Thanks Jenny for reminding me about this!! 
+
+**Advice on submitting an issue on Github: Bug/Feature Issue** 
+- Follow a template ie, 
+- Provide as many details as possible to help the software engineer to investigate on the problem: 
+  - ie, what browser do you use when encountering the issue? does this happen in other browsers you use? 
+  - How do you come across this issue in details? 
+  - What are you suspecting that could be the cause of the issue? ~ it is totally fine to share what you think!! 
+  - What are the different ideas that you think can help to solve the issue? 
+  - It is also helpful to provide a video or screenshot of the issue 
+
+**Advice on submitting an issue on Github: Feature Request**
+- Follow a template ie, 
+- Provide some information like: 
+  - Why do you want to request this new feature? 
+  - Why is this feature helpful or impactful? 
+  - There is no need to include a porposal on the possible way to implement the feature, the key to this type of issue is to provide the reasoning on `why the feature can add value to the current product?`
+
+**Working with an Accountable Buddy on Side Project**
+- Ask your buddy, `from your perspective, what do you think on what I have already done?` and `what I can do better?`
+- Learn from them and re-assess your own project with a perspective other than yourself. They are like your `second brain`. 
+
+**Frontend Js Resources**
+- The Eloquent JS 
+- JS: The Good Parts 
+- https://github.com/getify/You-Dont-Know-JS 
+- MDN Web Docs
+
+**_Takeaways on Life perspective_**
+- Don't overload yourself with information!!
+- Remember the key to learning is `repetitive exposure`
+- Know what you learn yesterday 
+- In life, sometimes we need to shift perspective and it is okay to `keep searching for something in a blurry image, the point is for us to make the cloud/blurry image less cloudy/blurry`
+- It is hard to know exactly what we want and so for every experience, we learn and `know what we dont want` and keep moving forward.  
+
+
+
+** **
+ 
 
 <!-- 
 ## ...
