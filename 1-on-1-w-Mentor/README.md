@@ -284,8 +284,7 @@ When did I know I was ready:
 - It is hard to know exactly what we want and so for every experience, we learn and `know what we dont want` and keep moving forward.  
 
 
-
-** **
+## ____ () 
  
 
 <!-- 

@@ -1,0 +1,148 @@
+LINKED LISTS
+
+function reduce(head, accumulator function, initialVal) - returns single value
+
+
+
+function map(head, mapperFunction) - returns new linked list
+
+
+
+function filter(head, testFunction) - modifies list and returns new head
+
+
+
+Pseudocode: 
+- set curr = head
+- 
+
+function some(head, testFunction) - returns true if at least one value passes the test function
+
+
+
+function every(head, testFunction) - returns true if ALL of the values in the list pass the test function
+
+iterate through list 
+  if true, continue
+  if false, return false
+return true
+
+
+class ListNode {
+  constructor(val = 0, next = null) {
+    this.value = val;
+    this.next = next;
+  }
+}
+
+reduce(list, (acc, curr node) => acc * curr node value, 1) -> multiply every node's value
+
+[1, 2, 3].reduce((acc, curr) => acc + curr, 1000) => 1006
+ *
+callback: accumulator(1000, 1) => 1001
+  callback: accumulator(1001, 2) => 1003
+    callback: accumulator(1003, 3) => 1006
+
+
+
+-- CINDY --
+
+function reduce(head, accumulatorFunction, initialVal) {
+  let curr = head; 
+  while (curr) {
+    
+  }
+  
+}
+
+
+function map(head, mapperFunction) {
+  let curr = head; 
+  let newLL = new ListNode(0)
+  while (curr) {
+    newLL.next = mapperFunction(curr)
+    curr = curr.next; 
+    newLL = newLL.next;
+  }
+  return newLL.next;
+}
+
+PLAIN ENGLISH ON FILTER: 
+-
+
+javascript: numbers, strings, arrays, objects, booleans
+
+filter(list, (currNode) => currNode.value % 2 === 0)
+
+1 -> 2 -> 3, filter for even numbers
+     *
+
+newLL = 0 -> null
+              *
+
+function filter(head, testFunction) {
+  let curr = head; 
+  let newLL = new ListNode(0)
+  let newLLTail = newLL
+  while (curr) {
+    if (testFunction(curr)) {
+      newLLTail.next = new ListNode(curr.value)
+      newLLTail = newLLTail.next;
+    }
+    curr = curr.next; 
+  }
+  return newLL.next;
+}
+
+
+-- JOHANNA --
+
+def reduce(head, accumulator_func, initialVal):
+  curr = head
+  accumulator = initialVal
+  while curr:
+    accumulator = accumulator_func(accumulator, curr)
+    curr = curr.next
+  return accumulator
+
+reduce([1, 5, 10], function(acc, curr) {
+  return acc + curr
+}, 0)
+
+
+def map(head, mapper_func):
+  if head is None:
+    return None
+  new_node = ListNode(0)
+  new_curr = new_node
+  curr = head
+  while curr:
+    new_curr.next = mapper_func(curr)
+    new_curr = new_curr.next
+    curr = curr.next
+  return new_node.next
+
+  
+    # sentinal node
+    # traverse LL
+      # call function on each node, if True, add to new LL
+    # return sentinal node.next
+    if head is None:
+      return None
+    
+
+
+  def filter(head, testFunction) :
+    new_node = ListNode(0)
+    new_curr = new_node
+    curr = head
+    while curr:
+      if testFunction(curr):
+        new_curr.next = ListNode(curr.value)
+        new_curr = new_curr.next
+      curr = curr.next
+    return new_node.next
+
+1 
+    -> 2 -> 4
+0
