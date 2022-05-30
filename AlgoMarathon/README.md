@@ -15,3 +15,6 @@ Welcome to Level 2 of Algo Blitz!!
 ## Fundamentals 
 
 
+## Progress 
+
+Feel free to read about my weekly progress [here](https://github.com/ngl4/formation_journey/tree/main/AlgoMarathon/Progress) on Algo Marathon!
