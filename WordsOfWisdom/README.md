@@ -69,7 +69,11 @@ Cons:
 ## _"Engineering Arguments or Debate is highly encouraged"_ 
 - If you have a strong opinion on a particular engineering practice, debate about it to win the argument!
 
-## ...
+## _"Follow the Engineering Method - why follow the flow?"_
+- The structure of the engineering method helps you to see problems from `abtract to details` 
+- When taking the high level overview step, it can help you to slowly move down 1 level of detail at a time 
+- Under the high stress interview situation, if you jump too quickly in code, you will have a hard time to see things in a higher level
+- It is `better` to understand in details before coding from high level overview and walks down one level at a time, because it is `harder to go backward from coding back to higher level overview`.  
 
 <br>
 <br>
@@ -79,6 +83,7 @@ Cons:
 ## _"Job Hunt - Response Time to Recruiters - 24 hrs"_ 
 - Business happens fast and it does not wait - so it is crucial to respond to Recruiters message as soon as you have received them. This also gives others a better impression on you. It also show you are serious in the job hunting process. 
 - Being accountable with your career coach and make sure communicate any changes (career preferences) ahead of time
+
 
 
 
