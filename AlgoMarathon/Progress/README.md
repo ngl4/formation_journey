@@ -1,8 +1,58 @@
 # Progress
 
-## Week 1: Arrays
+_Special thanks to a Formation Fellow Dana Ng who has introduced me to keep track of my progress using Attempts table_
 
+## Week 1: Starting Point
 (April 18th - April 24th)
+
+Went over 6 Algo Array related easy+medium problems. Met with some fellows (Jordan and Alexis) in Formation Gather to get to know ways to plan for the Algo Marathon challenge. Unable to solve any problems successfully. 
+
+Trying to spend less times on problems, but realized it does not seem to be enough time for me to fully understand the pattern/problem within 30 mins time frame. 
+
+## Week 2: Array focused problems + Network with Mentors and Fellows
+(April 25th - May 1st)
+
+Went over 5 Algo Array & Strings related easy+medium problems. Tend to spend a little longer than 30 mins on the some medium problems, but no more than 1 hour. Had 1-on-1 with Brian Do to walk over a array two-pointers problem. 
+
+I did not feel much progress and would like spent more time on the easy problems. I decided to meet with other fellows and mentors to have coffee hours to ask them about learning strategies. 
+
+## Week 3: Array focused problems + Network with Mentors and Fellows (continued)
+(May 2nd - May 8th)
+
+Went over 3 Algo Array related problems. Met with Mentor Vinit, Arthur Damm, and Mentor Brian Zhu for 1-on-1 sessions to go over some Array problems as well as learning to observe how the mentors approach problems differently. 
+
+I felt pretty productive this week when I get the chance to meet with other mentors and fellows to learn from them. I decided to keep with mentors and fellows in the upcoming week to keep learning from them. (_I did not realize back then that besides learning from 1-on-1 sessions, I have to build up my muscle memory by doing more problems, instead of doing problems with others_). During the week 3 reflection, I have decided to look into Neetcode problems more and go over mutliple problems in a short period of time. 
+
+## Week 4: Working through multiple problems + Network with Mentors and Fellows (continued)
+
+Went over 5 Algo Array and Binary Tree related problems this week. Met with Mentor Vinit, Arthur Damm, and Alumni Mitch for 1-on-1 sessions to go over arrays, sliding windows,trees recursion (DFS top down pre-order & bottom up post-order). Attended Algo Blitz mentor office hours with Sophie and it helps to see how Sophie communciated her thought process and approach during interview-like situation. 
+
+There is definitely benefit to meeting with mentors and fellows, especially during the DFS session with Arthur Damm, I feel like I start to learn and understand the difference in different DFS traversals. 
+
+I felt pretty productive like the past week, but I also realize I still am not able to solve easy or medium problems well when taking the weekly assessments. I still did not know what I need to change to make sure I could make more progress in learning Algo and Data Structures. 
+
+## Week 5: Focus on Arrays & Trees + Network with Mentors and Fellows (continued) + Beginning of feeling burned out
+
+This week, my full time workload has increased a decent amount due to a teammate was off due to sickness.
+
+Went over 3 Algo Array and Trees problems this week. Met with Brian Do and Mentor Brian Zhu. Attended sessions at Formation hosted by Tony Nguyen and Kate. Took the weekend off and used the time to recover from feeling burned out.  
+
+I have decided in the upcoming week to meet with Mentor Jenny Xing and to catch up and share my learning progress with the mentor. I also decided to take the time to reflect and keep learning each day. Slow things down to see what is holding me back from progressing forward in the Algo Marathon challenge. 
+
+## Week 6: Slightly Burned out + Self-Care + Reflection 
+
+Learned about Convert Binary Search Tree and Trie Data Structure through pair learning and extra self-learning time. Attended Algo Marathon and asked related questions. Attended Women Who Code CONNECT conference for the entire day on May 26th. Had some great connections there. It was really fun to do the 3 mins networking pairing at the conference. It is amazing to speak with/connect with multiple engineers there. 
+ 
+Super glad I had a Algo Sprint session with Mentor Nam - being able to go back to practice building Js built-in methods ie, map, reduce, filter, some, every functions from scratch AND build them for Linked List Data Structure (instead of array).
+
+Spent the time to do more exercise with my family and self-care throughout the week. Special thanks to Jenny Xing who has reminded me the use of `time constraint` and `visualization` and applying it in my work environment (this can helps me to resolve the issue with `memorization of tools`, placing it around the environment so you can reduce the mental loads when `the key to solving problems is to get more times to solve problems, rather than trying to come up with tools from memory`). Thanks to Sophie who has reminded me the `groundwork` of practicing more is what I needed to move myself forward. 
+
+## Week 7: 
+
+
+
+
+# Attempts
 
 ### Algo: Arithmetic Slices
 Medium
@@ -98,8 +148,6 @@ https://www.algoexpert.io/questions/Group%20Anagrams
 
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Strings/GroupAnagrams.js)
 
-## Week 2: Focus on Arrays & some Strings
-(April 25th - May 1st)
 
 ### Implement strStr 
 Easy
@@ -182,10 +230,6 @@ Attempt#1: stopped at 30 mins coding up the solution (only a few test cases pass
 
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/minDominosRotationEqualRow.js)
 
-
-## Week 3: Arrays 
-(May 2nd - May 8th)
-
 ### Algo: Merge 3 sorted lists
 Easy 
 
@@ -228,8 +272,6 @@ https://www.algoexpert.io/questions/Water%20Area
 Attempt#1: I took the time to understand the problem and try to think of approaches for around 10 mins. I realize I did not make any progress, them I have started to go over the video explanation of the problem. 
 
 [Details here]()
-
-## Week 4: Working through multiple EASY (or some Medium) problems 
 
 ### Contains Duplicate (Array)
 
@@ -288,9 +330,6 @@ Easy
 
 [Details here]()
 
-
-## Week 5: Focus on Arrays & Trees
-
 ### Kadane’s Algorithm (Arrays)
 Arrays + Dynamic Programming 
 
@@ -335,6 +374,8 @@ https://leetcode.com/problems/valid-parentheses/
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Minutes | --  | --  | --  | --  | --  | --  | --  |
+
+
 
 <!--
 

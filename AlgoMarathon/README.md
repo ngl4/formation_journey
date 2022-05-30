@@ -12,8 +12,6 @@ Welcome to Level 2 of Algo Blitz!!
 
 - Try to walk through the problem in "English" to understand what it is asking
 
-_Special thanks to a Formation Fellow Dana Ng who has introduced me to keep track of my progress using Attempts table_
-
 ## Fundamentals 
-...
+
 
