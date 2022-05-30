@@ -12,7 +12,21 @@ Welcome to Level 2 of Algo Blitz!!
 
 - Try to walk through the problem in "English" to understand what it is asking
 
-## Fundamentals 
+## Data Structure Fundamentals (Big Picture)
+
+### Array 
+
+1. [Time Complexity of the common Js Operations and Methods](https://medium.com/@ashfaqueahsan61/time-complexities-of-common-array-operations-in-javascript-c11a6a65a168)
+
+2. Know what each Js Built-in Methods returning in its output through [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+
+3. ...
+
+### Hashmap 
+
+
+### Hashset 
+
 
 
 ## Progress 
