@@ -283,6 +283,14 @@ When did I know I was ready:
 - In life, sometimes we need to shift perspective and it is okay to `keep searching for something in a blurry image, the point is for us to make the cloud/blurry image less cloudy/blurry`
 - It is hard to know exactly what we want and so for every experience, we learn and `know what we dont want` and keep moving forward.  
 
+Other Resources:
+- https://z-lib.org/
+- https://usa1lib.org/book/1199044/a640c7
+- https://asana.com/resources/eisenhower-matrix
+- https://meltingasphalt.com/professional-growth/
+- https://waitbutwhy.com/2018/04/picking-career.html
+- https://letterboxd.com/films/ 
+
 
 ## ____ () 
  
