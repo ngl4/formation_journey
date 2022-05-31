@@ -47,9 +47,12 @@ Super glad I had a Algo Sprint session with Mentor Nam - being able to go back t
 
 Spent the time to do more exercise with my family and self-care throughout the week. Special thanks to Jenny Xing who has reminded me the use of `time constraint` and `visualization` and applying it in my work environment (this can helps me to resolve the issue with `memorization of tools`, placing it around the environment so you can reduce the mental loads when `the key to solving problems is to get more times to solve problems, rather than trying to come up with tools from memory`). Thanks to Sophie who has reminded me the `groundwork` of practicing more is what I needed to move myself forward. 
 
-## Week 7: 
+## Week 7: Starting again on the Big Picture  
+(End of May and Beginning of June)
 
+...
 
+## Week 8:
 
 
 # Attempts

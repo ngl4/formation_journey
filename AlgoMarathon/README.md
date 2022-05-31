@@ -14,6 +14,27 @@ Welcome to Level 2 of Algo Blitz!!
 
 - Get a big picture/idea of all the data structures and algorithms (knowing generally all the existing tools)
 
+- Go through as many problems of the same type as possible to find the general patterns within a set amount of time frame (ie, 1 - 2 hours)
+
+## Primitive vs Non-Primitive Data types 
+
+In JavaScript: 
+
+- **Primitive**: a primitive (primitive value, primitive data type) is data that `is not an object` and `has no methods or properties`. Here are the 7 primitive data types: 
+1. string
+2. number
+3. boolean
+4. undefined 
+5. symbol
+6. null
+7. BigInt
+
+- **Non-Primitive**: data that `are derived from primitive data types`. Here are the 2 non-primitive data types: 
+1. object
+2. array 
+
+- Read more [here](https://www.geeksforgeeks.org/primitive-and-non-primitive-data-types-in-javascript/)
+
 ## Data Structure Fundamentals (Big Picture)
 
 **Linear Data Structures**: 
@@ -37,24 +58,71 @@ Welcome to Level 2 of Algo Blitz!!
 
 ### Array 
 
-1. [Time Complexity of the common Js Operations and Methods](https://medium.com/@ashfaqueahsan61/time-complexities-of-common-array-operations-in-javascript-c11a6a65a168)
+- [Time Complexity of the common Js Operations and Methods](https://medium.com/@ashfaqueahsan61/time-complexities-of-common-array-operations-in-javascript-c11a6a65a168)
 
-2. Know what each **Js Built-in Methods** returning in its output through [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+- Know what each **Js Built-in Methods** returning in its output through [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-3. Inserting/Removing in Array 
+```js
 
-4. Searching in Array 
+```
 
-5. Accessing/Updating in Array 
+1. Inserting/Removing in Array 
 
-### Hashmap 
+2. Searching in Array 
+
+3. Accessing/Updating in Array 
+
+### Hashmap (Key-Value Pair Object)
+- In Js, we have built-in object - `Map`
+
+```js
+//create a Map
+const hashmap = new Map(); 
+```
+- [Here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) are all the methods that a Map can have.
+
+```js
+
+```
+
+1. Inserting/Removing in Map 
+
+2. Searching in Map 
+
+3. Accessing/Updating in Map 
 
 
-### Hashset (unique)
+### Hashset (Object + no duplicates allowed)
+- In Js, we have built-in object - `Set`
+
+```js
+//create a Set
+const set = new Set(); 
+```
+- [Here](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map) are all the methods that a Set can have.
+
+```js
+
+```
+
+1. Inserting/Removing in Set
+
+2. Searching in Set
+
+3. Accessing/Updating in Set
 
 
 ### Linked List 
 
+```js
+
+```
+
+1. Inserting/Removing in Linked List 
+
+2. Searching in Linked List 
+
+3. Accessing/Updating in Linked List 
 
 ### Summary on Array, Linked list, Hashmap, Hashset
 
@@ -63,28 +131,31 @@ Thanks to Mentor Jeremy at Formation who has shared the following table in the f
 |  | insertion/removal   | searching/checkingForExistence  | accessing/updating/getValue  | 
 | :-----: | :-: | :-: | :-: | 
 | Hashmap | O(1)  | O(1)  | O(1)  | 
-| Hashset | O(1)  | O(1)  | O(n)`@` | 
+| Hashset | O(1)  | O(1)  | O(1) | 
 | Array/List |  O(n)`*` | O(n)`#`  | O(1)  | 
 
 `*` = O(1) if you're inserting/removing in the end
+
 `#` = O(1) if the search item is in the first index of the array 
-`@` = 
 
 ### Trees 
 
+#### Binary Tree 
+
+#### Binary Search Tree 
 
 ### Trie
 
-
 ### Heap/Priority Queue
 
-
 ### Graph
-
 
 ### Additional Learning Resources on Data Structures in JS
 - [8 Common Data Structures in Javascript](https://betterprogramming.pub/8-common-data-structures-in-javascript-3d3537e69a27)
 
+
+## Algorithms & Patterns
+[25 Common Problem-Solving Patterns](https://designgurus.org/blog/grokking-leetcode) in Algorithm
 
 
 ## Progress 
