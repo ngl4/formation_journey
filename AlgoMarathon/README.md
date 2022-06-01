@@ -54,7 +54,9 @@ In JavaScript:
 
 **Other Data Structures**: 
 - Hashmap (key-value pair)
-- Hashset (object)
+- Hashset (object contains only unique values)
+
+[Here](https://github.com/KellzCodes/python/tree/main/data-structures#data-structures) is an additional resource from another programmer (Kelli)'s documentation on these data structures with more details! Feel free to check it out!! 
 
 ### Array 
 
@@ -66,11 +68,17 @@ In JavaScript:
 
 ```
 
-1. Inserting/Removing in Array 
+1. Inserting/Removing in Array:  
+    - Beginning: O(n)
+        - insert at beginning index 0: `unshift()`
+        - remove at beginning index 0: `shift()`
+    - End: O(1)
+        - insert at the end: `push()`
+        - remove at the end: `pop()`
 
-2. Searching in Array 
+2. Searching in Array: O(n)
 
-3. Accessing/Updating in Array 
+3. Accessing/Updating in Array: O(1)
 
 ### Hashmap (Key-Value Pair Object)
 - In Js, we have built-in object - `Map`
@@ -85,11 +93,11 @@ const hashmap = new Map();
 
 ```
 
-1. Inserting/Removing in Map 
+1. Inserting/Removing in Map: O(1)
 
-2. Searching in Map 
+2. Searching in Map : O(1)
 
-3. Accessing/Updating in Map 
+3. Accessing/Updating in Map : O(1)
 
 
 ### Hashset (Object + no duplicates allowed)
@@ -105,11 +113,14 @@ const set = new Set();
 
 ```
 
-1. Inserting/Removing in Set
+1. Inserting/Removing in Set: O(1)
 
-2. Searching in Set
+2. Searching in Set: O(1)
 
-3. Accessing/Updating in Set
+<!-- 3. Accessing/Updating in Set: O(1) ? -->
+
+
+Using `Array.from()` is one way to convert array-like, iterable objects, Map, Set, into an Array. Feel free to read more in details [here](https://attacomsian.com/blog/javascript-array-from)!
 
 
 ### Linked List 
@@ -131,7 +142,7 @@ Thanks to Mentor Jeremy at Formation who has shared the following table in the f
 |  | insertion/removal   | searching/checkingForExistence  | accessing/updating/getValue  | 
 | :-----: | :-: | :-: | :-: | 
 | Hashmap | O(1)  | O(1)  | O(1)  | 
-| Hashset | O(1)  | O(1)  | O(1) | 
+| Hashset | O(1)  | O(1)  | ? | 
 | Array/List |  O(n)`*` | O(n)`#`  | O(1)  | 
 
 `*` = O(1) if you're inserting/removing in the end
