@@ -75,6 +75,11 @@ Cons:
 - Under the high stress interview situation, if you jump too quickly in code, you will have a hard time to see things in a higher level
 - It is `better` to understand in details before coding from high level overview and walks down one level at a time, because it is `harder to go backward from coding back to higher level overview`.  
 
+## _"Time & Space in Built-in methods + Inplace or not"_
+- Knowing the underlying built-in methods of a certain language (ie, Js `slice()` has a `O(N)` runtime, `shift()` has a `O(N)` runtime since we are `removing element at the beginning of an array`)
+- Knowing if the methods are modifying the input `in-place` or `if it is returning a new array`. 
+
+
 <br>
 <br>
 
