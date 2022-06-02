@@ -1,5 +1,5 @@
 # formation_journey 💪🏼
-I will be documenting what I have learned being a Frontend Engineering Fellow at [Formation](https://formation.dev/) in this repo and a few in [my DEV blog](https://dev.to/ngl4) 🤓
+I will be documenting what I have learned being a Frontend Engineering Fellow at [Formation](https://formation.dev/) in this repo and a few in [my DEV blog](https://dev.to/ngl4). Feel free to take a look at my daily progress on Twitter [here](https://twitter.com/BCStory2). 🤓
 
 ## Overview 📝
 * [30+ Core Algos](https://github.com/ngl4/formation_journey/tree/main/CoreAlgos)
