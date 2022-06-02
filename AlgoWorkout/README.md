@@ -156,6 +156,20 @@ in terms of DFS (Recursive stack call, Iterative stack), BFS (Queue)
 - The optimal approach to this problem is actually using two pointers approach.
 - This is a really great problem to train to think about and try to distinguish if it is an `estimated` problem or a `action required` problem. 
 
+## Temi 06/01/2022 (Sparse Array with more space efficient) 
+
+Using a `Map` data structure + storing only the elements other than zero in the Map ->  is a way to solve this problem so it is more space efficient
+
+**Takeaways**
+- Being able to catch on the `hint` or `question` asked by the interviewer and `ask for clarification` if needed. 
+For instance, at the end of the session, Temi has asked us a follow-up question regarding if there are other ways to solve the problem without using a hashmap. This is a good time to ask: `so should the performance be taken into the consideration? should the new approach have the same performance, better, or it does not really matter?` 
+
+Even though the interviewer did not tell you about it ahead of time, you have to be the one to `proactively ask them questions` and `fill in the holes` of uncertainty. 
+
+- Being able to distinguish different methods and different performance associated with them. ie, a get and set methods are both `O(1)` time and the init method is `O(n)` time.
+
+## ...
+
 <!-- 
 
 ##
