@@ -84,9 +84,19 @@ https://www.algoexpert.io/questions/Kadane's%20Algorithm
 - Step-by-step + Rubber Duck Debugging approach when working through an approach with some failing test cases - test the failing test cases one at a time and to see what is wrong with the solution and try to slowly debugging from there! Thanks for Maggie who has brought this up during the session and reminded me to be aware of this!! 
 
 ## Brian Do (05/17/22) 
-- Going through a [medium Sudoku Matrix Array]() problem.
+- Going through a [medium Sudoku Matrix Array](https://leetcode.com/problems/valid-sudoku/) problem.
 
 **Takeaways**
 - I have learned something new regarding the use of brute force approach to solve the problem. I think this is super helpful to look at the problem before getting into an optimal solution to the problem. Special thanks to Brian for guiding me through this problem!! 
 - Always ask `why` you pick a certain approach, ie, why do you pick a `map` or a `set` in the first place? instead of an array? 
 
+## Alexis Willis (06/02/22)
+- Going through Zigzag Array Row Major Traversal ~ concept that Daniel Tomko was discussing in the office hours 
+
+**Reflection & Takeaways**
+- First time helping another fellow in a Matrix problem which I personally find hard to understand myself originally, but through Daniel Tomko's office hours, I feel a little more confident to go over what I have learned with Alexis! 
+- It is a great experience to learn how to explain a problem to another fellow. It is definitely not easy, but it is really helpful for me since I have learned to listen to others and to ask them the right questions, as well as I have learned to break down what I have known into even smaller chunks. 
+- I realize I have also built a deeper understanding of the problem through explaining it. 
+- Being able to see the problem through another perspective is definitely interesting!! 
+- Python solution for this problem is definitely really clean and easy to read. 
+- To iterate through an array backward in python: `for j in range(len(row))[::-1]` ~ this blew my mind haha I am surprised how fast it is to code it out in python in comparison to javascript: `for (let k = array[i].length - 1; k >= 0; k--)`
