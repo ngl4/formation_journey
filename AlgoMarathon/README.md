@@ -125,15 +125,17 @@ Using `Array.from()` is one way to convert array-like, iterable objects, Map, Se
 
 ### Linked List 
 
-```js
+1. Inserting/Removing in Linked List:
+    - the head: O(n) + O(1)
+    - the tail: O(n) + O(1)
+    - the middle: O(n) + O(1)
 
-```
+2. Searching for a value in Linked List: O(n)
 
-1. Inserting/Removing in Linked List 
-
-2. Searching in Linked List 
-
-3. Accessing/Updating in Linked List 
+3. Accessing/Updating in Linked List: 
+    - the head: O(1)
+    - the tail: O(n)
+    - the middle: O(n)
 
 ### Summary on Array, Linked list, Hashmap, Hashset
 

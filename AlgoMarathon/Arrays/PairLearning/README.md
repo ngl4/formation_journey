@@ -100,3 +100,12 @@ https://www.algoexpert.io/questions/Kadane's%20Algorithm
 - Being able to see the problem through another perspective is definitely interesting!! 
 - Python solution for this problem is definitely really clean and easy to read. 
 - To iterate through an array backward in python: `for j in range(len(row))[::-1]` ~ this blew my mind haha I am surprised how fast it is to code it out in python in comparison to javascript: `for (let k = array[i].length - 1; k >= 0; k--)`
+
+## Richard Gonzalez (06/03/22)
+- Going through a problem that is best to use a Hashset tool to solve the problem. 
+
+**Reflection & Takeways** 
+- using hoisted variable ie, `skills` instead of `input[fellow]` to make the code easier to read!! 
+- It was a great session to get to know Fellow Richard and his interest in software engineering (ie, ML, AI) to have a chat besides just going through this problem.
+- Shared `visualizations` tip that I have learned from Mentor Jenny with Richard which also reminds me what I need to do to help myself to remember concepts I have learned well. 
+
