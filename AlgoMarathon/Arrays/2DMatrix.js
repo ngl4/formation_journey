@@ -35,6 +35,25 @@ Expected Output:
  [2]]
 
 */
+//Attempt#3 - solving the problem again without guidance using two pointers
+
+function solution(matrix) {
+    let res = []; 
+    for (let i = 0; i < matrix.length; i++) {
+        const row = matrix[i]; 
+        let resRow = []; 
+        for (let k = 0, j = row.length - 1; k <= j; k++, j--) {
+            if (k === j) {
+                resRow.push(row[k]); 
+            }else {
+                resRow.push(row[k] + row[j]); 
+            }
+        }
+        res.push(resRow); 
+    }
+    return res; 
+}
+
 
 //Attempt#2 (learning the pattern) 
 
