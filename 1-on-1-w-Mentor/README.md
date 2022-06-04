@@ -1,7 +1,7 @@
 # Coffee Hour or Algo Session with A Mentor/Fellow Alumni
 Questions, Experience, Algo Problem, Anything that the Mentors/Alumni would like to share!!
 
-## Vinit Parikh (05/04/22)
+## Mentor Vinit Parikh (05/04/22)
 
 **Takeaways & Reflection:**
 - `Know your weaknesses and practice a lot to make them into your strengths` - I really think this is my biggest takeaway from the conversation. It is so crucial to identify what my weakness is and to work on making it into a strength. 
@@ -22,7 +22,7 @@ Questions, Experience, Algo Problem, Anything that the Mentors/Alumni would like
 
 - Problem-solving is key 
 
-## Brian Zhu (05/06/22)
+## Mentor Brian Zhu (05/06/22)
 
 **KEY: Indentify the pattern first, before solving a problem** 
 
@@ -65,7 +65,7 @@ How to ask for help:
 3. Remember that it's better to ask for hints & finish coding than to get stuck. You should aim to get a full optimized solution by midway through the interview.
 ```
 
-## Vinit Parikh (05/12/22) 
+## Mentor Vinit Parikh (05/12/22) 
 
 Meeting with Mentor Vinit to walk through an Easy problem. It is super great to see the thought process and story that Vinit told when he is solving the problem. 
 
@@ -151,13 +151,13 @@ console.log(maxProfit([7,1,5,3,6,4])); // 5
 ```
 
 
-## Mitch Oliver (05/10/22)
+## Alum Mitch Oliver (05/10/22)
 I had a great session with Mitch to go through [Squares of Sorted Array]() problem and it is great to see how Mitch walked through the problem and talked about his thought process on the problem!! 
 
 **Takeaways**
 - When thinking about optimal solution, ask yourself if it is possible to improve the runtime by allowing to use more spaces/memory, and vice versa. ~ Great point! 
 
-## Arthur Damm (05/12/22)
+## Alum Arthur Damm (05/12/22)
 Going through DFS Recursion during the 1-on-1 algo session 
 
 Arthur will give me additional challenges that helps me to understand the problem better by going through his follow-up exercise. ie, the problem is to use DFS top down approach to solve the problem, Arthur's follow-up will be if I can solve the same problem using DFS bottom up approach. It took me a while but I gain deeper understanding on how to use recursion to traverse through a binary tree. 
@@ -165,7 +165,7 @@ Arthur will give me additional challenges that helps me to understand the proble
 **Takeaways**
 - Knowing how to apply more than 1 approach to the problem is a great way to learn! 
 
-## Brian Zhu (05/17/22)
+## Mentor Brian Zhu (05/17/22)
 Going through Recursion (Basics) during the 1-on-1 algo session
 
 Notes from Brian Zhu during the Recursive Session: 
@@ -182,7 +182,7 @@ Identify the base case
 **Takeaways**
 - when working on recursion, start by coming up with recursive case and then base case! 
 
-## Mitch Oliver (05/24/22)
+## Alum Mitch Oliver (05/24/22)
 Going through [Trie Insert and Seach problem](https://leetcode.com/problems/implement-trie-prefix-tree/) with Mitch. We mainly walk through the structure and to understand how it works and how to visualize it. 
 
 **Reflection & Takeaways**
@@ -192,7 +192,7 @@ Going through [Trie Insert and Seach problem](https://leetcode.com/problems/impl
       - the use of the `Object` when visualizing the Trie data structure is definitely a really good way to show how all the nodes are connected. This definitely helps to understand the structure better
   2. Going `more` lower level to help with the implementation of the problem if you are stucked at the implementation area. Mitch also mentioned ~ having a good pseudocode can be extremely helpful for implementation. You can go as detailed as possible in your pseudocode so it saved up some time for implementation. 
 
-## Jenny Xing (05/25/22) 
+## Mentor Jenny Xing (05/25/22) 
 I have already had several sessions with Jenny Xing, both in group and in 1-on-1, I have been enjoying the time to get to know Mentor Jenny, her experience, insight, perspectives in career and life. There are several resources and takeaways based on my conversation with Jenny. 
 
 My biggest question in a learning journey is `how do I know if I am ready?` - Jenny has shared her insight in this which I find super helpful:
@@ -291,6 +291,22 @@ Other Resources:
 - https://waitbutwhy.com/2018/04/picking-career.html
 - https://letterboxd.com/films/ 
 
+## Alum Kevin Khuong (06/02/22) 
+It is great to get to know Kevin and his career journey and job hunting process 
+
+**Reflection & Takeaways:**
+- Everyone has their own `timeline` so take it a step at a time in your own pace 
+- It is crucial to start considering when to start the job hunting process, because it can all depend on how long the interview processes can go. For Kevin, it took him 5 months to get an offer for one of the companies he applied to. So the earlier the better. 
+
+## Mentor Stella (06/03/22) 
+Great time to get to know more about each other! We share some similar experience (ie, Bootcamp, career changer) in our journey to software engineering! It is so inspring to hear how you transition from being an Accountant into a Software Engineer now at Formation! 
+
+**Reflection & Takeaways:**
+- Stella has worked in the `Open source` platform through "Hack for LA" Code For America Volunteer group for a year long. She gained work experience there and worked with Project manager and on the actual code base 
+- Most challenging interview round for Stella would be `live coding`, but just as Stella mentioned, it is all about being comfortable in this type of situation - take the time to `ask for clarifying questions` and maybe sometimes `admit` that you are stucked and verbalized why and where you are stucked. 
+- Key part of an interview is `the amount of effort you put in for follow-up` - Stella told in one of the offers she got, she provided 2-3 different solutions on the company's problems: `Some companies will recognize that your effort and this makes you stand out!` 
+- Stella's current experience at Formation start-up company is full of learning and growing opportunities and she got the chance to take on ownership on certain sectors of the product as well! 
+- Overall, one biggest takeaway for me is when I heard Stella mentioned her story from being `bored` working as Accountant to being `excited` and being `challenged`as Software Engineer at Formation. The decision and transition from one stage to another are full of `fruitful` memories, they seem to be a `crazy` experience, but I think that is what makes the work life more `meaningful`! 
 
 ## ____ () 
  

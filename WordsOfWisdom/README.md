@@ -2,7 +2,7 @@
 
 Every Monday on each week, Formation will have a quick 15 mins meeting to make anouncements and to send positive tips, vibes to all the fellows.
 
-Every since I have started Formation, I have noted down what I have learned each of these brief meetings. 
+Every since I have started Formation, I have noted down what I have learned in each of these brief meetings. 
 
 # Technical Learning & Interview
 
