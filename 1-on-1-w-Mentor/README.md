@@ -308,6 +308,83 @@ Great time to get to know more about each other! We share some similar experienc
 - Stella's current experience at Formation start-up company is full of learning and growing opportunities and she got the chance to take on ownership on certain sectors of the product as well! 
 - Overall, one biggest takeaway for me is when I heard Stella mentioned her story from being `bored` working as Accountant to being `excited` and being `challenged`as Software Engineer at Formation. The decision and transition from one stage to another are full of `fruitful` memories, they seem to be a `crazy` experience, but I think that is what makes the work life more `meaningful`! 
 
+## Mentor Kemet Dugue (06/05/22) 
+Wow!! I am really surprised how much I have learned from the 1 hour and 15 mins coffee hour session with Kemet!! Thank you so much for being so prepared and for sharing so many insights and your experience! Appreciated it!! 
+
+**Reflection & Takeaways:**
+- Kemet's journey to tech is defintely really inspiring! From humanities major, self-taugtht + Bootcamp fullstack development, start-up to Big tech work experience. 
+
+- `Luck & Preparation` are just as important to get his first tech role. 
+
+- When picking a company, it can be opinionated and everyone has a different answer to this. It is crucial to do some researches through `networking`, read reviews on `Glassdoor or Blind`, and also based on the conversation with the hiring manager, `be aware of how they answer your questions on their team culture` 
+
+- Knowing what are the fundamental values that you are looking for in a company ie, 
+  - `work-life balance`
+  - `learning opportunities` 
+    - stipends for higher education and conferences 
+    - being able to work with talented senior software engineer 
+    - documentation 
+    - Besides working, it is crucial to make a learning plan that is best for your career journey 
+  - `collaborative work environment` 
+    - ie, I am able to feel safe to ask questions and not feel like I am on an island
+  - `ownership` in projects - how to grow into the next level of the engineering ladder 
+
+- There are many different factors when we finally decide to move on to a new company. I think I like the answer from Kemet regarding the `feeling of closeness with the engineering product`. When we are working on a product that we do not use, it is hard to feel motivated to work on the engineering side of the product. Besides working with amazing group of engineers, I feel like it will be amazing, just like what Kemet has mentioned, if I could work on a product that I feel more `closeness` with as well! 
+
+- Levels of engineering role can be different for different companies. 
+  - Square: L3 (entry), L4 (mid), L5 (senior). 
+  - Microsoft: 59-60 (entry), 61-62 (mid), >62 (senior + others)
+  - Here is a [great document](https://assets.ctfassets.net/1wryd5vd9xez/6bDnTwb4H7bfiFvg55ldRR/b1cb8514f0afd0a4050991d35ccbac03/Square_Software_Engineering_Career_Ladder.pdf) that Kemet has shared with me regarding the different levels of engineering roles and responsibilities. 
+  - Entry
+     - can you code? 
+  - Mid 
+      - for those who have 2+ years of work experience 
+      - less handholding 
+      -  a little more ownership compares to entry
+      - solution may be more elegant 
+
+- `Assessing our skill level` of engineering through both our understanding of our skillsets/worth and from the market view through interviewing for self-assessing purposes. 
+
+- Big Tech vs Startup
+  - Big Tech:
+    - `Standardized`
+      - engineering process
+      - developer workflow (internal tooling to help with productivity)
+      - same format, productive 
+      - more politics 
+        - promotion: based on who you know 
+    - stand-up with your team 
+      - updates of your progress
+      - updates on your features 
+      - your sprint 
+    - PM Meeting 
+    - On-call (when there are incidents)
+    - A lot of meetings (around 40% of the meetings do not have any values) 
+
+  - Startup:
+    - `free-form`
+    - format is different (not standardized as big tech)
+
+_(the above are general points, but they can all depend on the company you are working for)_
+
+- Big Tech: 
+  - possible dealing with time zone issues (working with co-workers from all around the world and with different time zones) 
+  - Benefit: the company will take the employee's health into consideration and will conduct surveys to get some insights on how employees are feeling. They will take immediate response ie, provide 5 additional mental health days for employees. This is an example from Microsoft. 
+
+- Know what type of questions to ask and `don't try to ask explicity` 
+  ie, for work life balance, you can ask `how often are your daily stand up?`, `what are the pain points?`, etc. This heps you to get a signal on the company 
+
+- Key is `network`
+
+- Continuous education and learning using `Notion` to take notes, and to read `Hacker News` or listen to `podcasts` to make sure to keep the knowledge up-to-date. And being a mentor at Formation has also been helping Kemet for always be prepared with Algo and Data Structure knowledges in order to help fellows at Formation. `Pramp` is also another great software to practice for coding interview. 
+
+- Last but not least, Kemet has reminded me: 
+  - Be intentional 
+  - Be truthful to yourself 
+  - Know what you want 
+  - Stick with them 
+  - Always assess/test the market 
+
 ## ____ () 
  
 
