@@ -314,7 +314,7 @@ Wow!! I am really surprised how much I have learned from the 1 hour and 15 mins 
 **Reflection & Takeaways:**
 - Kemet's journey to tech is defintely really inspiring! From humanities major, self-taugtht + Bootcamp fullstack development, start-up to Big tech work experience. 
 
-- `Luck & Preparation` are just as important to get his first tech role. 
+- `Luck & Preparation` were just as important to get his first tech role. 
 
 - When picking a company, it can be opinionated and everyone has a different answer to this. It is crucial to do some researches through `networking`, read reviews on `Glassdoor or Blind`, and also based on the conversation with the hiring manager, `be aware of how they answer your questions on their team culture` 
 
@@ -378,7 +378,7 @@ _(the above are general points, but they can all depend on the company you are w
 
 - Continuous education and learning using `Notion` to take notes, and to read `Hacker News` or listen to `podcasts` to make sure to keep the knowledge up-to-date. And being a mentor at Formation has also been helping Kemet for always be prepared with Algo and Data Structure knowledges in order to help fellows at Formation. `Pramp` is also another great software to practice for coding interview. 
 
-- Last but not least, Kemet has reminded me: 
+- Last but not least, some takeaways when job hunting: 
   - Be intentional 
   - Be truthful to yourself 
   - Know what you want 
