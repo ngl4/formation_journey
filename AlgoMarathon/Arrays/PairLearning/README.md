@@ -109,3 +109,10 @@ https://www.algoexpert.io/questions/Kadane's%20Algorithm
 - It was a great session to get to know Fellow Richard and his interest in software engineering (ie, ML, AI) to have a chat besides just going through this problem.
 - Shared `visualizations` tip that I have learned from Mentor Jenny with Richard which also reminds me what I need to do to help myself to remember concepts I have learned well. 
 
+## Nancy Jih Kousholt (06/06/22)
+- Using `Hashset` to solve the problem. 
+
+**Reflection & Takeways** 
+- `Conceptualize` how the problem would look like in terms of the connection of each seen dogs in the problem. It seems to be similar to a Graph-like connection. 
+- Nancy asked good `edge cases` questions when approaching the problem. 
+- It is great to see how Nancy has looked at the problem differently and to learn about her thought process. It was a great session since we got the chance to analyze and talk through the `why` behind our engineering decisions. 
