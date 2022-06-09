@@ -168,7 +168,32 @@ Even though the interviewer did not tell you about it ahead of time, you have to
 
 - Being able to distinguish different methods and different performance associated with them. ie, a get and set methods are both `O(1)` time and the init method is `O(n)` time.
 
+## Arnold 06/09/2022 (Binary Tree String input and find depth)
+
+This is my first session with Arnold and I have a really good time since it is **a great teamwork**! 
+
+**Reflection**
+- Jiyoon - really good at breaking down the problem and visualize the problem + comes up with the depth and max depth idea + pseudocode!!
+
+- Johanna - find a new method to solve the problem + comes up with the idea of using opening parathesis (+1) and closing parathesis (-1) as a way to find depth!! 
+
+- Gigi - asks great questions and talks through her thought process!!
+
+- Dexter - first person pointing out the "(" parathesis early on before everyone sees it and ask great questions!!
+
+- Cindy - mentions edge cases and asks questions (I feel like I am pretty slow haha, but this is the first time I feel like I completely understand the problem and its solution)!!
+
+Jiyoon and Johanna are leading the game for this algo session and I have learned a ton from them. The final time and space complexity are so beautiful, it is a O(n) time and O(1) space.
+
+I like Mentor Arnold let each of us code a little bit when working on the implementation so everyone gets the chance to code a little bit. 
+
+_What I find I struggle with during this session?_
+- still could not speak up well way to approach the problem 
+- still feel confused after other fellow has completed on their pseudocode 
+- still need to work on implementing the problem during the pseudocode stage (do not think about coding it out at all - just pseudocode)
+
 ## ...
+
 
 <!-- 
 
