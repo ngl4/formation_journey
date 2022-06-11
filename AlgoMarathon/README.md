@@ -14,8 +14,6 @@ Welcome to Level 2 of Algo Blitz!!
 
 - Get a big picture/idea of all the data structures and algorithms (knowing generally all the existing tools)
 
-- Go through as many problems of the same type as possible to find the general patterns within a set amount of time frame (ie, 1 - 2 hours)
-
 ## Primitive vs Non-Primitive Data types 
 
 In JavaScript: 
@@ -172,5 +170,4 @@ Thanks to Mentor Jeremy at Formation who has shared the following table in the f
 
 
 ## Progress 
-
 Feel free to read about my weekly progress [here](https://github.com/ngl4/formation_journey/tree/main/AlgoMarathon/Progress) on Algo Marathon!
