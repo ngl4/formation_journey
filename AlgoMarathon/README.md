@@ -14,6 +14,8 @@ Welcome to Level 2 of Algo Blitz!!
 
 - Get a big picture/idea of all the data structures and algorithms (knowing generally all the existing tools)
 
+- If you are a visual learner, create a mindmap or visual cheatsheet that could help you to memorize some of the concepts or tools and stick around your room so you can see it every day!! 
+
 ## Primitive vs Non-Primitive Data types 
 
 In JavaScript: 
@@ -167,7 +169,6 @@ Thanks to Mentor Jeremy at Formation who has shared the following table in the f
 
 ## Algorithms & Patterns
 [25 Common Problem-Solving Patterns](https://designgurus.org/blog/grokking-leetcode) in Algorithm
-
 
 ## Progress 
 Feel free to read about my weekly progress [here](https://github.com/ngl4/formation_journey/tree/main/AlgoMarathon/Progress) on Algo Marathon!

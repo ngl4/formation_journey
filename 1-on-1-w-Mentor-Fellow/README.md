@@ -1,5 +1,5 @@
-# Coffee Hour or Algo Session with A Mentor/Fellow Alumni
-Questions, Experience, Algo Problem, Anything that the Mentors/Alumni would like to share!!
+# Coffee Hour or Algo Session with A Mentor/Fellow Alumni/Current Fellow
+Questions, Experience, Algo Problem, Anything that the Mentors/Alumni/Fellow would like to share!!
 
 ## Mentor Vinit Parikh (05/04/22)
 
@@ -385,8 +385,61 @@ _(the above are general points, but they can all depend on the company you are w
   - Stick with them 
   - Always assess/test the market 
 
-## ____ () 
- 
+## Mentor Jenny Xing (06/08/22) 
+Great to have a weekly catch up on my frontend side project with Jenny Xing! As always, great session!! :) 
+
+**Takeaways**
+- Having more commits is always more preferred than having just 1 commit for multiple changes 
+- Whenever you are adding new things to your current application, it is considered as `new feature`
+  - Making the site responsive design wise is considered as a feature 
+- Creating a `checklist` is a good way to list out tasks to resolve the issue. This is considered as a definition of done or in another word, `acceptance criteria`. This helps you to know when it is completed. 
+
+- Goals before the next meeting with Jenny Xing: 
+  - solve at least 4 issues (submitted 4 pull requests)
+  - work through tic tac toe exercise and note down questions to ask on React concepts 
+
+## Fellow Noor (06/09/22)  
+Had a coffee hour with Fellow Noor to get to know her a little more. 
+
+**Reflection & Takeaways:**
+- We are both Bootcamp grad. Noor has been teaching software engineernig since 2020. She would like to gain more confidence through Formation training. 
+- It is really cool to now about her interests in productivity and fintech products. 
+- I really like how Noor's approach to a new problem, she would browse through resources online first, then she will make an outline of what she knows by asking the 5-6 questions - `Who/What/Where/When/Why/How`, after that she would analyze different resources, and then pick one and dive deep into it. After going through all these processe, she will implement the solution. ~ really great advice on asking questions and analyzing resources before coducting any implementation.
+
+## Alum Vincent Samaco (06/10/22) - learning & interview tips and tricks
+Had a coffee hour with Alum Vincent ~ really great session!! A lot of great technical interview tips and tricks!! 
+
+**Reflection & Takeaways:**
+- I really enjoy the conversation with Vincent and really thanks him for all the expereince and resources that he has shared with me! 
+- `teaching someone else the same problem` is what helps us to learn 
+  - listenning to their approaches 
+- A good pair learning host is when we are able to perform like an interviewer sometimes and ask questions to ensure we are also following along well. Through asking the `why` question, it can make sure the other fellow is able to know what they are implementing instead of just memorizing the code. 
+- `Collaboration` is key for pair learning - if you are just watching other people's code, you will not be able to learn much from the session and the session can become less useful when there is no interaction and collaboration overall. 
+- `High level approach` is key - knowing how to derive one sentence approach will show you how much you have understood the data structure, concept, and algos. 
+- For each leetcode or algo expert problems, try to spend at least 5-10 mins to come up with a high level visualization or definition. You should be able to fully understand the problem during that time frame. 
+  - validation
+  - can you code this? 
+  - can you visually figure it out? 
+  - How do you get to it? 
+- For each problem, `make sure you note down some takeaways` on the problem or the approaches. 
+- `In the interview situation, whenever you go over the high level approach to the problem, ALWAYS make sure to ask if the interviewer agrees with your apporach` - once you get the agreement, then work on the implementation. If they get back to you and say `is there a better approach?` for instance, then that means there is an optimal solution to the problem, you might have to figure it out before you start implementing. Or when you are stuck, you can check with them to see if you could implement the brute force first, before figuring out the optimal solution. 
+- Try to `optimize time` when solving problems especially Algo Marathon assessment - ie, If you get to a problem and you have no idea how to do it. Maybe spend `5 mins` on it. If you still have not figured it out. Then move on to another question. You can always get back to it when you have more time. 
+- `Learn how to identify from the problem prompt, what strategies you can use to solve the problem?` - this is a good practice exercise. 
+- `CodeSignal Speed Drill` is a great way that is really good to practice and to gain more confient in working through multiple problems in a time constraint. 
+- For `CodeSignal Assessment`, work on the `not passed` problems on your own after the assessment. 
+- During an actual technical interview, it is super crucial on your `communication` skill: 
+  - pay attention to non-verbal cues from the interviewer
+  - ask questions to see if you need to handle certain edge cases which can help you to filter out and sharpen up the core of the problem 
+  - check in with the interview by asking `do you follow what I am saying?` to see if they are following along with you 
+    - They cannot read your mind, so it is crucial to `externalize` your thought 
+  - if you are not entirely sure what the interviewer is saying, always make sure to clarify by: 
+    - rephrasing what they are saying again ie, `from my understanding, is this what you are saying?`
+    - making your own example/visualization to show how you understand the problem and asking the interviewer again to see if you are understanding the problem correctly. 
+- When learning algo and data structure, it is crucial to come up with the `high-level` understanding and approach to the problem. When you are new to Algo and Data Structure, it is cruical to focus on getting a `quality` solution. Practice on analyzing different approaches and tradeoffs, practice the big picture, practice on using the `engineering method`, think and communicate your thought process well. Building the depth of understanding on the problem solving skills first before you work on the speed. Speed will come when you have enough practice. 
+  
+
+
+## ____ ()  
 
 <!-- 
 ## ...
