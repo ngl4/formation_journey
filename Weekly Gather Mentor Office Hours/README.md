@@ -52,3 +52,110 @@ Merge step
 
 - BFS (Breadth First Search) is not recursive
 - Practiced your recursive vision using `checklist and pattern` - it definitely requires practices to slowly identify recursive pattern. 
+
+
+Nic's first office hours ~ he did really well and went through a lot of great topics. One thing I like the most on Nic's mentorship is how he is able to go through the thought process in knowing what tools to pick that is more reasonable in a certain situation. And he will go through additional related questions/examples, that help you to see why it is crucial to know the big picture/`general template` (which Nic will be sharing soon) of the how to apply the basics in BFS, DFS traversals in multiple scenarios. A small twist in the template (general tool) can basically be applied in multiple problems. 
+
+**Takeaways**
+- DFS vs BFS (the following are the notes Nic has went through during the session):
+    - Biggest takeaways:
+        - For a problem that requires you to find a node closer to the root of the tree, BFS is more prefereable - due to early termination ie, shortest branch/depth of a tree
+        - Wide tree - BFS
+        - Tall tree - DFS 
+        - BST - in-order traversals
+
+```js
+/*
+BFS vs DFS-
+
+What is BFS?
+Go as wide as you can before going deeper.
+Start from the root, and go level by level.
+
+What is DFS?
+Go as deep as you can before trying another path.
+Going all the way down to the leaf nodes before starting traversing to other paths
+
+Find a node in a tree with value K
+
+When to use BFS or DFS?
+- In general, default to DFS for trees unless something really stands out as being order.
+
+1) Terminating Conditions
+If you have traverse all nodes, do it either
+
+If node we want if close to root: BFS?
+If node we want is far from the root: DFS
+
+Q: What is the shortest branch/depth of a tree => BFS?
+
+        1
+     L      2
+            ... 
+                ...   
+
+Q: Find if any leaf node has value 2?
+
+
+2) Space Considerations
+
+Tree is fat and wide => DFS v BFS
+- Call stack is short for shallow tree
+- Queue will be big for a fat/wide tree
+
+
+3) Order of Traversal
+Return kth smallest element in a BST
+
+               5
+          3          7
+        2  4       6   9
+       1              8 10
+
+BFS: Traverse everything, store in another data structure? array/heap, and then from there find the kth smallest
+DFS (in-order traversal): traverse, keep a counter, return when counter is K.
+
+https://leetcode.com/problems/kth-smallest-element-in-a-bst/
+https://leetcode.com/problems/second-minimum-node-in-a-binary-tree/
+https://leetcode.com/problems/inorder-successor-in-bst/
+
+
+4) Order of Information
+
+func basic_backtracking(root):
+  if not root: return null
+  left_info = solution(root.left)
+  right_info = solution(root.right)
+  new_info = {some processing with left_info and right_info}
+  return new_info
+
+you have to do DFS
+
+https://leetcode.com/problems/validate-binary-search-tree/
+- Base case: if it's an empty tree, => valid
+- if not empty, then it's valid iff the left subtree is a valid and the right subtree is valid 
+- if both sides valid, max(left_subtree) < curr_val < min(right_subtree)
+
+https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
+
+*/
+```
+
+- How Nic went through explaining recursion and the step by step testing process is what I find helpful! 
+    - While Jiyoon was testing for the Level Order Traversal problem, I really like she was doing a manual test on her solution (see below): ~learning how to do `manual test` like this will be super helpful in checking through your codes in the interview situation when you do not have a compiler to test your output. Building up this skill is important! 
+
+```py
+'''
+     1
+    2   3
+ 4    5
+
+ res = [1, 3, 5]
+ curr_level = []
+ next_level = []
+ q = []
+
+'''
+```
+- Through this session, it makes me realize how important the `big picture` is when going through a problem. Being able to dig through the algo as deep as possible and then look back down from the top and see how they can be apply in other similar problems. Thank you Nic for sharing his thought closer to the end of the session and I think this is when I realize I have not been doing my daily practice correctly. 
+
