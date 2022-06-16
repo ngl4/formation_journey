@@ -168,5 +168,5 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
 '''
 ```
-- Through this session, it makes me realize how important the `big picture` is when going through a problem. Being able to dig through the algo as deep as possible and then look back down from the top and see how they can be apply in other similar problems using the similar skeleton (template). Thank you Nic for sharing his thought closer to the end of the session and I think this is when I realize I have not been doing my daily practice correctly. 
+- Through this session, it makes me realize how important the `big picture` is when going through a problem. Being able to dig through the algo as deep as possible and then look back down from the top and see how they can be apply in other similar problems using the similar skeleton (template). Thank you Nic for sharing his thought closer to the end of the session and I think this is when I realize I have not been doing my daily practice correctly. I have to step back and look through/compare problems after solving them. Instead of just solving the problem, I should be looking for commonality (this is where pattern comes in ~ and what a lot of mentors are saying - try to remember the pattern and not the codes). I guess I start to understand this phrase more at this point. Thanks to Nic! 
 
