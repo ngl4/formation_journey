@@ -54,9 +54,18 @@ Merge step
 - Practiced your recursive vision using `checklist and pattern` - it definitely requires practices to slowly identify recursive pattern. 
 
 
+<!-- ## Algo Blitz w Sophie (06/09/22)
+
+**Takeaways**
+...
+
+## Algo Marathon w Daniel (06/10/22)
+
+**Takeaways** -->
+...
 
 ## Algo Marathon - Binary Tree Subchallenge w Nic (06/15/22)
-Nic's first office hours ~ he did really well and went through a lot of great topics. One thing I like the most on Nic's mentorship is how he is able to go through the thought process in knowing what tools to pick that is more reasonable in a certain situation. And he will go through additional related questions/examples, that help you to see why it is crucial to know the big picture/`general template` (which Nic will be sharing soon) of the how to apply the basics in BFS, DFS traversals in multiple scenarios. A small twist in the template (general tool) can basically be applied in multiple problems. 
+Nic's first office hours ~ he did really well and went through a lot of great topics. One thing I like the most on Nic's mentorship is how he is able to go through the thought process in knowing what tools to pick that is more reasonable in a certain situation. And he will go through additional related questions/examples, that help you to see why it is crucial to know the big picture/`general template` (which Nic will be sharing soon...) of the how to apply the basics in BFS, DFS traversals in multiple scenarios. A small twist in the template (general tool) can basically be applied in multiple problems. 
 
 **Takeaways**
 - DFS vs BFS (the following are the notes Nic has went through during the session):
@@ -159,5 +168,5 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 
 '''
 ```
-- Through this session, it makes me realize how important the `big picture` is when going through a problem. Being able to dig through the algo as deep as possible and then look back down from the top and see how they can be apply in other similar problems. Thank you Nic for sharing his thought closer to the end of the session and I think this is when I realize I have not been doing my daily practice correctly. 
+- Through this session, it makes me realize how important the `big picture` is when going through a problem. Being able to dig through the algo as deep as possible and then look back down from the top and see how they can be apply in other similar problems using the similar skeleton (template). Thank you Nic for sharing his thought closer to the end of the session and I think this is when I realize I have not been doing my daily practice correctly. 
 
