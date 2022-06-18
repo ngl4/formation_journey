@@ -31,7 +31,6 @@
 **Reflection**
 I really like this session! I feel like I have a much better understanding on how matrix traversal works! Thank you so much!!! 
 
-
 ## Algo Marathon w Daniel (06/02/22)
 
 **Takeaways**
@@ -61,8 +60,8 @@ Merge step
 
 ## Algo Marathon w Daniel (06/10/22)
 
-**Takeaways** -->
-...
+**Takeaways** 
+...-->
 
 ## Algo Marathon - Binary Tree Subchallenge w Nic (06/15/22)
 Nic's first office hours ~ he did really well and went through a lot of great topics. One thing I like the most on Nic's mentorship is how he is able to go through the thought process in knowing what tools to pick that is more reasonable in a certain situation. And he will go through additional related questions/examples, that help you to see why it is crucial to know the big picture/`general template` (which Nic will be sharing soon...) of the how to apply the basics in BFS, DFS traversals in multiple scenarios. A small twist in the template (general tool) can basically be applied in multiple problems. 
