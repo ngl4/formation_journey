@@ -50,10 +50,33 @@ Spent the time to do more exercise with my family and self-care throughout the w
 ## Week 7: Starting again on the Big Picture  
 (End of May and Beginning of June)
 
+I have started doing some cheatsheet and mindmapping to help myself better remember some of the tools I have learned. This has been helping me to recall Algo and Data Structure Basic concepts and runtime/space complexity! I have continued to do weekly meeting with different mentors/fellows in the Formation community. 
+
+I realized I still have not been improving in my problem-solving skills and realized I have not practiced enough, so I have to work on this in the upcoming week. 
+
+## Week 8: Big Picture (cont) + Working through multiple Trees problems 
+(Beginning of June)
+
+I have continued to work on this on non-linear data structure (focus on trees only) cheatsheet on paper. Focusing on mainly Trees problem on this week!! I started to be able to understand + implement how Trees DFS pre-order, in-order, post-order traversals. I felt like I have started to understand how to work through matrix problems. 
+
+I have continued to do weekly meeting with different mentors/fellows in the Formation community. 
+
+I have also been reading the Cracking the Coding Interview Book! 
+
+## Week 9: Small Study Groups + AH-HA Moment (<-- Passed Mocked Behavior Phone Screens)
+This is the week I have started joining some small study groups with Noor and Maria, as well as with Jiyoon, Steven and Eric. They are a lot of fun and I have grown better in my problem solving skills through learning in a small group and we are going through problems in marathon style. 
+
+I had an office hours with Mentor Nic on Binary Tree, It was a super helpful session because I finally realize and understand what `pattern` really means and to set up general `templates` for multiple algo concepts or tools. This can ease in memorization and also can be super helpful in using the template to solve multiple similar problems. I like this office hours a lot!! 
+
+I have discussed with my Fellow Manager Nashira that I would like to start Live Coding, Mocked Phone Interview challenges at the same time since my progress has been progressing not as fast as expected in the Algo Marathon. I am glad I take more times in going through Marathon because it is super crucial to brush up on my basics and to be able to make sure I can work on most easy and some medium problems. 
+
+During this week, I have passed the Binary Tree and the Linked List subchallenge! Glad I have made some progress in the Marathon journey!!! 
+
+Using Friday to Sunday, I have passed the Mocked Phone Interview Challenge after 2 trials which has given me some confidence to move forward. I have also had a Mocked Live Coding Interview with Kevin, but I did not pass. 
+
+## Week 10: Small Study Groups + Self-Study (<-- This week I have also started Live Coding Challenge)
+
 ...
-
-## Week 8:
-
 
 # Attempts
 
@@ -324,7 +347,7 @@ work on this problem using one of these approaches: BFS recursion, DFS iterative
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/BinaryTree/LevelOrderTraversal.js)
 
 
-## is Array Monotonic? (Array)
+### is Array Monotonic? (Array)
 Easy
 
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
@@ -378,6 +401,15 @@ https://leetcode.com/problems/valid-parentheses/
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Minutes | --  | --  | --  | --  | --  | --  | --  |
 
+### Binary Tree Paths - DFS + Backtracking (Thanks to Jiyoon suggested to me to practice)
+
+https://leetcode.com/problems/binary-tree-paths/
+
+Successfully did it in my first attempt within 20 mins! Good work Cindy! 
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 20  | --  | --  | --  | --  | --  | --  |
 
 
 <!--

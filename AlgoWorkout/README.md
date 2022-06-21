@@ -192,6 +192,12 @@ _What I find I struggle with during this session?_
 - still feel confused after other fellow has completed on their pseudocode 
 - still need to work on implementing the problem during the pseudocode stage (do not think about coding it out at all - just pseudocode)
 
+## Vinit 06/15/22 (Backtracking - Min, Max, Unique List, Permutations)
+
+**Takeaways**
+- Don't change the reference function 
+- Using `slice()` or the spread operator to create a copy of an array 
+
 ## ...
 
 
