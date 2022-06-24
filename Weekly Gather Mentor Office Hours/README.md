@@ -169,3 +169,32 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 ```
 - Through this session, it makes me realize how important the `big picture` is when going through a problem. Being able to dig through the algo as deep as possible and then look back down from the top and see how they can be apply in other similar problems using the similar skeleton (template). Thank you Nic for sharing his thought closer to the end of the session and I think this is when I realize I have not been doing my daily practice correctly. I have to step back and look through/compare problems after solving them. Instead of just solving the problem, I should be looking for commonality (this is where pattern comes in ~ and what a lot of mentors are saying - try to remember the pattern and not the codes). I guess I start to understand this phrase more at this point. Thanks to Nic! 
 
+## Algo Marathon w Daniel (06/23/22)
+- Went over three problems (Binary Tree to Sorted Doubly LL & Password Generator & a quick walkthrough on Find all anagrams in a string)
+
+**Takeaways** 
+- Problem 1 (Binary Tree to Sorted Doubly LL):
+    - Possible Apporach: 
+        - In-order traversal from left subtree to the root and then to the right subtree 
+        - There is an `extra work` needed to this approach, why? 
+            - The reason is we are `traversing` through the list (of the left subtree) to the last node and then added the root node to the end of the list, similarly for the list generated from the right subtree, we will then add it after the root node.  
+    - Optimal Approach: 
+        - Using In-order traversal (Left -> Root -> Right) in the reverse order 
+        - Right -> Root -> Left 
+        - Why? 
+            - For a linked list data structure, it is the easiest to add a node to a LL at the `front`
+            - This is why we start from the last node on the most right node of the right subtree and then reverse traverse back to the root then to the left subtree. 
+            - The key of this approach is to keep track of the head (front of the LL)
+        
+- Problem 2 (Password Generator): 
+    - Backtracking: Traversal of a decision tree (binary or nth-ary tree), enumeration, DFS
+    - Choose or not choose a branch path 
+    - Q: Why should we use a stack instead of a dictionary? 
+        - The key answer is `does the order matters?` - so for this particular problem, using a stack can helps to keep track of the order of operation and it is easy to remove element at the end of the stack (constant time).
+        - Dictionary does not take the `order` into consideration so it is not the best data structure to use to solve this backtracking problem
+    - Q: Why should we use a stack instead of a string? 
+        - String is immutable so everytime you slice it off, you are basically creating a new string for each recursion and that adds up more complexity to the problem, instead of `constant`, it is a `linear` complexity. 
+
+- Problem 3 (Find all anagrams in a string): 
+    - Also using backtracking approach 
+    - the only difference in comparison with the Password Generator is it requires unique characters in its output.
