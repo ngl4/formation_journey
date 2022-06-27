@@ -20,3 +20,8 @@ I need to improve on the following:
 - Brush up on my JavaSCript - be stronger in `string interpolation`, know what context does it make sense to use certain methods, or how the curly bracket is used in the React framework.
 - Communication - `order of operation` matters when communicating through the approach <- I got a similar advice on this when going through an Algo Sprint with Nam before. I noticed this issue that I think I need to work on to resolve. The specific example Stanley pointed out was when I was talking about `gridContainer` variable, I was not clear that at the beginning that it would be used to pass into the style of a div tag. I mentioned it later on which has already caused the interview to feel confused on what my intention was when I created the variable.
   - Use the communication during the interview to convey more
+
+
+## 06/26/22 Progress 
+- Reviewed over Checkbox task from Formation to prepare for the pair learning session 
+
