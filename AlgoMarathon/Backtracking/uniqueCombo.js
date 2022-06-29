@@ -18,7 +18,7 @@ function uniqueCombo(nums) {
         res.push([...curr_res]); 
         return; 
       }
-  
+      
       //recursive case - pick 
       curr_res.push(arr[i_posn]); 
       backtracking(arr, i_posn + 1, curr_res); 
