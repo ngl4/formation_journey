@@ -1,3 +1,75 @@
+  /*  07-03-2022
+Q. Given an array of integers, find all unique triplets (a, b, c) in the array such that their sum equals zero (a + b + c = 0).
+
+For test purposes, you must return one sorted triplet with the smallest overall value
+Examples:
+
+Given an array: [1, 2, 0] returns: []
+Given an array: [-1, 0, 1, 0, 1] returns: [[-1, 0, 1]]
+Note: actual return output: [-1,0,1] since there is only one triplet
+Given an array: [-5, -1, 0, 1, 4, -1] returns: [[-5,1,4], [-1,0,1]]
+Note: actual return output: [-5,1,4] since -5 is the smallest overall value
+
+Input:
+array: [1, -1]
+Expected Output:
+[]
+
+Input:
+array: [1, -1, 0]
+Expected Output:
+[-1, 0, 1]
+
+Input:
+array: [-5, -1, 0, 1, 4, -1]
+Expected Output:
+[-5, 1, 4]
+
+
+High level Approach: 
+Iterate through the given array and find the sum of three values that add up to the target value zero. Return all the triplets in the output. 
+
+
+Approach (using 3 pointers): 
+- set up a result array to store 
+- set up three pointers i, j, k
+- i and j pointers are moving together, whereas the k pointer will be iterate through the array from j + 1 to the last index of the array for every incrementation in i and j 
+    - we will be summing up all the values where the pointers are pointed to and compare with the target value zero
+    - If the sum is equal to the target zero, 
+      - If the result array is not empty, compare the index i value on the result array with the current index i value, if the current index i value is larger than the one in the result array, replace the result array[0] with the current one. 
+
+      - It it is res array is empty: 
+        - we will push the values up in the order of i, j, k to the result array.   
+At the end return the result array 
+
+*/
+
+function threeSum(input) {
+    let res = [];
+  
+    for (let i = 0; i < input.length - 2; i++) {
+      for (let j = i + 1, k = j + 1; k < input.length; j++, k++){
+        let sum = input[i] + input[j] + input[k]; 
+        if (sum === 0) {
+          if(res.length > 0) {
+            if (res[0][0] > input[i]) {
+              res.pop(); 
+              res.push([input[i], input[j], input[k]]); 
+            }
+          }else {
+            res.push([input[i], input[j], input[k]]); 
+          }
+        }
+      }
+    }
+  
+    return res; 
+  }
+  
+  console.log(threeSum([-5, -1, 0, 1, 4, -1]))
+  
+
+
 /*
 ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
 ✏️ Description
