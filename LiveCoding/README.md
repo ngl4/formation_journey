@@ -47,7 +47,7 @@ I need to improve on the following:
   - Use the communication during the interview to convey more
 
 ```
-Areas to improve: 
+Areas to improve:
 
 Fewer JS syntax mistakes
 Remove unnecessary layers of abstraction (extra function)
@@ -76,21 +76,51 @@ Learn to debug issues fasters
 Areas to improve:
 Needed to be unblocked a few times.
 
-Feedback: 
+Feedback:
 Some rustiness with object destructuring.
 Over-engineering of a simple dropdown UI, and rusty with manipulating document flow.
 Spent most of our time on the basic naive implementation and did not have time to talk about rich topics such as race conditions + debouncing.
 ```
 
+## 06/26/22 Progress
 
-## 06/26/22 Progress 
-- Reviewed over Checkbox task from Formation to prepare for the pair learning session 
-- https://css-tricks.com/almanac/selectors/a/after-and-before/ 
+- Reviewed over Checkbox task from Formation to prepare for the pair learning session
+- https://css-tricks.com/almanac/selectors/a/after-and-before/
 
+-
 
-<!-- 
+```
 
-## () 
+```
+
+-
+
+## Jenny Xing (07/05/22) - Vanilla Js, HTML, CSS
+
+- I did not do so well in the frontend session with Jenny today. I realized I made the mistake on coding too early which has caused me to not knowing what to do in the middle of the interview. It took me too long to get through a small section and I have been doing more `console.log` than expected.
+
+Here are suggestions from Jenny:
+
+```
+try to thoroughly explore your ideas at the beginning, and have a clear sense of what you’re going to do before writing down code. it might help you specifically to write out a lot of pseudo code and function signatures to plan out the entire app, and then writing code afterwards.
+
+try to familiarize yourself with the document API and vanilla javascript when it comes to manipulating the dom. getElementsByClassName, querySelectorAll, etc.
+
+The index idea was definitely right- make sure to explore an option sufficiently before throwing it out the window.
+
+try to use string interpolation when possible
+
+try to improve the speed of execution/coding
+
+try to think in more general terms/how to extend the code
+
+try to think in terms of individual functions/what are the reuseable/repeating functions that happen
+
+```
+
+<!--
+
+## ()
 
 **Feedbacks & Takeaways**
 
