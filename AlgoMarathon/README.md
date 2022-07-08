@@ -18,6 +18,10 @@ Welcome to Level 2 of Algo Blitz!!
 
 - Build up `templates` for each problem-solving pattern or algo! 
 
+- Great [article](https://leetcode.com/discuss/general-discussion/494279/comprehensive-data-structure-and-algorithm-study-guide) shared by Fellow Kendallene! 
+
+- Another great [list of leetcode problems sorted by patterns, companies, etc](https://seanprashad.com/leetcode-patterns/) shared by my close friend, Edith. 
+
 ## Primitive vs Non-Primitive Data types 
 
 In JavaScript: 

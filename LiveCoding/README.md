@@ -83,21 +83,24 @@ Spent most of our time on the basic naive implementation and did not have time t
 ```
 
 ## 06/26/22 Progress
-
 - Reviewed over Checkbox task from Formation to prepare for the pair learning session
 - https://css-tricks.com/almanac/selectors/a/after-and-before/
 
--
+## Thomas (06/27/22) - HTML/CSS focus
+Key Takeaways: 
+- Know how to use more CSS flexbox feature ie, `flex-grow` for instance to help to resize the button size. 
+- I did pretty well in this session and be able to voice out what I need to focus on and able to execute my approach in a timely manner. 
 
-```
+## Stanley (06/29/22) - HTML/CSS focus
+Key Takeaway: 
+- Being able to pick a specific area to focus on development. For instance, instead of building the tiny details of the HTML DOM or spent too long setting up the HTML skeleton without displaying anything on the DOM, maybe try focus on getting through displaying the links well using the CSS flexbox for instance. You have to make sure to showcase what you are good at during the live coding session. Focus on that instead. 
 
-```
-
--
 
 ## Jenny Xing (07/05/22) - Vanilla Js, HTML, CSS
 
 - I did not do so well in the frontend session with Jenny today. I realized I made the mistake on coding too early which has caused me to not knowing what to do in the middle of the interview. It took me too long to get through a small section and I have been doing more `console.log` than expected.
+
+- Key takeways: make sure when I voice out my ideas, I should keep trying it out instead of changing my mind during the process when I think of other possible approaches or problems. Put in more time doing the analysis is important! 
 
 Here are suggestions from Jenny:
 
