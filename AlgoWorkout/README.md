@@ -198,7 +198,16 @@ _What I find I struggle with during this session?_
 - Don't change the reference function 
 - Using `slice()` or the spread operator to create a copy of an array 
 
-## ...
+## Vinit 07/11/22 (AutoComplete - Trie) 
+What I did well: 
+- Being able to understand the basic idea of what the Trie data structure and able to draw it out in a tree visualization 
+- Being able to do pre-coding well 
+
+What I should improve: 
+- I was lost while implementing and was not being able to think through the logic well 
+- Need to work on practicing understanding the autocomplete functionality as well as how to add adn search for trieNode 
+- It is super crucial to understand these basic concepts well!! 
+
 
 
 <!-- 
