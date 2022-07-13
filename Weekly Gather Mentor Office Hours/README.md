@@ -198,3 +198,17 @@ https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/
 - Problem 3 (Find all anagrams in a string): 
     - Also using backtracking approach 
     - the only difference in comparison with the Password Generator is it requires unique characters in its output.
+
+## Algo Marathon Office Hours with Sophie 
+
+Takeaways: 
+1. Practice quickly creating a tree visualization during the early stage of the engineering method (as below).
+```
+  1
+2   3
+   4 5
+```
+2. When understanding the problem, create your own examples to make sure you have fully understood the problem and ask interviewer for clarification if needed 
+3. Identifying edge cases (even after you have had a solution to the problem) and find a way to solve those ~ based on the problem but I think it is crucial to learn to identify them just like how Sophie has demonstrated on the findDirectedAncestor problem 
+4. Similar to Mike C, when going through hard problem, besides solving an easier version of it, it is also important to communicate it out loud to make sure the interviewer is aware of it. 
+
