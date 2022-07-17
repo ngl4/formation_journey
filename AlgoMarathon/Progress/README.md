@@ -278,9 +278,13 @@ Array
 
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Minutes | 25  | --  | --  | --  | --  | --  | --  |
+| Minutes | 25  | 30  | 60  | --  | --  | --  | --  |
 
 [Details here](https://github.com/ngl4/formation_journey/blob/main/AlgoMarathon/Arrays/mergeThreeLists.js)
+
+I have tried this same problem in a CodeSignal assessment and used a sort function instead. 
+
+
 
 ### Algo: Smallest Difference
 
@@ -309,7 +313,7 @@ https://www.algoexpert.io/questions/Water%20Area
 
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Minutes | 25  | --  | --  | --  | --  | --  | --  |
+| Minutes | 25  | 60  | --  | --  | --  | --  | --  |
 
 Attempt#1: I took the time to understand the problem and try to think of approaches for around 10 mins. I realize I did not make any progress, them I have started to go over the video explanation of the problem.
 
@@ -426,6 +430,20 @@ Successfully did it in my first attempt within 20 mins! Good work Cindy!
 | Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
 | :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Minutes | 20  | --  | --  | --  | --  | --  | --  |
+
+### Dutch National Flag (Sort Colors 0, 1, 2)
+
+https://leetcode.com/problems/sort-colors/ 
+
+| Attempt | #1  | #2  | #3  | #4  | #5  | #6  | #7  |
+| :-----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| Minutes | 20  | --  | --  | --  | --  | --  | --  |
+
+After trying out the problem again without looking at the solution. I have decided to use a Two Pointers approach and I thought I solved this problem under 15mins or less. However I have missed several edge cases: `[1, 0, 2]` or `[1, 2, 0]` that come up along the way and realized a Two-pointers approach does not solve the problem. 
+
+After reviewing through the solution, it is using `one-pass 3 pointers` approach - curr, left, right pointers. I have tried this out and solved the problem successfully. 
+
+In order to do this problem well, I think it is crucial to know the sorting algorithms as well as how `pointers` approach work. Like should you set 3 pointers? or 2 pointers? and should you run these pointers in the same direction? or in the reverse direction - inward or outward? 
 
 <!--
 
