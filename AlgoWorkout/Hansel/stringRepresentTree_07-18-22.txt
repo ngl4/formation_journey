@@ -1,0 +1,186 @@
+Given a String representation of a Binary Tree, write a function to determine the depth of the Binary Tree.
+
+(0) represents a node
+(00) represents a leaf node
+((00)0) represents a tree where the root node has one left node and no right node
+((00)0(00)) represents a tree with one left and one right node
+
+Example input: (((00)0)0)
+Answer: 2
+
+The tree represented by the input:
+       0
+      /
+    0
+   /
+ 0
+
+Guidance:
+Any assumptions?
+Other example inputs? (any invalid ones?)
+What's a simpler problem to solve?
+
+----
+
+Bruce Manning
+((00)0(((00)0)0(00)))
+     0
+ 00     0
+      0   00
+    00
+find root by starting at beginning and end, jumping paired parentheses
+find longest branch
+- recurse on subtrees, returning height of longest branch
+const isTreeValid = tree => {
+  
+}
+
+const depthOfStringTree = tree => {
+  if (!isTreeValid) return -1;
+  let depth = 0;
+  let maxDepth = 0;
+
+  for (const char of tree) {
+    if (char === "(") depth++;
+    if (char === ")") depth--;
+    maxDepth = depth > maxDepth ? depth : maxDepth;
+  }
+  
+  return maxDepth;
+}
+
+****
+
+Cindy Lam
+       ( )
+    (00) (00)
+
+depth = 0; 
+(  
+)  
+0  
+    
+(((00)0(00))(0)) => depth: 2
+^
+
+OPTION #1: 
+- iterate through the string 
+- if the char is equal to "(" and inc ++
+- if the char is equal to ")" and dec--;
+- Store the max and return max - 1; 
+
+OPTIONT #2: 
+- generate a binary tree - is it really necessary? 
+
+function findDepth(input) {
+  let depth = 0;
+  let maxDepth = 0; 
+  let zero = 0; 
+  
+  for (let i = 0; i < input.length; i++) {
+    if (input[i] === "(") {
+      depth++;
+    }else if (input[i] === ")") {
+      depth--;
+    }else {
+      .... handle edge cases
+    }
+    maxDepth = math.max(maxDepth, depth); 
+  } 
+   return maxDepth === 0 ? null : maxDepth - 1; 
+}
+
+
+
+````
+
+Larisa Kreismanis
+(0(00)) - a root with no left, and a right node
+(000) - invalid
+(000000) - invalid
+((((((00)0)0)0)0)0)0) - no right nodes
+(0(0(0(0(0(00)))))) - no left nodes
+((0) - return error message, return -1, return node?
+((00)(00)) - invalid
+((00)0(00)) - valid
+((00)0(00)(00))
+((((((00)0)0)0)0)(00)0)0) - 
+Time: 
+Space:
+- iterate through the input
+  - find the root node: find a singular 0
+  
+  (((00)0(00))(0)) => depth: 2
+^
+OPTION #1: 
+- iterate through the string 
+- if the char is equal to "(" and inc ++
+- if the char is equal to ")" and dec--;
+- Store the max and return max - 1; 
+def inputToTree(input):
+  depth = 0
+  for i in range(len(input)):
+    if input[i] == "(":
+      #increment
+      depth += 1
+    if input[i] == ")":
+      #decrement
+      depth -= 1
+  
+
+# [0, 00, 00, 0, 00, 0, 00, 00, 0]
+- 0 -> +1 depth
+- 00 -> +1 depth
+- 00)0 -> 0 depth
+def inputToTreeTwo(input):
+  depth = 0
+  for i in range(len(input)-2):
+    if input[i] == 0:
+      if input[i+1] == 0:
+        #handle 00 case
+        if input[i+2] == 0:
+        #handle 00)0 case
+        
+      else:
+        #handle 0 case
+      if input[i+2]
+    
+>>>>
+
+William Saffran
+
+((((00)0(0(00)))0)0(00))
+count from both sides of the string the open/closed parenthesis keeping track of the max height of the stack of open/closed parenthesis depending on what side you are starting from (removing the outer parenthesis)  - add for open remove for closed to match
+I think you can ignore if leaf or normal node
+
+// ((00)0(00)0(00)0(00)0(00)0(00))
+// ((00)(00)(00)(00)(00)0(0)(0)(00)(00)(00))
+
+function isValid(string) {
+  let stack = [];
+
+  for (const char of string) {
+    if (char === '(') stack.push('(');
+    if (char === ')') {
+      if (stack[stack.length - 1] === '(') stack.pop();
+      else return false;
+    }
+  }
+  
+  return stack.length === 0;
+}
+
+function treeHeight (string) {
+  if (!isValid(string)) return -1;
+
+  let count = 0,
+    max = 0;
+
+  for (const char of string) {
+    if (char === '(') count += 1;
+    if (char === ')') count -= 1;
+    max = Math.max(max, count);
+  }
+
+  return max - 1;
+}
