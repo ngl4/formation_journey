@@ -436,10 +436,95 @@ Had a coffee hour with Alum Vincent ~ really great session!! A lot of great tech
     - rephrasing what they are saying again ie, `from my understanding, is this what you are saying?`
     - making your own example/visualization to show how you understand the problem and asking the interviewer again to see if you are understanding the problem correctly. 
 - When learning algo and data structure, it is crucial to come up with the `high-level` understanding and approach to the problem. When you are new to Algo and Data Structure, it is cruical to focus on getting a `quality` solution. Practice on analyzing different approaches and tradeoffs, practice the big picture, practice on using the `engineering method`, think and communicate your thought process well. Building the depth of understanding on the problem solving skills first before you work on the speed. Speed will come when you have enough practice. 
-  
+
+## Mentor Jeremy (06/16/22)  
+
+https://jeremyaguilon.me/blog
+
+**Takeaways:**
+- Best way to handle interview froze is (1) use basic test cases to help you to understand what the problem is and slowly expand the thought process from there (2) use elimination method in picking the correct algo pattern or tool to use to solve the problem 
+
+## Fellow Johanna (06/20/22)
+
+http://johannafulghum.com/home.html
+
+**Takeaways:**
+- Biggest Takeaway - `LISTENING`
+  - Whenever in interview or session, Johanna pays attention in what other people are saying and from there she is able to think through the possible algo/logic to solve the problem 
+- Learning style: 10 mins try out the problem -> if no successs, use 20 mins to go through each line of the solution and know what each line is doing -> delete everything -> walk away from the problem -> try it out again from memory 
+- Johanna has formed a meetup community at Denver after has moved there. When there wasnt any community, she would form one and draw people with similar interests together and to learn together. 
+
+## Fellow Alum Jose (06/24/22)  
+
+**Takeaways:**
+- Biggest takeaway: `Be Yourself and Confident` - if you walk into an interview with your confidence, you have already won 50% of the batter 
+- `Little win` matters! 
+- Thank you for sharing all the job hunting experience from Amazon and Empower! ~ Inspiring!!
 
 
-## ____ ()  
+## Fellow Binh Hua (06/24/22)  
+
+**Takeaways:**
+- We found a lot of similarities in our cultural background! 
+- We both share the learning strategy that we need to talk to others in order to help us to learn! Being able to communicate on what we have learned or through conversation can help us to retain what we have learned
+- Really enjoy the conversation to get to know each other!! 
+
+
+## Mentor Sailesh Kumar (07/01/22)  
+
+**Takeaways:**
+-  Insightful Analogy: `Teaching is like performance and Live interview/coding is like the stage!`
+- Sailesh shared his Facebook experience in the Oculus/Social Impact team and it was great to hear how he was able to own a feature while working there. 
+- He formed his own startup - LightHall with the goal to help more students to be able to afford live streaming education. 
+- Overall, it was a great conversation and I got to know more about Sailesh's insight and experience! 
+
+
+## Fellow Alum Jordan Leslie (07/19/22)  
+
+First coffee hour I cried with happy tears because I felt so inspired, motivated, relieved, grateful from the conversation with Jordan! 
+
+Jordan's job hunting story is really inspiring and love she has shared her experience and how she made her final decision on picking the company she would like to join!! Love it!! 
+
+**Takeaways:**
+- Live coding: all about collaborative effort with the interviewer and how you would be about to understand errors and debugged the problems, as well as how you communicate your thought process. 
+  - Common look-out questions can include: 
+    - Transform API data to Frontend 
+    - How much you know about Javascript? 
+      - Closure 
+      - Hoisting 
+      - Async/await
+      - Promise 
+      - etc. 
+- Even you do not fully remember a concept fully, it is okay to mention it out loud and walk your way through it. It does not need to be perfect!! 
+
+- Look out for `Fullstack` role as well - because they could be 70% focus on Frontend and 30% focus on the Backend or 50% front/back. 
+
+- Consider small companies as well - what matter most to an organization is the management team as well as the people/community of the organization!! 
+
+- What to be aware of in the smaller or medium size company? REALLY CRUICAL: `find out if they have a strong culture of documentation`!! 
+
+- Documentation can be crucial in some big tech companies - you basically need to document everything you have done. <-- which is good because this is how you can learn and how other software engineers can learn from you! 
+
+- Know how to ask hard challenging question to the employer, especially knowing their management style, existed pipeline, the current need of the team, etc. - why? because it is A `Good Manager` can definitely help you and challenge you so you can grow better in your career journey. And you can always be yourself when you are with them. 
+
+  - You can also ask `scenario-type` of questions to help you to know how they would normally handle challenging work situation ie, If a deadline is coming close for a project, but the project is not yet ready or come close to completing, what would you do as a manager and how would you approach a scenario like this? 
+
+- `Mindset/Mental Health` is crucial. Jordan will be meditating every morning to always remind her - `Hope`! 
+  - `Hope - being afraid and still doing it anyway!!` 
+  - When she was anxious, scared in her job hunting process in terms of if she would be qualified for the role or not, she would apply anyway. Give it a try! 
+
+- Going back in time, what Jordan would have done differently? 
+  - Focus on Algo more first, then Live Coding 
+  - Time box them and prepare for them seperately - which could reduce the anxiety in interviewing 
+
+- What works well for Jordan in her job hunting process: 
+  - Linkedin Premium 
+  - Always apply early and be the first 50 people to apply 
+  - Reached out to Recruiters 
+  - Connected with her network for Referral
+  - Number Game: 10-20/week 
+
+
 
 <!-- 
 ## ...
