@@ -9,8 +9,8 @@ I will be documenting what I have learned being a Frontend Engineering Fellow at
 * Small Group [Algo Workout Takeaways & Reflection](https://github.com/ngl4/formation_journey/tree/main/AlgoWorkout)
 * [1-on-1 Algo Coffee Hour w Mentors & Fellow Alumni](https://github.com/ngl4/formation_journey/tree/main/1-on-1-w-Mentor)
 * [Weekly Mentor Office Hours Session](https://github.com/ngl4/formation_journey/tree/main/Weekly%20Gather%20Mentor%20Office%20Hours)
-* [Small Group Practice Sessions w Fellows]() ~ coming soon!
+* [Small Group Practice Sessions w Fellows](https://github.com/ngl4/formation_journey/tree/main/SmallGroupPractice)
 * [Live Coding - Frontend](https://github.com/ngl4/formation_journey/tree/main/LiveCoding)
-* [Mocked Behavioral Phone Screen]() ~ coming soon!
+* [Mocked Behavioral Phone Screen](https://github.com/ngl4/formation_journey/tree/main/MockedBehavioralPhoneScreen)
 
 
