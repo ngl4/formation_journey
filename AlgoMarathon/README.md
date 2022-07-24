@@ -14,7 +14,7 @@ Welcome to Level 2 of Algo Blitz!!
 
 - Get a big picture/idea of all the data structures and algorithms (knowing generally all the existing tools)
 
-- If you are a visual learner, create a mindmap or visual cheatsheet that could help you to memorize some of the concepts or tools and stick around your room so you can see it every day!! 
+- If you are a visual learner, create `a mindmap or visual cheatsheet` that could help you to memorize some of the concepts or tools and stick around your room so you can see it every day!! 
 
 - Build up `templates` for each problem-solving pattern or algo! 
 

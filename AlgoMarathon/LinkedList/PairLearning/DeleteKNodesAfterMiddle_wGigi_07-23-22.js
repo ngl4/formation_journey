@@ -1,10 +1,12 @@
 /*
-Given a linked list, delete (k) nodes after the middle.
+Given a linked list, delete (k) nodes after the middle. 
 If (n) is the length of the list, the middle node is [n / 2] using zero-based indexing.
 Return the head of the modified list.
 Function Signature: 
 function deleteKNodesAfterMiddle(head)
 
+(BE AWARE CINDY: IT is not related to delete every kth node after the middle, 
+    but it is regarding to delete K nodes after the middle )
 
 Questions: 
 - input head is null or 1 node, should we just return the head? return head 

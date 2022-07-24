@@ -86,9 +86,56 @@ Using Friday to Sunday, I have passed the Mocked Phone Interview Challenge after
 - Practiced through Recursive problems and Matrixes problems
 - Studied in small group with Brian Do, Amy Back, Jiyoon Koo, Steven Zhu on Group Anagrams problem
 
-## Week 11: Live Coding + Working through all types of Algo problems - focus on Recursion and Trees
+## Week 12: Live Coding (1 passed 1 failed) + Algo Marathon (recursion)
 
-...
+Keep working through Algo problems on Recursion mainly. 
+
+I have 3 live coding sessions with Mentor Thomas and Mentor Stan Liu this week - I have passed Thomas assessment but failed Stan's one. I have learned a lot from all these sessions on what I need to work on to improve my live coding skillsets. 
+
+## Week 13: Live Coding (1 passed 1 failed) + Algo Marathon (recursion)
+
+Keep working through different Algo problems (focus on passing the Algo Recursion challenge). 
+
+I have 2 live coding sessions and one with Mentor Jenny and the other one with Mentor Erik Ritter. I have also passed Erik one but failed Jenny's one. 
+
+First time attending John Mendez's office hours on Frontend this week!! 
+
+I had pair learning with Si Young Byun on Matrix Multiply!! 
+
+## Week 14: Algo Marathon (focus on practicing Strength Algos)
+
+Focus on practicing Strength Algo problems and start drawing out some simple visualization to help to remember the Algo problem solving patterns. Took 3 Algo Marathon Assessments this week. 
+
+When going through Algo Workout with Vinit (Trie + autocomplete), I realize I still need to practice this data structure and revisit recursion!!
+
+Had a pair learning session on Kandane's algo and learned from Keng-Yu! ~ I like how he went over the 
+
+## Week 15: Live Coding (failed) + Algo Marathon (passed)
+
+Finally, I have passed the Algo Marathon challenge this week!!! Took 1 Algo Marathon Assessment! 
+
+What I learned from Algo Workout session with Mentor Hanzel Ong: 
+- Knowing the general Interview Rubrics 
+- Knowing the type of edge cases or follow up questions that could be asked by the interviewer 
+
+Amazing Live Coding Session with Jenny to go over a Full Stack problem (focus on Frontend): 
+- Reviewed thorugh all the folders from `top down approach` ie, for a React project, starting from `index.js` -> `app.js` -> `pages` folder -> `components` folder
+- When starting to work on the implementation, start to apply `bottom up approach` to work my way up, ie, when you need to display a box of items, then start looking at the items, then the box, and then slowly work my way up! 
+
+Insightful and Motivational Women's FRG Check-in: 
+- Kendallene, Gigi, Maria, Kelly, and many other ladies who have shared a lot of their experiences during this session and I have learned so much from them!! 
+- Stand up for yourself and be your own best advocate! 
+- Take the initiative to ask tough and hard questions to find out about the companies' management style, DEI, as well as life work balance
+
+Pair learning with Fellow Gigi 
+- learning to understand problems better 
+- learning to explain what I have known 
+- learning to debug under pressure 
+
+Other Progress made this week (Feeling really grateful for being able to connnect with these connections): 
+- Had 3 1-on-1 coffee hours with professionals in network - Priya, Zoe, and Soojung!!
+- Had an amazing coffee hours with Fellow Alum Jordan Leslie 
+- Had an amazing Algo discussion and caught up with Fellow Alum Brian Do 
 
 # Attempts
 
