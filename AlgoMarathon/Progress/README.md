@@ -1,7 +1,5 @@
 # Progress
 
-_Special thanks to a Formation Fellow Dana Ng who has introduced me to keep track of my progress using Attempts table_
-
 ## Week 1: Starting Point
 
 (April 18th - April 24th)
@@ -138,6 +136,8 @@ Other Progress made this week (Feeling really grateful for being able to connnec
 - Had an amazing Algo discussion and caught up with Fellow Alum Brian Do 
 
 # Attempts
+
+_Special thanks to a Formation Fellow Dana Ng who has introduced me to keep track of my progress using Attempts table_
 
 ### Algo: Arithmetic Slices
 
