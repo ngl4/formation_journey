@@ -524,6 +524,33 @@ Jordan's job hunting story is really inspiring and love she has shared her exper
   - Connected with her network for Referral
   - Number Game: 10-20/week 
 
+## Fellow Alum Lena Kwon (07/26/22)  
+
+Amazing 1-on-1 Session with Lena Kwon and got the chance to know the types of questions I need to practice more to make sure I can do well in `recursion`!!! It is amazing to get to connect with Lena and get to know more about her personal & career goal and her job hunting experience!
+
+Here are the list that Lena has shared with me!! 
+
+```
+Uni- value binary tree : https://leetcode.com/problems/univalued-binary-tree/
+Binary Tree Path: https://leetcode.com/problems/binary-tree-paths/
+Invert BInary Tree: https://leetcode.com/problems/invert-binary-tree/submissions/
+Merge Tree: https://leetcode.com/problems/merge-two-binary-trees/
+Subtree: https://leetcode.com/problems/subtree-of-another-tree/
+Same Tree: https://leetcode.com/problems/same-tree/
+Min Depth: https://leetcode.com/problems/minimum-depth-of-binary-tree/
+Max Path Sum: https://leetcode.com/problems/binary-tree-maximum-path-sum/
+Diameter of a tree: https://leetcode.com/problems/diameter-of-binary-tree
+Path Sum: https://leetcode.com/problems/path-sum/
+Tree from inorder and preorder : https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
+```
+
+Takeaways: 
+- Different companies have different interview atmospheres/expectations on you - some may welcome more questions asked others might not. It is hard to tell but just do your best and ask questions that you need to solve any problem given to you
+- Focus on practicing all the basics, if you are weak at a topic, practice lots of questions until it becomes a second nature! You know immediately what you need to do by looking at the problem. 
+- Have your job hunting profiles open up early on so recruiters are aware of you! 
+- Determination can beat your anxiety - Lena shared she felt her anxiety when she went into her first interview with different big tech, including Google, but as she progressed through the interview, she becomes more determined that she would be able to make and start to build up her goals to practice each day to make sure to can accomplish her goals! Through continuous practice (repetitive work through basic problems again and again + under pressure + make sure to have the same performance in interview setting as well) has helped her to fully understand algo pattern and able to use them to solve some harder problems at Big Tech! 
+
+
 
 
 <!-- 
