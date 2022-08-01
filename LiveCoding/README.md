@@ -151,6 +151,7 @@ Takeaways:
   - `what is useState?`
   - `what is useEffect?`
   - `what is the isFetched variable used (Weather API - I am working on) means? why do we need to set it?`
+  - `general styling and inline styling in React`
 - what is the difference between plain variable vs state variable in React? <- I really like this question asked by Polly!!
 
   ```
