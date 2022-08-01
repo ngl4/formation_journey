@@ -83,24 +83,28 @@ Spent most of our time on the basic naive implementation and did not have time t
 ```
 
 ## 06/26/22 Progress
+
 - Reviewed over Checkbox task from Formation to prepare for the pair learning session
 - https://css-tricks.com/almanac/selectors/a/after-and-before/
 
 ## Thomas (06/27/22) - HTML/CSS focus
-Key Takeaways: 
-- Know how to use more CSS flexbox feature ie, `flex-grow` for instance to help to resize the button size. 
-- I did pretty well in this session and be able to voice out what I need to focus on and able to execute my approach in a timely manner. 
+
+Key Takeaways:
+
+- Know how to use more CSS flexbox feature ie, `flex-grow` for instance to help to resize the button size.
+- I did pretty well in this session and be able to voice out what I need to focus on and able to execute my approach in a timely manner.
 
 ## Stanley (06/29/22) - HTML/CSS focus
-Key Takeaway: 
-- Being able to pick a specific area to focus on development. For instance, instead of building the tiny details of the HTML DOM or spent too long setting up the HTML skeleton without displaying anything on the DOM, maybe try focus on getting through displaying the links well using the CSS flexbox for instance. You have to make sure to showcase what you are good at during the live coding session. Focus on that instead. 
 
+Key Takeaway:
+
+- Being able to pick a specific area to focus on development. For instance, instead of building the tiny details of the HTML DOM or spent too long setting up the HTML skeleton without displaying anything on the DOM, maybe try focus on getting through displaying the links well using the CSS flexbox for instance. You have to make sure to showcase what you are good at during the live coding session. Focus on that instead.
 
 ## Jenny Xing (07/05/22) - Vanilla Js, HTML, CSS
 
 - I did not do so well in the frontend session with Jenny today. I realized I made the mistake on coding too early which has caused me to not knowing what to do in the middle of the interview. It took me too long to get through a small section and I have been doing more `console.log` than expected.
 
-- Key takeways: make sure when I voice out my ideas, I should keep trying it out instead of changing my mind during the process when I think of other possible approaches or problems. Put in more time doing the analysis is important! 
+- Key takeways: make sure when I voice out my ideas, I should keep trying it out instead of changing my mind during the process when I think of other possible approaches or problems. Put in more time doing the analysis is important!
 
 Here are suggestions from Jenny:
 
@@ -120,6 +124,49 @@ try to think in more general terms/how to extend the code
 try to think in terms of individual functions/what are the reuseable/repeating functions that happen
 
 ```
+
+<!-- ## Erik Ritter()
+
+**Feedbacks & Takeaways**
+
+## Jenny Xing()
+
+**Feedbacks & Takeaways**
+
+## Jenny Xing()
+
+**Feedbacks & Takeaways** -->
+
+# Small Group Practice with Formation Fellows
+
+## Polly, Ronald, Kathy
+
+Takeaways:
+
+- Going through the Savings Calculator and work through `Dates` - `new Date.getMonth()`, `split("-")[0]`- helps us to get the difference in month/year. I have learned a ton from this session.
+- Going through questions on:
+  - `what is event.preventDefault()?`
+  - `what is the difference between plain variable vs state variable in React?`
+  - `what is useState?`
+  - `what is useEffect?`
+  - `what is the isFetched variable used (Weather API - I am working on) means? why do we need to set it?`
+- what is the difference between plain variable vs state variable in React? <- I really like this question asked by Polly!!
+
+  ```
+  General Differences:
+
+    Plain Variable:
+    (1) do not render to view
+    (2) it will be rendered, re-created every time the react app renders --> building up/using up more memories, not efficient choice.
+
+    State Variable:
+    (1) render to view
+    (2) it will only render and create once, unless the state variable is updated by user inputs or other functions. More efficient choice in React.
+
+    Additional Readings can be found here:
+
+    https://rotadev.com/react-hooks-using-usestate-vs-just-variables-dev/
+  ```
 
 <!--
 
