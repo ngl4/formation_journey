@@ -147,6 +147,7 @@ Takeaways:
 - Going through questions on:
   - `what is event.preventDefault()?`
   - `what is the difference between plain variable vs state variable in React?`
+  - `onSubmit vs onClick?`
   - `what is useState?`
   - `what is useEffect?`
   - `what is the isFetched variable used (Weather API - I am working on) means? why do we need to set it?`
