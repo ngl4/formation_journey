@@ -61,6 +61,10 @@ Haha many things but I will tackle them one at a time:
 - Making some more progress in my JXT project (start working on the design aspect) ~ still need to figure out the internal server issue for one of the accounts. 
         
 ## Week 2: Algo Intensive (Trees + Recursion)
+- I have been doing Frontend and practiced live coding earlier this week 
+- I only got the chance to practice a little of Algos this week (Trees and Recursion)
+- Going through the basics to build up the second nature in solving basics problem 
+- Continue in the hunt 
 
 **Progress made:** 
 
