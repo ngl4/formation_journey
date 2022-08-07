@@ -108,3 +108,32 @@ function visibleTreeNode(root) {
   const tree3 = new Tree(2, new Tree(4, new Tree(3), new Tree(1, new Tree(7))), new Tree(9))
   console.log(isBalanced(tree3))
  
+  /*
+  LOWEST COMMON ANCESTOR 
+
+  */
+
+  function lca(root, node1, node2) {
+    //Base cases - if root is null return null
+    if (!root) return null; //<--IMPROVEMENT: NO NEED TO RETURN NULL 
+    //If we have found "one of the nodes" at the parent level, there is no point traversing through the tree 
+    //to find the other decendant, return root (lowest common ancestor is found) 
+    if (root.val === node1.val || root.val === node2.val) { //<---**KEY: should be OR and not AND - please pay attention to your pseudocode
+        return root;
+    }
+    //Recursive cases
+    //Go through left subtree to see if any found descentant
+    const left = lca(root.left, node1, node2); 
+    
+    //Go through right subtree to see if any found descentant
+    const right = lca(root.right, node1, node2); 
+    
+    //Merge Cases 
+    //if left and right are found, return root 
+    if (left && right) return root; 
+    //if left and right are not found (both null), return null
+    if (!left && !right) return null;
+    //if left is found (right not found), return left
+    //else return right 
+    return left ? left : right; 
+}
