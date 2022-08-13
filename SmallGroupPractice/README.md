@@ -1,5 +1,8 @@
 # Small Group Practice (outside of Formation Schedule)
 
+<!-- ## Maria and Noor (06/12/22) - DFS 3 types of Traversals in Recusive and Iterative ~ rotational programming
+...  -->
+
 ## Jiyoon Koo, Eric Vo, Steven Zhu (06/14/22) - Algo Marathon ~ rotational programming
 - Going through different algo marathon problems and rotate around with different fellows solving different problems. 
 - I started solving a `threeSum` problem. We talked about 2 approaches to the problem: 
@@ -11,3 +14,7 @@
 
 - Then we go through `Kadane's Algo`, `Linked List - find Kth elem from the end`, and `backtracking - letterCombination` problems.
 - Jiyoon, Eric and Steven are going through more problems since I need to start to wrap up my day and get some rest!! 
+
+
+<!-- ## Maria, Eric and Noor (06/20/22) - Trie, AutoComplete, Backtracking -->
+... 

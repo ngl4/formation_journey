@@ -17,4 +17,8 @@ There are only 2 fellows in this session, but I feel like I am able to participa
 - Make sure to be able to build out these methods `from scratch` 
 - `Verbalize` what I think
 - `Manual testing` the code is a key skill to have 
-    
+
+
+
+<!-- ## Poitier (06/24/22) on Recursion in Array 
+     -->
