@@ -129,13 +129,51 @@ try to think in terms of individual functions/what are the reuseable/repeating f
 
 **Feedbacks & Takeaways**
 
+
 ## Jenny Xing()
 
 **Feedbacks & Takeaways**
 
+
 ## Jenny Xing()
 
+**Feedbacks & Takeaways**
+
+
+## 1-on-1 Chat w John Mendez () - Weather API
+
 **Feedbacks & Takeaways** -->
+
+## Stanley Liu (08-15-22)
+
+Thank you so much Stanley for this amazing session! I have learned a ton and most importantly I realize what I need to work on the most during a live coding interview! I did not perform so well through out this interview, but I am super glad to receive `valuable constructive feedbacks from this session`!
+
+[Here](https://codesandbox.io/s/findlibrarybookapi-08-15-22-w-stanliu-546m76) is the codesandbox on the search library book live coding exercise!
+
+**Feedbacks & Takeaways**
+
+- `Do not over communicate`
+
+  - be more deliberate when you communicate and `on point`
+  - use less fillers words
+  - develop `succinct` communication style
+  - be comfortable with silence - values this time to think through the problems
+  - it is okay to talk through your thought process, but every time you speak up, it needs to have a point in what you want to say
+  - know when to communicate is key ie, communicate when you are stuck, etc.
+
+- MAKE SURE TO READ THE INSTRUCTION CAREFULLY! - I have missed the React Router step and Stan has reminded me in the middle of the interview to make sure I am back on track
+
+- Make sure to go through a general overview even you know what the features are and what you want to develop mentally. `Writing it down early on make sure to keep you on track!` - this helps you to avoid misreading the problem prompt and features to develop!
+
+- Concepts in React to make sure I need to practice:
+  - String interpolation
+  - Naming in pascal case for component name
+  - React Router + useParams
+  - useState warning - related to import error
+  - useEffect dependency - remember to include dependencies - I have set it to `[]` array which is good when setting up, but please make sure to update this when reviewing through the codes.
+    - SELF SUGGESTION: make sure to make a comment ie, `TODO:` to remind you
+  - Create new component
+  - Handle `null` error in React related to the initial value of a state - make sure to only display data on the DOM when the state is not null to avoid getting this error!
 
 # Small Group Practice with Formation Fellows
 
