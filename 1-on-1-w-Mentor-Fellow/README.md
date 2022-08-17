@@ -551,7 +551,22 @@ Takeaways:
 - Determination can beat your anxiety - Lena shared she felt her anxiety when she went into her first interview with different big tech, including Google, but as she progressed through the interview, she becomes more determined that she would be able to make and start to build up her goals to practice each day to make sure to can accomplish her goals! Through continuous practice (repetitive work through basic problems again and again + under pressure + make sure to have the same performance in interview setting as well) has helped her to fully understand algo pattern and able to use them to solve some harder problems at Big Tech! 
 
 
+## Mentor John Mendez (08-16-22) 
 
+This is an Amazing 1-on-1 session with Mentor John! I have learned a ton. I wrote 4.5 pages of written notes lol based on what I have learned from John! I valued a lot of his insights, guidance, experience and his perspectives!! 
+
+**Takeaways:** 
+- `System Design` vs `Product Design` - System Design has a more backend focus vs Product Design has a more frontend focus 
+- What to focus on in an interview - if your strength is at a certain area in the system/product design, it is crucial to know when to `handwave`(means focus less and generally mentionn it and skip it) on a certain topic. 
+- `Mindset for facing interviews` (or when you are moving to the next round of the interviews - it is not harder, it is more detailed) - it is more about what you know and what your strength is so the company can decide on where they could place you in a team! 
+- What are the engineering team looking for? 
+  - Asking questions is key - `How you would be doing on the job? and what you are going to ask?`
+- `Caching` - used in Browser (Chrome Dev Tool), API, etc. It is a topic that I need to do some more research on 
+- `Deliberate Practice with Intention` - when going through at topic, you can learn it, and then practice using Excalidraw to walk through what you have learned and explained it to yourself. You are not just reading, you are also speaking, listening, and doing to make sure what you have learned stick with you. 
+- `Ask Why?` - this is crucial especially questions related to your engineering decisions, always explain why you have chosen to use a certain tool over the others. Why you have made the decision? Why you choose a relational database over a non-relational database? is the tool faster (performance)? is the feature beneficial for the users? how do you handle errors? 
+- `Talk about your project as a story` 
+- `Interviewing is all about psychology in the interation` 
+- If you are ever asked what type of features that you would like to build on top of what you have built so far, `make sure to mention something simple and straightforward just in case the interviewer wants you to code it out on the spot`! Be aware in how you answer this question, `you want to make sure you showcase your strength`
 
 <!-- 
 ## ...
