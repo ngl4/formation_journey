@@ -1,6 +1,6 @@
 # Pair Algo Interview 
 
-## William Meng (08/11/22) - Brick Wall (Medium Leetcode)
+## William Meng (08/11/22) - interviewer - Brick Wall (Medium Leetcode)
 
 [Here](https://leetcode.com/problems/brick-wall/) is the problem on Leetcode! 
 
@@ -61,3 +61,7 @@ Keys to understand the problem:
 */
 ```
 - Optimized approach - to draw vertical line whenever we find a gap + save it in a map (key: the gap in position to the left of the wall; value: counter that a gap is found) + access it later to find the minimum bricks. Minium bricks can be found when we iterate through the map and conduct this calculation: the length of the input minus the gap counter -> this will help us to find the minimum bricks based on the least number we get. 
+
+
+## Binh Hua (08/23/22) - interviewee - Subarray Sum equal to K (Medium Leetcode)
+

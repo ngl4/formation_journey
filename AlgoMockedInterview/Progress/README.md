@@ -75,6 +75,9 @@ Haha many things but I will tackle them one at a time:
 **Reflection** 
 - 
 
+## Week 3 and 4: SD + Algo + Live Coding 
+- Progressing through different practices 
+- Continue with the hunt 
 
 <!-- 
 
