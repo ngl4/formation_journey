@@ -66,18 +66,27 @@ Haha many things but I will tackle them one at a time:
 - Going through the basics to build up the second nature in solving basics problem 
 - Continue in the hunt 
 
-**Progress made:** 
-
-**Coffee Hours:**
-
-**Attended Formation Event:** 
-
-**Reflection** 
-- 
-
-## Week 3 and 4: SD + Algo + Live Coding 
+## Week 3 and 4: System Design + Algo + Live Coding 
 - Progressing through different practices 
 - Continue with the hunt 
+
+## Week 5: System Design + Frontend Live Coding + Algo 
+- Learning more about System Design and its use cases 
+    - Design Shazam
+    - Design Facebook Event/Evite
+- Going through some frontend practices 
+    - movie list
+    - bank transaction 
+- Going through some recursive problems 
+- I still need to build up my confidence in solving different types of problems. It gets overwhelming especially I need to make sure I have built up my skillsets for 3 different areas. 
+- Take break/rest is key to move foward!! 
+
+Goals: 
+- Learn to build reusable component 
+- Learn to approach problems in more than 1 way especially in recursion 
+- Go through React Basics 
+- Go through Javascript Basics 
+- Go through HTML/CSS Basics - Accessbility 
 
 <!-- 
 
