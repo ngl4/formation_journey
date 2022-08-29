@@ -122,4 +122,4 @@ let list = new NestedIterator([[1,1],2,[1,1]])
 
 res = [1,2, 17, 7]
 
-https://leetcode.com/problems/flatten-nested-list-iterator/
+// https://leetcode.com/problems/flatten-nested-list-iterator/
