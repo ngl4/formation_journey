@@ -1,0 +1,147 @@
+You're holding a silent auction with 650 bidders who are given signs numbered 1-650.
+A person can raise their sign when they want to make a bid.
+However, they sometimes hold the sign upside-down, and the auctioneer
+mistakes their number for a different number. For example, bidder #6 
+raises their sign upside-down and could be mistaken for bidder #9.
+
+Write a function that underlines all numbers from 1-650 that can be
+misinterpreted for another number within that range when rotated 180 degrees.
+
+
+
+=================================================
+1. Clarifying questions / Understand the problem /
+Clear ambiguities / Make examples
+=================================================
+
+sorted/nonsorted (does not matter)
+
+input: int (up to 650)
+output: None (print underlined numbers)
+
+1 -> 1
+2 -> Z
+3 -> E
+4 -> h
+5 -> S
+6 -> 9
+7 -> L
+8 -> 8
+9 -> 6
+0 -> 0
+
+16 -> 91
+
+=================================================
+2. Test cases (Happy, Bad, & Edge)
+=================================================
+
+Happy Cases (should underline)
+16 -> 91
+66 -> 99
+99 -> 66
+89 -> 68
+6 -> 9
+9 -> 6
+
+Bad Cases (should not underline)
+22 -> X
+55 -> X
+11 -> 11
+17 -> X
+2 -> Z
+3 -> E
+4 -> h
+5 -> S
+7 -> L
+
+Edge Cases (don't underline)
+11 -> 11 (don't underline)
+88 -> 88 (don't underline)
+619 -> 619
+10 -> 01 (don't underline)
+100 -> 001 (don't underline)
+1 -> 1
+8 -> 8
+0 -> 0
+116 -> 911 (dont underline, greater than 650)
+96 -> 96
+
+
+=================================================
+3. Discuss Algorithm(s) & Complexities
+  - Focus on problem-solving instead of implementation
+  - Note down insights
+  - Create a "code recipe"
+  - Avoid thought gaps by writing them out
+  - Find your preference
+=================================================
+
+Insights:
+
+1. somenumbers can be flipped and misinterpreted while others can't
+  (dont underline anytime a number has a digit in {2 3 4 5 7} )
+2. flipped > 650 dont underline
+3. trailing zero dont underline
+4. flipped equals itself dont underline
+5. otherwise underline it
+
+Recipe:
+
+input: int: upper bound
+output: void (print it out)
+
+loop through the numbers from {1 to upperbound}
+  (insight3) if the number has a trailing zero
+    skip the number
+
+  (insight1) check if number contains {2 3 4 5 7} (107)
+  loop through the digits in the number
+    if any digit is {2 3 4 5 7}
+      skip number
+
+  there are only numbers containing 1 6 8 9 0
+
+  init flippedStr
+  flip the numbers: change 6 to 9 & change 9 to 6
+  loop through the digits: O(d)
+    1. do divide/mod by 10
+    2. convert to a string, prepend each digit to the string and swap 6 <-> 9 (flippedStr)
+
+  init flipped = int(flippedStr)
+
+  (insight4) if the flipped == originalNumber
+    skip number
+
+  (insight2) if flipped > upperBound
+    skip number
+
+  otherwise print the number
+
+
+
+=================================================
+4. Implementation
+  - Focus on implementation instead of problem-solving
+  - Refer back to your recipe as needed
+  - Rely on your hours of coding practice
+=================================================
+
+
+650 should print 20 results.
+Tony's Solution: https://www.online-python.com/tZzJ7og5Ti
+
+
+=================================================
+5. Validation & Debugging
+  - Don't wait for the interviewer to be your tester!
+  - Don't wait for the interviewer to tell you when you're done!
+  - Verify your code works with some test cases
+  - Aim to run every line of code at least once
+  - Figure out why it doesn't work and fix it
+=================================================
+
+
+
+
+
