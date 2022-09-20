@@ -208,6 +208,105 @@ Takeaways:
     https://rotadev.com/react-hooks-using-usestate-vs-just-variables-dev/
   ```
 
+## Frontend Workout with Mentor Evan and Fellows_Created CSS Clock (09/19/22)
+
+Using only HTML and CSS:
+https://codesandbox.io/s/css-clock-forked-9-19-22-92kwpr?file=/styles.css
+
+**Feedbacks & Takeaways**
+- High level approach is really important so it is best to discuss about ideas so the interviewer can guide us into the right direction. 
+- Pay attention to the goal of the project 
+- `postion` - `absolute` on the hand and `relative` on the clock.
+```css
+.clock {
+  position: relative;
+  border: 30px solid var(--brown);
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 10px black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--lightyellow);
+}
+
+.hand {
+  position: absolute;
+  top: calc(50% - 10px);
+  transform-origin: left;
+  left: 50%;
+  background: black;
+  border-radius: 40px;
+}
+```
+- Being able to come up with quick naming on the classes is a skillset that I need to practice!
+- Using `calc()` css function to position the hands close to the center brown circle 
+- **KEY**: `z-index`does not work when there is a nested container like below: 
+  ```html
+  <div class="circle center"> <!--z-index: 2 -->
+    <div class="hand long"></div> <!--z-index: 1-->
+    <div class="hand short"></div> <!--z-index: 1-->
+  </div>
+  /*
+  You will still see the hands (childrens) to be placed on top of the circle 
+  z-index does not work in this scenario! So make sure to be aware of this! 
+  */
+  ```
+  - Best practice to always create a separate container that are not nested 
+
+- `box-shadow` - inner vs outer shadow
+```css
+.clock {
+  box-shadow: inset 0px 0px 10px black; /* Using inset for inner shadow*/
+  box-shadow: 0px 0px 10px black; /*outer shadow */
+}
+
+```
+- Really cool `transform` in css:
+  - transform-origin (should be shared for all the container with the same class)
+  - transform: rotate(__deg) 
+    - use for specific rotation 
+  - animation and keyframes are used to animated the hands!! 
+
+```css
+.hand {
+  position: absolute;
+  top: calc(50% - 10px);
+  transform-origin: left;
+  left: 50%;
+  background: black;
+  border-radius: 40px;
+}
+
+.long {
+  width: 190px;
+  height: 20px;
+  transform: rotate(45deg);
+  animation: rotation 60s linear infinite;
+}
+
+.short {
+  width: 140px;
+  height: 20px;
+  transform: rotate(200deg);
+  animation: rotation 3600s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+```
+
+- `border-radius: 50%;` gives us a circle container
+- `border-radius: 40px;` gives us a container with more rounded edges 
+- **KEY**: utilize the `chrome dev tool` when debugging to help you to know what you are missing 
 <!--
 
 ## ()
