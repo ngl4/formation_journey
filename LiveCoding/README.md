@@ -307,6 +307,75 @@ https://codesandbox.io/s/css-clock-forked-9-19-22-92kwpr?file=/styles.css
 - `border-radius: 50%;` gives us a circle container
 - `border-radius: 40px;` gives us a container with more rounded edges 
 - **KEY**: utilize the `chrome dev tool` when debugging to help you to know what you are missing 
+
+## Pair Learning w Fellows Michael Chan, Isis Moran, AudreyRose (the week of September 19th)
+
+Everything is in HTML/CSS only! 
+
+- Wanted Poster: https://codesandbox.io/s/timetable-starter-template-forked-w99yt2
+- Time Table: https://codesandbox.io/s/wanted-poster-pair-learning-w-michael-chan-c7u4k7
+- Home Booking Cards: https://codesandbox.io/s/hotel-booking-cards-template-09-25-22-dm74uj
+
+**Feedbacks & Takeaways**
+- The key in setting `margin` or `padding` to `0` to remove spacing in between elements:
+```css
+p {
+  margin: 0;
+  padding: 0;
+  font-style: italic;
+}
+```
+- Using `sepia` css color filter to make sure the color of an image looks more old: 
+```css
+.imageBox img {
+  width: 15rem;
+  height: auto;
+  filter: sepia(60%);
+}
+```
+- The use of `double underline` for text decoration: 
+```css
+.rewardAmount {
+  text-decoration: double underline;
+  font-size: 2rem;
+}
+```
+- `Table` element does not seem to work well with grid or flexbox styling (found in the time table exercise)
+- Using `colspan` to extend a table cell (colspan of 6 means merging 6 table cells into one cell in a row): 
+```html
+<td class="columnHeader schedule-break" colspan="6">Break</td>
+```
+- The use of `border collapse` to make sure all the table border do not overlapped with more bolding. 
+- The use of `table-layout` to make sure all the table cell has the same size. 
+```css
+table {
+  border-collapse: collapse; /* <-- same border size even for the overlaps */
+  text-align: center;
+  margin: 0 auto;
+  table-layout: fixed; /* <-- same table cell size */
+  width: 100%;
+}
+
+th,
+td {
+  border: 3px solid black;
+  padding: 0.5rem;
+  background: var(--lightPurple);
+}
+```
+- The use of `text-underline-offset` to add some space in between the text and the underline/any other text decoration
+- Really cool to find out how to use `grid` to create responsive card design (below):
+```css
+content {
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr)); /* <-- This is the magic!! */
+  grid-gap: 15px;
+}
+```
+- Make sure before starting to code, always check all the existing css files including the `base.css` file. It will be super helpful for debugging. Always make sure to use the `Chrome Dev Tool` to help out with debugging!!
+
+
 <!--
 
 ## ()
