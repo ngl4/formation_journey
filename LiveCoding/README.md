@@ -1,6 +1,14 @@
-# Live Coding
+# Live Coding 
 
 (starting Jun 20th 2022)
+
+<!-- 
+
+1-on-1 Mentor Session
+
+ -->
+
+# 1-on-1 w Mentor 
 
 ## Kevin Farst (06/18/22)
 
@@ -175,6 +183,12 @@ Thank you so much Stanley for this amazing session! I have learned a ton and mos
   - Create new component
   - Handle `null` error in React related to the initial value of a state - make sure to only display data on the DOM when the state is not null to avoid getting this error!
 
+<!-- 
+
+small group session
+
+ -->
+
 # Small Group Practice with Formation Fellows
 
 ## Polly, Ronald, Kathy
@@ -208,7 +222,15 @@ Takeaways:
     https://rotadev.com/react-hooks-using-usestate-vs-just-variables-dev/
   ```
 
-## Frontend Workout with Mentor Evan and Fellows_Created CSS Clock (09/19/22)
+<!-- 
+
+Frontend Workout 
+
+ -->
+
+# Frontend Workout with Mentor
+
+##  Mentor Evan and Fellows_Created CSS Clock (09/19/22)
 
 Using only HTML and CSS:
 https://codesandbox.io/s/css-clock-forked-9-19-22-92kwpr?file=/styles.css
@@ -308,7 +330,15 @@ https://codesandbox.io/s/css-clock-forked-9-19-22-92kwpr?file=/styles.css
 - `border-radius: 40px;` gives us a container with more rounded edges 
 - **KEY**: utilize the `chrome dev tool` when debugging to help you to know what you are missing 
 
-## Pair Learning w Fellows Michael Chan, Isis Moran, AudreyRose (the week of September 19th)
+<!-- 
+
+Pair learning 
+
+ -->
+
+# 1-on-1 Pair Learning Sessions 
+
+## Fellows Michael Chan, Isis Moran, AudreyRose (the week of September 19th)
 
 Everything is in HTML/CSS only! 
 

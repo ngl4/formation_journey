@@ -684,6 +684,24 @@ Really encouraging chat on Mindset in Interviewing!! Always get a ton of takeawa
 
 - When you have brain fart, go back to the engineering methods and while going through each methods write down/ document down as you go to avoid blanking out on a problem.
 
+## Fellow Alum Ravi Savajiyani
+
+Great 1.5 hrs of coffee hour!! Really thankful for being able to get to know Ravi and his entire job hunting experience. I really like the fact that he will always want to seek for what is best for him throughout the entire journey!! 
+
+**Takeaways:**
+- Even after you have received an offer, it is okay to schedule one additional call with the hiring manager to make sure you have all your questions answered and you are comfortable with joining the team. 
+- Questions to ask: 
+  - Why is the role opened up in the team? 
+  - What is the longest period of time that people will be on a team?
+  - Is it an oncall role that also requires to work on the weekend? 
+- Asking questions more also mean you take your career more seriously 
+- Never decline an offer on your end. Let the employer pull the offer back. 
+- Keep interviewing and keep practicing, hunting until you have finally signed the offer 
+- Be proactive in the job hunt channel:
+  - recap on your experience or problems you have encountered 
+  - you can also go over what you struggle with in the channel to let your FMs or Mentors know so they can support you and help you out!! 
+  
+
 <!--
 ## ...
 
