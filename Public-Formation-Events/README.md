@@ -51,5 +51,7 @@ Really helpful and knowledgable sessions. Even though I still need to work on my
 
 Takeaways: 
 - Ask relevant questions to the problem 
+- Take the time to explore the problem 
+- Make sure to document down my high level understanding in plain English and not in Code
 - Make sure to fully understood the problem and make sure to have an insight on all the possible test cases (happy and edge cases) as well as knowing the input and output of the problem
 - It is okay in the interview that the interviewer has helped you. It would be great if you could solve the problem on your own through communicating with the interviewer, but if the interviewer can sense that you are stuck, a good intervewer will step in to make sure you can learn something from the session and able to give more guidance. 
