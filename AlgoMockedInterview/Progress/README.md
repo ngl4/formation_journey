@@ -1,4 +1,8 @@
-# Progress
+# Reflection 
+Instead of updating all the detailed progress made. I have decided to create a new folder called Reflection. 
+It will contains my daily reflection and takeaways. 
+
+# Previous Progress
 
 ## Week 1: Starting Point
 (July 25th)
@@ -88,6 +92,10 @@ Goals:
 - Go through Javascript Basics 
 - Go through HTML/CSS Basics - Accessbility 
 
+## (Did not make much progressed) -> since the focus is on live coding and frontend domain for several weeks**
+
+
+
 <!-- 
 
 ## Week _:
@@ -105,3 +113,4 @@ Goals:
 -  
 
 -->
+
