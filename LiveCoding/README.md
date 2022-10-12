@@ -406,6 +406,25 @@ content {
 - Make sure before starting to code, always check all the existing css files including the `base.css` file. It will be super helpful for debugging. Always make sure to use the `Chrome Dev Tool` to help out with debugging!!
 
 
+## Fellows Isis Moran, Manasa Lagisetty, Zuff Idries (the week of October 11th)
+
+- https://codesandbox.io/s/connect4-classcomponentreact-ew64i0 (using Plain CSS + Class Components) with Manasa
+- https://codesandbox.io/s/presidentstable-hooks-xb0f91 (React Hooks) with Isis
+
+**Feedbacks & Takeaways**
+- using `async await` to fetch information - await twice! 
+- create reusable components for particular key of an object using ES6 + bracket notation method to access:
+```js
+function accessSth(parameter) {
+  object[`${parameter}`] = sth; //<-- Really cool!! (Great suggestion from Isis!!)
+}
+```
+- remember to call function once it is declared! <-- easily forget in interview situation 
+- Create resusable function for `ascending` and `descending` order of the President Table by setting the parameters as `type` (string, date, number) and `parameter` (the headers of the table data) <-- Really cool to learn this!
+
+
+
+
 <!--
 
 ## ()
