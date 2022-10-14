@@ -410,6 +410,7 @@ content {
 
 - https://codesandbox.io/s/connect4-classcomponentreact-ew64i0 (using Plain CSS + Class Components) with Manasa
 - https://codesandbox.io/s/presidentstable-hooks-xb0f91 (React Hooks) with Isis
+- https://codesandbox.io/s/hardcore-lucy-tpvksr?file=/src/App.js (React Hooks) with Zuff
 
 **Feedbacks & Takeaways**
 - using `async await` to fetch information - await twice! 
@@ -421,6 +422,9 @@ function accessSth(parameter) {
 ```
 - remember to call function once it is declared! <-- easily forget in interview situation 
 - Create resusable function for `ascending` and `descending` order of the President Table by setting the parameters as `type` (string, date, number) and `parameter` (the headers of the table data) <-- Really cool to learn this!
+- The Connect4 game helps me to review how to pass information from the children component back to the parent component and perform calculations
+- The experiment to find out the difference in coding the calcualte win logic in iterative vs recursive approaches 
+- I realized I still need more practice on flexbox, box-shadow, and pseudo-classes in CSS! 
 
 
 
