@@ -1,14 +1,14 @@
-# Live Coding 
+# Live Coding
 
 (starting Jun 20th 2022)
 
-<!-- 
+<!--
 
 1-on-1 Mentor Session
 
  -->
 
-# 1-on-1 w Mentor 
+# 1-on-1 w Mentor
 
 ## Kevin Farst (06/18/22)
 
@@ -183,7 +183,7 @@ Thank you so much Stanley for this amazing session! I have learned a ton and mos
   - Create new component
   - Handle `null` error in React related to the initial value of a state - make sure to only display data on the DOM when the state is not null to avoid getting this error!
 
-<!-- 
+<!--
 
 small group session
 
@@ -222,23 +222,25 @@ Takeaways:
     https://rotadev.com/react-hooks-using-usestate-vs-just-variables-dev/
   ```
 
-<!-- 
+<!--
 
-Frontend Workout 
+Frontend Workout
 
  -->
 
 # Frontend Workout with Mentor
 
-##  Mentor Evan and Fellows_Created CSS Clock (09/19/22)
+## Mentor Evan and Fellows_Created CSS Clock (09/19/22)
 
 Using only HTML and CSS:
 https://codesandbox.io/s/css-clock-forked-9-19-22-92kwpr?file=/styles.css
 
 **Feedbacks & Takeaways**
-- High level approach is really important so it is best to discuss about ideas so the interviewer can guide us into the right direction. 
-- Pay attention to the goal of the project 
+
+- High level approach is really important so it is best to discuss about ideas so the interviewer can guide us into the right direction.
+- Pay attention to the goal of the project
 - `postion` - `absolute` on the hand and `relative` on the clock.
+
 ```css
 .clock {
   position: relative;
@@ -263,34 +265,39 @@ https://codesandbox.io/s/css-clock-forked-9-19-22-92kwpr?file=/styles.css
   border-radius: 40px;
 }
 ```
+
 - Being able to come up with quick naming on the classes is a skillset that I need to practice!
-- Using `calc()` css function to position the hands close to the center brown circle 
-- **KEY**: `z-index`does not work when there is a nested container like below: 
+- Using `calc()` css function to position the hands close to the center brown circle
+- **KEY**: `z-index`does not work when there is a nested container like below:
+
   ```html
-  <div class="circle center"> <!--z-index: 2 -->
-    <div class="hand long"></div> <!--z-index: 1-->
-    <div class="hand short"></div> <!--z-index: 1-->
+  <div class="circle center">
+    <!--z-index: 2 -->
+    <div class="hand long"></div>
+    <!--z-index: 1-->
+    <div class="hand short"></div>
+    <!--z-index: 1-->
   </div>
-  /*
-  You will still see the hands (childrens) to be placed on top of the circle 
-  z-index does not work in this scenario! So make sure to be aware of this! 
-  */
+  /* You will still see the hands (childrens) to be placed on top of the circle
+  z-index does not work in this scenario! So make sure to be aware of this! */
   ```
-  - Best practice to always create a separate container that are not nested 
+
+  - Best practice to always create a separate container that are not nested
 
 - `box-shadow` - inner vs outer shadow
+
 ```css
 .clock {
   box-shadow: inset 0px 0px 10px black; /* Using inset for inner shadow*/
   box-shadow: 0px 0px 10px black; /*outer shadow */
 }
-
 ```
+
 - Really cool `transform` in css:
   - transform-origin (should be shared for all the container with the same class)
-  - transform: rotate(__deg) 
-    - use for specific rotation 
-  - animation and keyframes are used to animated the hands!! 
+  - transform: rotate(\_\_deg)
+    - use for specific rotation
+  - animation and keyframes are used to animated the hands!!
 
 ```css
 .hand {
@@ -327,27 +334,29 @@ https://codesandbox.io/s/css-clock-forked-9-19-22-92kwpr?file=/styles.css
 ```
 
 - `border-radius: 50%;` gives us a circle container
-- `border-radius: 40px;` gives us a container with more rounded edges 
-- **KEY**: utilize the `chrome dev tool` when debugging to help you to know what you are missing 
+- `border-radius: 40px;` gives us a container with more rounded edges
+- **KEY**: utilize the `chrome dev tool` when debugging to help you to know what you are missing
 
-<!-- 
+<!--
 
-Pair learning 
+Pair learning
 
  -->
 
-# 1-on-1 Pair Learning Sessions 
+# 1-on-1 Pair Learning Sessions
 
 ## Fellows Michael Chan, Isis Moran, AudreyRose (the week of September 19th)
 
-Everything is in HTML/CSS only! 
+Everything is in HTML/CSS only!
 
 - Wanted Poster: https://codesandbox.io/s/timetable-starter-template-forked-w99yt2
 - Time Table: https://codesandbox.io/s/wanted-poster-pair-learning-w-michael-chan-c7u4k7
 - Home Booking Cards: https://codesandbox.io/s/hotel-booking-cards-template-09-25-22-dm74uj
 
 **Feedbacks & Takeaways**
+
 - The key in setting `margin` or `padding` to `0` to remove spacing in between elements:
+
 ```css
 p {
   margin: 0;
@@ -355,7 +364,9 @@ p {
   font-style: italic;
 }
 ```
-- Using `sepia` css color filter to make sure the color of an image looks more old: 
+
+- Using `sepia` css color filter to make sure the color of an image looks more old:
+
 ```css
 .imageBox img {
   width: 15rem;
@@ -363,20 +374,26 @@ p {
   filter: sepia(60%);
 }
 ```
-- The use of `double underline` for text decoration: 
+
+- The use of `double underline` for text decoration:
+
 ```css
 .rewardAmount {
   text-decoration: double underline;
   font-size: 2rem;
 }
 ```
+
 - `Table` element does not seem to work well with grid or flexbox styling (found in the time table exercise)
-- Using `colspan` to extend a table cell (colspan of 6 means merging 6 table cells into one cell in a row): 
+- Using `colspan` to extend a table cell (colspan of 6 means merging 6 table cells into one cell in a row):
+
 ```html
 <td class="columnHeader schedule-break" colspan="6">Break</td>
 ```
-- The use of `border collapse` to make sure all the table border do not overlapped with more bolding. 
-- The use of `table-layout` to make sure all the table cell has the same size. 
+
+- The use of `border collapse` to make sure all the table border do not overlapped with more bolding.
+- The use of `table-layout` to make sure all the table cell has the same size.
+
 ```css
 table {
   border-collapse: collapse; /* <-- same border size even for the overlaps */
@@ -393,18 +410,23 @@ td {
   background: var(--lightPurple);
 }
 ```
+
 - The use of `text-underline-offset` to add some space in between the text and the underline/any other text decoration
 - Really cool to find out how to use `grid` to create responsive card design (below):
+
 ```css
 content {
   width: 90%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(275px, 1fr)); /* <-- This is the magic!! */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(275px, 1fr)
+  ); /* <-- This is the magic!! */
   grid-gap: 15px;
 }
 ```
-- Make sure before starting to code, always check all the existing css files including the `base.css` file. It will be super helpful for debugging. Always make sure to use the `Chrome Dev Tool` to help out with debugging!!
 
+- Make sure before starting to code, always check all the existing css files including the `base.css` file. It will be super helpful for debugging. Always make sure to use the `Chrome Dev Tool` to help out with debugging!!
 
 ## Fellows Isis Moran, Manasa Lagisetty, Zuff Idries (the week of October 11th)
 
@@ -413,28 +435,33 @@ content {
 - https://codesandbox.io/s/hardcore-lucy-tpvksr?file=/src/App.js (React Hooks) with Zuff
 
 **Feedbacks & Takeaways**
-- using `async await` to fetch information - await twice! 
+
+- using `async await` to fetch information - await twice!
 - create reusable components for particular key of an object using ES6 + bracket notation method to access:
+
 ```js
 function accessSth(parameter) {
   object[`${parameter}`] = sth; //<-- Really cool!! (Great suggestion from Isis!!)
 }
 ```
-- remember to call function once it is declared! <-- easily forget in interview situation 
+
+- remember to call function once it is declared! <-- easily forget in interview situation
 - Create resusable function for `ascending` and `descending` order of the President Table by setting the parameters as `type` (string, date, number) and `parameter` (the headers of the table data) <-- Really cool to learn this!
 - The Connect4 game helps me to review how to pass information from the children component back to the parent component and perform calculations
-- The experiment to find out the difference in coding the calcualte win logic in iterative vs recursive approaches 
-- I realized I still need more practice on flexbox, box-shadow, and pseudo-classes in CSS! 
+- The experiment to find out the difference in coding the calcualte win logic in iterative vs recursive approaches
+- I realized I still need more practice on flexbox, box-shadow, and pseudo-classes in CSS!
 
 ## Fellows Isis Moran, Zuff Idries (the week of October 17th)
 
 - https://codesandbox.io/s/generateshippinglabel-2nd-version-n5sdqu?file=/src/App.js (Isis)
 
 **Feedbacks & Takeaways**
-- Two ways to work with default props in React 
+
+- Two ways to work with default props in React
+
 ```js
 //one way:
-const RandomComponent = ({text = "do sth"}) = { //<-- seems commonly used in Functional components 
+const RandomComponent = ({text = "do sth"}) = { //<-- seems commonly used in Functional components
   return(
     <div> {text}
     </div>
@@ -448,16 +475,18 @@ const RandomComponent = ({text}) = {
     </div>
   )
 }
-RandomComponent.defaultProps = { //<-- this seems to be commonly used in Class components
+RandomComponent.defaultProps = { //<-- can be used for both Class and Functional
   text: "do sth"
 }
 ```
-- `className` vs `style` attribute 
+
+- `className` vs `style` attribute
+
 ```js
-//USECASE FOR STYLE: when we are creating an object variable for styling inside a functional component 
-const RandomComponent = () = { 
+//USECASE FOR STYLE: when we are creating an object variable for styling inside a functional component
+const RandomComponent = () = {
   const randomStyle = {
-    fontSize: "2rem", 
+    fontSize: "2rem",
     backgroundColor: "red"
   }
   return(
@@ -467,9 +496,9 @@ const RandomComponent = () = {
 }
 
 //USECASE FOR CLASSNAME: (stylesheet)
-import "./style.css" 
+import "./style.css"
 
-const RandomComponent = () = { 
+const RandomComponent = () = {
   return(
     <div style="randomStyle"> do sth...
     </div>
@@ -477,13 +506,14 @@ const RandomComponent = () = {
 }
 
 //USECASE#2 FOR CLASSNAME: (inline)
-const RandomComponent = () = { 
+const RandomComponent = () = {
   return(
     <div style={{fontSize: "2rem", backgroundColor: "red"}}> do srth...
     </div>
   )
 }
 ```
+
 - While noting down the different way to style in React, I have also found this great article. Read more [here](https://www.pluralsight.com/guides/inline-styling-with-react)
 - what does `&&` means? `left && right => if(left) {right}`
 
