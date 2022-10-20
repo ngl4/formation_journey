@@ -426,7 +426,65 @@ function accessSth(parameter) {
 - The experiment to find out the difference in coding the calcualte win logic in iterative vs recursive approaches 
 - I realized I still need more practice on flexbox, box-shadow, and pseudo-classes in CSS! 
 
+## Fellows Isis Moran, Zuff Idries (the week of October 17th)
 
+- https://codesandbox.io/s/generateshippinglabel-2nd-version-n5sdqu?file=/src/App.js (Isis)
+
+**Feedbacks & Takeaways**
+- Two ways to work with default props in React 
+```js
+//one way:
+const RandomComponent = ({text = "do sth"}) = { //<-- seems commonly used in Functional components 
+  return(
+    <div> {text}
+    </div>
+  )
+}
+
+//second way:
+const RandomComponent = ({text}) = {
+  return(
+    <div> {text}
+    </div>
+  )
+}
+RandomComponent.defaultProps = { //<-- this seems to be commonly used in Class components
+  text: "do sth"
+}
+```
+- `className` vs `style` attribute 
+```js
+//USECASE FOR STYLE: when we are creating an object variable for styling inside a functional component 
+const RandomComponent = () = { 
+  const randomStyle = {
+    fontSize: "2rem", 
+    backgroundColor: "red"
+  }
+  return(
+    <div style={randomStyle}> do sth...
+    </div>
+  )
+}
+
+//USECASE FOR CLASSNAME: (stylesheet)
+import "./style.css" 
+
+const RandomComponent = () = { 
+  return(
+    <div style="randomStyle"> do sth...
+    </div>
+  )
+}
+
+//USECASE#2 FOR CLASSNAME: (inline)
+const RandomComponent = () = { 
+  return(
+    <div style={{fontSize: "2rem", backgroundColor: "red"}}> do srth...
+    </div>
+  )
+}
+```
+- While noting down the different way to style in React, I have also found this great article. Read more [here](https://www.pluralsight.com/guides/inline-styling-with-react)
 
 
 <!--
