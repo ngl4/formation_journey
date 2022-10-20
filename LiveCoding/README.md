@@ -485,7 +485,7 @@ const RandomComponent = () = {
 }
 ```
 - While noting down the different way to style in React, I have also found this great article. Read more [here](https://www.pluralsight.com/guides/inline-styling-with-react)
-
+- what does `&&` means? `left && right => if(left) {right}`
 
 <!--
 
