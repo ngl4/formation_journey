@@ -701,6 +701,11 @@ Great 1.5 hrs of coffee hour!! Really thankful for being able to get to know Rav
   - recap on your experience or problems you have encountered 
   - you can also go over what you struggle with in the channel to let your FMs or Mentors know so they can support you and help you out!! 
   
+## Fellow Alums Steven Zhu & Carlos Portillo 
+
+**Takeaways:**
+- Great tip for Amazon LP (leadership principles) interview - preparation of multiple stories (Steven has prepared 16 stories in total) and sharing around 60-70% of a story and leave some spaces for the interviewer to ask additional follow up questions
+- Continuous Learning Effort - Even after Carlos has found the job role, he will still keep attending Algo sessions before the start date of the new role to keep up with continuously learning problem-solving methods!! 
 
 <!--
 ## ...
